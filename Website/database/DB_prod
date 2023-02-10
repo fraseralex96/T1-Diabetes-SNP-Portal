@@ -1,0 +1,55 @@
+#load modules
+import csv, sqlite3
+
+#create a connection to a SQLite database
+
+con = sqlite3.connect('../IE5.db')
+cur = con.cursor() 
+
+#SQL to add data to the mutations table
+cur.execute("CREATE TABLE Variants(Variant_ID INT PRIMARY KEY, Variant_name VARCHAR(30), P_value REAL, Chromosome INT, Location_on_chromosome INT);")
+
+with open('C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/main.csv') as file:
+    for row in file:
+        cur.execute("INSERT INTO Variants VALUES(?,?,?,?,?)", row.split(','))
+        con.commit()
+
+
+#SQL to create and add data to clinical significance table
+cur.execute("CREATE TABLE Clinical_significance(Variant_ID INT PRIMARY KEY, Variant_name VARCHAR(30), Variant_consequence TEXT, Clinical_significance TEXT);")
+
+with open('C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/cs.csv') as file:
+    for row in file:
+        cur.execute("INSERT INTO Clinical_significance VALUES(?,?,?,?)", row.split(','))
+        con.commit()
+
+
+#SQL to create and add data to GO_terms table 
+
+cur.execute("CREATE TABLE GO_terms(Gene_ID INT PRIMARY KEY, Gene_name VARCHAR(30), GO_term TEXT);")
+
+with open('C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/gt.csv') as file:
+    for row in file:
+        cur.execute("INSERT INTO GO_terms VALUES(?,?,?)", row.split(','))
+        con.commit()
+
+#SQL to create and add data to GO_terms table 
+
+cur.execute("CREATE TABLE RAFs(Variant_ID INT PRIMARY KEY, Variant_name VARCHAR(30), Han_raf FLOAT, Yoruba_raf FLOAT, GBR_raf FLOAT);")
+
+with open('C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/raf.csv') as file:
+    for row in file:
+        cur.execute("INSERT INTO RAFs VALUES(?,?,?,?,?)", row.split(','))
+        con.commit()
+
+
+#SQL to create and add data to Variant_gene_relationship table 
+
+cur.execute("CREATE TABLE Variant_gene_relationship(Variant_name VARCHAR(30) NOT NULL, Gene_name VARCHAR(30) NOT NULL, PRIMARY KEY (Variant_name, Gene_name));")
+
+with open('C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/variant_gene_pairings.csv') as file:
+    for row in file:
+        cur.execute("INSERT INTO Variant_gene_relationship VALUES(?,?)", row.split(','))
+        con.commit()
+
+con.close()
