@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Chromosome search</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+		    <div class='nav'>
+		      <div class='container'>
+		        <img src='./logo.jpeg'>   
+		        <a style=float:right; href="./resources_page.html">Resources</a>
+		        <a style=float:right; href="./search_page.html">Search</a>
+		        <a style=float:right; href="./about_page.html">About</a>
+		        <a style=float:right; href="/Users/lynnettebhebhe/Desktop/SNP website/homepage.html">Home</a>
+		      </div>  
+		    </div>
+		  </header>
+    	<main>
+      		<h2>Search</h2>
+      		<p>Search by SNP (rs value), Gene name or Genomic coordinates to retrieve the genomic information of variants from all known associations to Type 1 Diabetes. </p>
+
+      		<div id="container">	
+        	  	<div class="dropdown">
+            		<button class="dropbtn">Select to search by:</button>
+            		<div class="dropdown-content">
+                		<a href="./snp.html">SNP</a> <!-- link to html template with different forms! -->
+                		<a href="./gene.html">Gene Name</a>
+                		<a href="./chromo.html">Chromosome coordinates</a>
+            		</div>
+          		</div>
+          		<div class="chromoloc_search">
+          			<form method="POST">
+          				<label for="chromoloc">Chromosome Coordinates</label>
+          				<input type="number" step="any"name="chromoloc1" id="chromoloc" placeholder="e.g 6.23" min="1" max="24" required>
+          				<input type="number" step="any" name="chromoloc2" id="chromoloc" placeholder="e.g 6.89" min="1" max="24"required>
+          				<input type="submit" id="snp_submission" value="Search">
+          			</form>
+          		</div>
+          	</div>
+
+
+          
+   	 	</main>
+   	 	<footer>
+      		<p class="copyright">© Type 1 Diabetes SNP Portal 2023</p>
+    	</footer>
+	</body>
+</html>
