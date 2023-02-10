@@ -1,0 +1,112 @@
+import pandas as pd
+import re
+
+#######MAIN GWAS FILE########
+
+#import the data
+DF = pd.read_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/Type 1 GWAS.csv')
+
+#filter only for chromosome 6 
+#df = df[df.Location.str.startswith('6')]
+
+#remove unwanted columns
+mainDF = DF[['Variant and risk allele', 'P-value', 'RAF', 'Location']]
+
+#format the p-value into something that is usable by python
+newPList = []
+for i in mainDF['P-value']:
+    rgx = re.compile(r"([0-9])\s.*(-.*)")
+    num = rgx.search(i)
+    a = num.group(1)
+    b = num.group(2)
+    newP = float(f'{a}E{b}')
+    newPList.append(newP)
+mainDF['P-value']=newPList
+
+#split location into chromosome and location
+newChr = []
+newLoc = []
+for i in mainDF['Location']:
+    rgx = re.compile(r"(.*):(.*)")
+    num = rgx.search(i)
+    a = num.group(1)
+    b = num.group(2)
+    newChr.append(int(a))
+    newLoc.append(int(b))
+mainDF['Chromosome']=newChr
+mainDF['Location on chromosome']=newLoc
+
+mainDF = mainDF.drop(['Location', 'RAF'], axis=1)
+
+mainDF = mainDF.sort_values(by=['Chromosome', 'Location on chromosome'], ignore_index=True)
+
+#export new table
+mainDF.to_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/main.csv')
+
+########CLINICAL SIGNIFICANCE FILE########
+
+
+#import clinical significance data
+csDF = pd.read_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/Clinical significance.csv')
+
+#select only useful columns
+csDF = csDF[['Variant name', 'Variant consequence', 'Clinical significance']]
+
+#replace blanks with 0
+csDF = csDF.fillna(0)
+
+#replace commas in the data to avoid confusion when it is read as a csv later
+csDF["Clinical significance"]=csDF["Clinical significance"].str.replace(',','/')
+
+#save to a new file
+csDF.to_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/cs.csv', index=True)
+
+#######GO TERMS FILE########
+
+#import GO data
+gtDF = pd.read_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/GO terms.csv')
+
+#replace commas in the data to avoid confusion when it is read as a csv later
+gtDF["GO term name"]=gtDF["GO term name"].str.replace(',','/')
+
+#save to a new file
+gtDF.to_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/gt.csv')
+
+########RAF FILE#########
+
+#import data
+rafDF = pd.read_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/RAF(1,2,4,6).csv')
+
+#remove the rows with no information and false headers, and fill NaN
+rafDF = rafDF.drop([0, 1])
+
+#reset index to counter the above row changes
+rafDF = rafDF.reset_index()
+
+#drop unnecessary columns
+rafDF = rafDF.drop(['Location', 'index', 'Han  Chinese ', 'Unnamed: 3', 'Yorubu', 'Unnamed: 6', 'GBR', 'Unnamed: 9'], axis=1)
+
+#rename necessary columns
+rafDF.columns = ['Variant ID and risk allele', 'Han Chinese RAF', 'Yoruba RAF', 'GBR RAF']
+
+#create a new file
+rafDF.to_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/raf.csv')
+
+#######GENE TO VARIANT FILE########
+
+#create a table for all mutations and their associated genes
+
+#select required columns into a temporary dataframe
+tempdf = DF[['Variant and risk allele', 'Mapped gene']]
+
+#create the final database by making 'Variant and risk allele' as the temp index and split the gene values 
+linkDF = pd.DataFrame(tempdf['Mapped gene'].str.split(',').tolist(), index=tempdf['Variant and risk allele']).stack()
+
+#reset the index to numerical
+linkDF = linkDF.reset_index([0, 'Variant and risk allele'])
+
+#assign the required names to the columns
+linkDF.columns = ['Variant and risk allele', 'Mapped gene']
+
+#save to a new file
+linkDF.to_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Data/variant_gene_pairings.csv', index = False)
