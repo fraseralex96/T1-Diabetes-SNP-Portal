@@ -2,9 +2,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
+
 #create an instance of an engine
 #then create a session object 
-engine = create_engine('sqlite:///IE5.db')
+engine = create_engine('sqlite:///IE3.db')
 Session = scoped_session(sessionmaker(bind=engine))
 
 #create a Base object and assign the query function the output from Session.query_property()
@@ -16,7 +17,7 @@ Base.query = Session.query_property()
 
 def init_db():
     # import all modules here that might define models so that
-    # they will be registered properly on the metadata.  Otherwise
+    # they will be registered properly on the metadata. Otherwise
     # you will have to import them first before calling init_db()
     import models
     Base.metadata.create_all(bind=engine)

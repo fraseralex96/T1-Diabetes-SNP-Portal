@@ -4,11 +4,12 @@ from flask_sqlalchemy import SQLAlchemy
 #create a flask instance
 app = Flask(__name__)
 #configure the database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///IE5.db' 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///IE3.db'
 
 #create an instance of the SQLalchemy class and associate it with our flask app
 db = SQLAlchemy(app)
 db.init_app(app)
+
 
 
 
