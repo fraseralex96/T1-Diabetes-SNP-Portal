@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>SNP search</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<!--Header with anchor tags to relavant pages -->
+		<header>
+		    <div class='nav'>
+		      <div class='container'>
+		        <img src='./logo.jpeg'>   
+		        <a style=float:right; href="./resources_page.html">Resources</a>
+		        <a style=float:right; href="./search_page.html">Search</a>
+		        <a style=float:right; href="./about_page.html">About</a>
+		        <a style=float:right; href="./homepage.html">Home</a>
+		      </div>  
+		    </div>
+		  </header>
+
+		<!--Main text -->
+    	<main>
+    		<div class="search_info">
+      			<h2>Advanced Search</h2>
+      			<p>Search by SNP (rs value), Gene Name or Genomic Coordinates to retrieve the genomic information of variants from known associations to Type 1 Diabetes. </p>
+      		</div>
+
+      		<div id="container">
+          		<div class="dropdown">
+            		<button class="dropbtn">Select to search by:</button>
+            		<div class="dropdown-content">
+                		<a href="./snp.html">SNP</a> <!-- link to html template with different forms! -->
+                		<a href="./gene.html">Gene Name</a>
+                		<a href="./chromo.html">Genomic coordinates</a>
+            		</div>
+          		</div>
+          		<div class="snplabel">
+          			<h2>SNP (rs value)</h2>
+          		</div>
+          		<div class="snp_search">
+          			<form method="POST", class="search-bar">
+          				<!--<label for="snpname">SNP</label>-->
+          				<input type="text" name="snpname" id="snpname" placeholder="e.g rs1234567" required size="49">
+          				<button type="submit" id="snp_submission"><img src="./search_img.png"></button>
+          			</form>
+          		</div>
+          	</div>  
+   	 	</main>
+
+   	 	<!--Footer -->
+   	 	<footer>
+      		<p class="copyright">© Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
+    	</footer>
+	</body>
+</html>
