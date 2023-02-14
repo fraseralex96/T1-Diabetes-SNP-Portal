@@ -1,0 +1,710 @@
+﻿SNP_name,Location,p_value,Mapped_gene,Reported_trait,Study_accession
+rs9273368,6:32658698,8 x 10-40,"HLA-DQB1, HLA-DQA1",Latent autoimmune diabetes vs. type 1 diabetes,GCST007247
+rs1983890,10:6136651,3 x 10-8,"RBM17, PFKFB3",Latent autoimmune diabetes,GCST007245
+rs11755527,6:90248512,1 x 10-7,BACH2,Latent autoimmune diabetes,GCST007245
+rs11888640,2:43579243,2 x 10-6,THADA,Latent autoimmune diabetes,GCST007245
+rs9273368,6:32658698,3 x 10-78,"HLA-DQB1, HLA-DQA1",Latent autoimmune diabetes vs. type 2 diabetes,GCST007246
+rs689,11:2160994,1 x 10-18,"INS-IGF2, INS",Latent autoimmune diabetes vs. type 2 diabetes,GCST007246
+rs2476601,1:113834946,5 x 10-16,PTPN22,Latent autoimmune diabetes vs. type 2 diabetes,GCST007246
+rs3184504,12:111446804,2 x 10-8,"ATXN2, SH2B3",Latent autoimmune diabetes vs. type 2 diabetes,GCST007246
+rs705705,12:56041720,4 x 10-32,RPS26,Type 1 diabetes,GCST005536
+rs653178,12:111569952,2 x 10-44,ATXN2,Type 1 diabetes,GCST005536
+rs9585056,13:99429512,3 x 10-8,"CCR12P, TM9SF2",Type 1 diabetes,GCST005536
+rs1456988,14:98021670,3 x 10-8,LINC01550,Type 1 diabetes,GCST005536
+rs56994090,14:100840110,1 x 10-11,MEG3,Type 1 diabetes,GCST005536
+rs72727394,15:38554821,4 x 10-10,RASGRP1,Type 1 diabetes,GCST005536
+rs34593439,15:78942615,9 x 10-14,CTSH,Type 1 diabetes,GCST005536
+rs151234,16:28494339,5 x 10-11,CLN3,Type 1 diabetes,GCST005536
+rs12927355,16:11100914,3 x 10-22,CLEC16A,Type 1 diabetes,GCST005536
+rs193778,16:11257354,4 x 10-10,RMI2,Type 1 diabetes,GCST005536
+rs8056814,16:75218429,3 x 10-19,"CTRB1, CTRB2",Type 1 diabetes,GCST005536
+rs12453507,17:39896954,1 x 10-8,"ZPBP2, GSDMB",Type 1 diabetes,GCST005536
+rs757411,17:40618898,1 x 10-7,"SMARCE1, CCR7",Type 1 diabetes,GCST005536
+rs1052553,17:45996523,8 x 10-8,MAPT,Type 1 diabetes,GCST005536
+rs1893217,18:12809341,1 x 10-15,PTPN2,Type 1 diabetes,GCST005536
+rs12971201,18:12830539,2 x 10-6,PTPN2,Type 1 diabetes,GCST005536
+rs1615504,18:69859408,2 x 10-11,CD226,Type 1 diabetes,GCST005536
+rs34536443,19:10352442,4 x 10-15,TYK2,Type 1 diabetes,GCST005536
+rs12720356,19:10359299,4 x 10-7,TYK2,Type 1 diabetes,GCST005536
+rs402072,19:46715865,5 x 10-8,PRKD2,Type 1 diabetes,GCST005536
+rs516246,19:48702915,5 x 10-14,FUT2,Type 1 diabetes,GCST005536
+rs6043409,20:1635560,3 x 10-10,"SIRPG-AS1, SIRPG",Type 1 diabetes,GCST005536
+rs11203202,21:42405248,1 x 10-15,UBASH3A,Type 1 diabetes,GCST005536
+rs6518350,21:44201934,1 x 10-7,GATD3A,Type 1 diabetes,GCST005536
+rs4820830,22:30135102,1 x 10-12,HORMAD2,Type 1 diabetes,GCST005536
+rs2476601,1:113834946,1 x 10-100,PTPN22,Type 1 diabetes,GCST005536
+rs6691977,1:200845831,4 x 10-8,CAMSAP2,Type 1 diabetes,GCST005536
+rs3024505,1:206766559,6 x 10-8,"Y_RNA, IL10",Type 1 diabetes,GCST005536
+rs13415583,2:100147625,1 x 10-7,AFF3,Type 1 diabetes,GCST005536
+rs4849135,2:110857502,4 x 10-8,ACOXL,Type 1 diabetes,GCST005536
+rs2111485,2:162254026,4 x 10-18,"FAP, IFIH1",Type 1 diabetes,GCST005536
+rs35667974,2:162268127,9 x 10-9,IFIH1,Type 1 diabetes,GCST005536
+rs72871627,2:162280432,2 x 10-6,IFIH1,Type 1 diabetes,GCST005536
+rs3087243,2:203874196,7 x 10-21,"ICOS, CTLA4",Type 1 diabetes,GCST005536
+rs113010081,3:46415921,5 x 10-8,"LINC02009, CCRL2",Type 1 diabetes,GCST005536
+rs75793288,4:122322441,6 x 10-13,KIAA1109,Type 1 diabetes,GCST005536
+rs2611215,4:165653115,2 x 10-11,LINC01179,Type 1 diabetes,GCST005536
+rs11954020,5:35883149,4 x 10-8,"CAPSL, IL7R",Type 1 diabetes,GCST005536
+rs72928038,6:90267049,6 x 10-14,BACH2,Type 1 diabetes,GCST005536
+rs1538171,6:126431738,7 x 10-10,"CENPW, MIR588",Type 1 diabetes,GCST005536
+rs62447205,7:50398132,3 x 10-8,IKZF1,Type 1 diabetes,GCST005536
+rs10277986,7:50961290,1 x 10-7,COBL,Type 1 diabetes,GCST005536
+rs6476839,9:4290823,1 x 10-9,GLIS3,Type 1 diabetes,GCST005536
+rs61839660,10:6052734,3 x 10-39,IL2RA,Type 1 diabetes,GCST005536
+rs10795791,10:6066377,6 x 10-11,"IL2RA, RPL32P23",Type 1 diabetes,GCST005536
+rs41295121,10:6087680,5 x 10-8,"RBM17, RPL32P23",Type 1 diabetes,GCST005536
+rs12416116,10:88275897,4 x 10-15,RNLS,Type 1 diabetes,GCST005536
+rs689,11:2160994,1 x 10-100,"INS-IGF2, INS",Type 1 diabetes,GCST005536
+rs72853903,11:2177435,6 x 10-10,"ASCL2, MIR4686",Type 1 diabetes,GCST005536
+rs917911,12:9753255,2 x 10-7,CD69,Type 1 diabetes,GCST005536
+rs229533,22:37191071,2 x 10-8,C1QTNF6,Type 1 diabetes,GCST005536
+rs689,11:2160994,1 x 10-6,"INS-IGF2, INS",Type 1 diabetes,GCST008377
+rs4320356,6:26423332,3 x 10-8,BTN2A3P,Type 1 diabetes,GCST008377
+rs3802604,10:8060309,2 x 10-8,GATA3,Type 1 diabetes,GCST008377
+rs1770,6:32660056,2 x 10-232,"HLA-DQB1, HLA-DQB1-AS1",Type 1 diabetes,GCST008377
+rs705699,12:55991020,7 x 10-20,RAB5B,Type 1 diabetes,GCST008377
+rs689,11:2160994,1 x 10-160,"INS-IGF2, INS",Type 1 diabetes,GCST010681
+rs2128344,21:20724226,8 x 10-12,LINC00320,Type 1 diabetes,GCST010681
+rs60587303,2:168190122,3 x 10-9,STK39,Type 1 diabetes,GCST010681
+rs192324744,2:141543366,2 x 10-11,LRP1B,Type 1 diabetes,GCST010681
+rs34536443,19:10352442,2 x 10-11,TYK2,Type 1 diabetes,GCST010681
+rs2269247,1:63641613,1 x 10-10,PGM1,Type 1 diabetes,GCST010681
+rs17696736,12:112049014,2 x 10-16,NAA25,Type 1 diabetes,GCST000038
+rs763361,18:69864406,1 x 10-8,CD226,Type 1 diabetes,GCST000038
+rs1445898,5:35910427,8 x 10-6,CAPSL,Type 1 diabetes,GCST000038
+rs2292239,12:56088396,2 x 10-20,ERBB3,Type 1 diabetes,GCST000038
+rs12708716,16:11086016,3 x 10-18,CLEC16A,Type 1 diabetes,GCST000038
+rs2542151,18:12779948,1 x 10-14,"LINC01882, PTPN2",Type 1 diabetes,GCST000038
+rs2476601,1:113834946,2 x 10-80,PTPN22,Type 1 diabetes,GCST000038
+rs6897932,5:35874473,8 x 10-6,IL7R,Type 1 diabetes,GCST000038
+rs9653442,2:100208905,5 x 10-6,LINC01104,Type 1 diabetes,GCST000038
+rs6679677,1:113761186,8 x 10-24,"RSBN1, PHTF1",Type 1 diabetes,GCST000038
+rs3741208,11:2148544,2 x 10-7,"INS-IGF2, IGF2-AS",Type 1 diabetes,GCST000038
+rs1990760,2:162267541,2 x 10-11,IFIH1,Type 1 diabetes,GCST000038
+rs1004446,11:2148913,4 x 10-9,INS-IGF2,Type 1 diabetes,GCST000054
+rs2903692,16:11144926,7 x 10-11,CLEC16A,Type 1 diabetes,GCST000054
+rs2476601,1:113834946,1 x 10-7,PTPN22,Type 1 diabetes,GCST000054
+rs2647044,6:32700133,1 x 10-16,"HLA-DQB1, MTCO3P1",Type 1 diabetes,GCST000054
+rs425105,19:46705224,3 x 10-11,PRKD2,Type 1 diabetes,GCST000392
+rs7221109,17:40614034,1 x 10-9,"SMARCE1, CCR7",Type 1 diabetes,GCST000392
+rs2664170,X:154717327,8 x 10-9,GAB3,Type 1 diabetes,GCST000392
+rs12444268,16:20331250,2 x 10-7,"UMOD, GP2",Type 1 diabetes,GCST000392
+rs11755527,6:90248512,5 x 10-8,BACH2,Type 1 diabetes,GCST000392
+rs12251307,10:6081532,1 x 10-13,"RPL32P23, RBM17",Type 1 diabetes,GCST000392
+rs7111341,11:2191936,4 x 10-48,"ASCL2, MIR4686",Type 1 diabetes,GCST000392
+rs12708716,16:11086016,2 x 10-16,CLEC16A,Type 1 diabetes,GCST000392
+rs229541,22:37195278,2 x 10-7,C1QTNF6,Type 1 diabetes,GCST000392
+rs10517086,4:26083889,5 x 10-10,LINC02357,Type 1 diabetes,GCST000392
+rs7020673,9:4291747,5 x 10-12,GLIS3,Type 1 diabetes,GCST000392
+rs1465788,14:68796882,2 x 10-12,"MAGOH3P, ZFP36L1",Type 1 diabetes,GCST000392
+rs4788084,16:28528527,3 x 10-13,"IL27, NUPR1",Type 1 diabetes,GCST000392
+rs11258747,10:6430929,1 x 10-7,PRKCQ,Type 1 diabetes,GCST000392
+rs2292239,12:56088396,2 x 10-25,ERBB3,Type 1 diabetes,GCST000392
+rs3184504,12:111446804,3 x 10-27,"ATXN2, SH2B3",Type 1 diabetes,GCST000392
+rs3825932,15:78943104,8 x 10-8,CTSH,Type 1 diabetes,GCST000392
+rs1893217,18:12809341,4 x 10-15,PTPN2,Type 1 diabetes,GCST000392
+rs11203203,21:42416077,2 x 10-9,UBASH3A,Type 1 diabetes,GCST000392
+rs3024505,1:206766559,2 x 10-9,"Y_RNA, IL10",Type 1 diabetes,GCST000392
+rs9388489,6:126377573,4 x 10-13,CENPW,Type 1 diabetes,GCST000392
+rs4948088,7:50959497,4 x 10-8,COBL,Type 1 diabetes,GCST000392
+rs10509540,10:88263276,1 x 10-28,RNLS,Type 1 diabetes,GCST000392
+rs4763879,12:9757568,2 x 10-11,CD69,Type 1 diabetes,GCST000392
+rs4900384,14:98032614,4 x 10-9,LINC01550,Type 1 diabetes,GCST000392
+rs7202877,16:75213347,3 x 10-15,"CTRB1, CTRB2",Type 1 diabetes,GCST000392
+rs2281808,20:1629905,1 x 10-11,SIRPG,Type 1 diabetes,GCST000392
+rs5753037,22:30185733,3 x 10-16,"LIF-AS1, HORMAD2",Type 1 diabetes,GCST000392
+rs2269241,1:63643100,4 x 10-7,PGM1,Type 1 diabetes,GCST000392
+rs1534422,2:12500615,2 x 10-6,MIR3681HG,Type 1 diabetes,GCST000392
+rs9268645,6:32440750,1 x 10-100,HLA-DRA,Type 1 diabetes,GCST000392
+rs2476601,1:113834946,9 x 10-85,PTPN22,Type 1 diabetes,GCST000392
+rs1990760,2:162267541,7 x 10-9,IFIH1,Type 1 diabetes,GCST000392
+rs4505848,4:122211337,5 x 10-13,KIAA1109,Type 1 diabetes,GCST000392
+rs2290400,17:39909987,6 x 10-13,GSDMB,Type 1 diabetes,GCST000392
+rs3087243,2:203874196,1 x 10-15,"ICOS, CTLA4",Type 1 diabetes,GCST000392
+rs7804356,7:26852046,5 x 10-9,SKAP2,Type 1 diabetes,GCST000392
+rs16956936,17:7730374,5 x 10-7,DNAH2,Type 1 diabetes,GCST000392
+rs1701704,12:56018703,9 x 10-10,IKZF4,Type 1 diabetes,GCST000141
+rs61839660,10:6052734,5 x 10-9,IL2RA,Type 1 diabetes,GCST001394
+rs1265564,12:111270654,1 x 10-16,CUX2,Type 1 diabetes,GCST001394
+rs11755527,6:90248512,5 x 10-12,BACH2,Type 1 diabetes,GCST000258
+rs947474,10:6348488,4 x 10-9,LINC02649,Type 1 diabetes,GCST000258
+rs3825932,15:78943104,3 x 10-15,CTSH,Type 1 diabetes,GCST000258
+rs229541,22:37195278,2 x 10-8,C1QTNF6,Type 1 diabetes,GCST000258
+rs416603,16:11270222,3 x 10-6,RMI2,Type 1 diabetes,GCST000258
+rs6679677,1:113761186,1 x 10-40,"RSBN1, PHTF1",Type 1 diabetes,GCST000258
+rs3087243,2:203874196,8 x 10-11,"ICOS, CTLA4",Type 1 diabetes,GCST000258
+rs17696736,12:112049014,6 x 10-18,NAA25,Type 1 diabetes,GCST000258
+rs2292239,12:56088396,3 x 10-16,ERBB3,Type 1 diabetes,GCST000258
+rs2542151,18:12779948,9 x 10-8,"LINC01882, PTPN2",Type 1 diabetes,GCST000258
+rs9272346,6:32636595,6 x 10-129,HLA-DQA1,Type 1 diabetes,GCST000258
+rs2165738,2:24469940,4 x 10-6,"ITSN2, NCOA1",Type 1 diabetes,GCST000258
+rs12251307,10:6081532,2 x 10-6,"RPL32P23, RBM17",Type 1 diabetes,GCST000258
+rs12708716,16:11086016,7 x 10-13,CLEC16A,Type 1 diabetes,GCST000258
+rs17696736,12:112049014,2 x 10-14,NAA25,Type 1 diabetes,GCST000043
+rs6534347,4:122277280,2 x 10-6,KIAA1109,Type 1 diabetes,GCST000043
+rs6679677,1:113761186,5 x 10-26,"RSBN1, PHTF1",Type 1 diabetes,GCST000043
+rs11171739,12:56076841,1 x 10-11,ERBB3,Type 1 diabetes,GCST000043
+rs12708716,16:11086016,5 x 10-7,CLEC16A,Type 1 diabetes,GCST000043
+rs11052552,12:9703362,7 x 10-7,"CLEC2D, LINC02390",Type 1 diabetes,GCST000043
+rs17388568,4:122408207,3 x 10-6,ADAD1,Type 1 diabetes,GCST000043
+rs3764021,12:9681032,5 x 10-8,CLEC2D,Type 1 diabetes,GCST000043
+rs17166496,5:133293192,5 x 10-6,FSTL4,Type 1 diabetes,GCST000043
+rs9272346,6:32636595,5 x 10-134,HLA-DQA1,Type 1 diabetes,GCST000043
+rs3757247,6:90247744,1 x 10-6,BACH2,Type 1 diabetes,GCST000244
+rs8035957,15:38546063,4 x 10-6,RASGRP1,Type 1 diabetes,GCST000244
+rs9976767,21:42416281,2 x 10-8,UBASH3A,Type 1 diabetes,GCST000244
+rs1983853,1:84845509,2 x 10-6,LPAR3,Type 1 diabetes,GCST000244
+rs10758593,9:4292083,3 x 10-6,GLIS3,Type 1 diabetes,GCST000244
+rs3024505,1:206766559,5 x 10-10,"Y_RNA, IL10",Type 1 diabetes,GCST001191
+rs1990760,2:162267541,2 x 10-14,IFIH1,Type 1 diabetes,GCST001191
+rs17388568,4:122408207,6 x 10-6,ADAD1,Type 1 diabetes,GCST001191
+rs12722495,10:6055320,1 x 10-38,IL2RA,Type 1 diabetes,GCST001191
+rs1004446,11:2148913,3 x 10-23,INS-IGF2,Type 1 diabetes,GCST001191
+rs2292239,12:56088396,3 x 10-27,ERBB3,Type 1 diabetes,GCST001191
+rs12708716,16:11086016,5 x 10-14,CLEC16A,Type 1 diabetes,GCST001191
+rs3788013,21:42421219,1 x 10-7,UBASH3A,Type 1 diabetes,GCST001191
+rs743777,22:37155567,2 x 10-6,IL2RB,Type 1 diabetes,GCST001191
+rs3087243,2:203874196,2 x 10-17,"ICOS, CTLA4",Type 1 diabetes,GCST001191
+rs2069762,4:122456825,5 x 10-7,IL2,Type 1 diabetes,GCST001191
+rs4788084,16:28528527,1 x 10-8,"IL27, NUPR1",Type 1 diabetes,GCST001191
+rs763361,18:69864406,1 x 10-9,CD226,Type 1 diabetes,GCST001191
+rs2304256,19:10364976,1 x 10-10,TYK2,Type 1 diabetes,GCST001191
+rs2476601,1:113834946,2 x 10-111,PTPN22,Type 1 diabetes,GCST001191
+rs3184504,12:111446804,2 x 10-38,"ATXN2, SH2B3",Type 1 diabetes,GCST001191
+rs7171171,15:38614840,2 x 10-7,"LINC02694, RASGRP1",Type 1 diabetes,GCST001191
+rs11755527,6:90248512,3 x 10-8,BACH2,Type 1 diabetes,GCST001191
+rs1701704,12:56018703,5 x 10-18,IKZF4,Type 1 diabetes,GCST001191
+rs2872507,17:39884510,2 x 10-6,"GSDMB, ZPBP2",Type 1 diabetes,GCST001191
+rs689,11:2160994,5 x 10-196,"INS-IGF2, INS",Type 1 diabetes,GCST001191
+rs2542151,18:12779948,4 x 10-13,"LINC01882, PTPN2",Type 1 diabetes,GCST001191
+rs478222,2:25078886,4 x 10-9,EFR3B,Type 1 diabetes,GCST001255
+rs539514,13:75752146,6 x 10-11,LMO7,Type 1 diabetes,GCST001255
+rs924043,6:170063801,8 x 10-9,'-,Type 1 diabetes,GCST001255
+rs550448,7:28189423,5 x 10-7,JAZF1-AS1,Type 1 diabetes,GCST001255
+rs12679857,8:118965098,4 x 10-7,"TNFRSF11B, RNU6-12P",Type 1 diabetes,GCST001255
+rs6547853,2:28423934,8 x 10-7,"PLB1, FOSL2",Type 1 diabetes,GCST001255
+rs4084127,11:69781755,3 x 10-6,"FGF3, FGF4",Type 1 diabetes,GCST001255
+rs10786436,10:98540425,8 x 10-7,HPSE2,Type 1 diabetes,GCST001255
+rs10137082,14:23370824,6 x 10-6,"IL25, EFS",Type 1 diabetes,GCST001255
+rs2304256,19:10364976,4 x 10-9,TYK2,Type 1 diabetes,GCST000539
+rs941576,14:100839708,1 x 10-10,MEG3,Type 1 diabetes,GCST000539
+rs10751776,1:24970252,3 x 10-8,"RUNX3, MIR4425",Type 1 diabetes,GCST90014023
+rs574384,1:35622060,2 x 10-8,PSMB2,Type 1 diabetes,GCST90014023
+rs12742756,1:37881745,4 x 10-8,INPP5B,Type 1 diabetes,GCST90014023
+rs855330,1:63648218,5 x 10-11,PGM1,Type 1 diabetes,GCST90014023
+rs1493696,1:119962909,8 x 10-9,NOTCH2,Type 1 diabetes,GCST90014023
+rs570794153,1:198629260,4 x 10-11,"PTPRC, ATP6V1G3",Type 1 diabetes,GCST90014023
+rs12128789,1:212679490,4 x 10-9,"BATF3, LINC02773",Type 1 diabetes,GCST90014023
+rs1881146,2:12494668,5 x 10-8,MIR3681HG,Type 1 diabetes,GCST90014023
+rs12464462,2:60409281,9 x 10-10,MIR4432HG,Type 1 diabetes,GCST90014023
+rs13018977,2:241338592,2 x 10-8,SEPTIN2,Type 1 diabetes,GCST90014023
+rs12644686,4:184381748,2 x 10-8,LINC02362,Type 1 diabetes,GCST90014023
+rs114378220,5:111230662,5 x 10-9,CAMK4,Type 1 diabetes,GCST90014023
+rs766751473,5:132431072,1 x 10-8,IRF1-AS1,Type 1 diabetes,GCST90014023
+rs1050979,6:410417,6 x 10-14,IRF4,Type 1 diabetes,GCST90014023
+rs7805218,7:20339178,9 x 10-9,ITGB8,Type 1 diabetes,GCST90014023
+rs7795896,7:117446559,2 x 10-16,CFTR,Type 1 diabetes,GCST90014023
+rs1947178,8:58959618,2 x 10-9,TOX,Type 1 diabetes,GCST90014023
+rs13259300,8:119070702,3 x 10-10,COLEC10,Type 1 diabetes,GCST90014023
+rs3802214,8:140606084,3 x 10-8,AGO2,Type 1 diabetes,GCST90014023
+rs541856133,9:133060938,4 x 10-17,"GTF3C5, CEL",Type 1 diabetes,GCST90014023
+rs537544,10:8066419,9 x 10-9,GATA3,Type 1 diabetes,GCST90014023
+rs78325861,10:70618733,2 x 10-11,"ADAMTS14, PRF1",Type 1 diabetes,GCST90014023
+rs140215710,11:2881830,4 x 10-8,"KCNQ1DN, CDKN1C",Type 1 diabetes,GCST90014023
+rs7936434,11:76582761,4 x 10-8,"LINC02757, EMSY",Type 1 diabetes,GCST90014023
+rs607703,11:128734279,1 x 10-10,FLI1,Type 1 diabetes,GCST90014023
+rs7301381,12:8971336,5 x 10-11,KLRG1,Type 1 diabetes,GCST90014023
+rs238265,13:42356523,2 x 10-9,LINC02341,Type 1 diabetes,GCST90014023
+rs4238595,16:20331769,2 x 10-11,"UMOD, GP2",Type 1 diabetes,GCST90014023
+rs8046043,16:80250127,2 x 10-8,'-,Type 1 diabetes,GCST90014023
+rs61759532,17:7337072,2 x 10-10,ACAP1,Type 1 diabetes,GCST90014023
+rs11651753,17:47951723,1 x 10-9,"PRR15L, PNPO",Type 1 diabetes,GCST90014023
+rs57209021,17:68168777,4 x 10-8,"RDM1P3, ARHGAP27P2",Type 1 diabetes,GCST90014023
+rs74203920,21:44294411,2 x 10-8,AIRE,Type 1 diabetes,GCST90014023
+rs4263714,7:50955790,4 x 10-6,COBL,Type 1 diabetes,GCST90000529
+rs4929965,11:2176056,2 x 10-31,"ASCL2, MIR4686",Type 1 diabetes,GCST90000529
+rs72802342,16:75200974,6 x 10-10,"CTRB2, ZFP1",Type 1 diabetes,GCST90000529
+rs4366464,11:2143569,1 x 10-9,"IGF2-AS, INS-IGF2",Type 1 diabetes,GCST90000529
+rs78896587,11:2055620,1 x 10-9,"H19, IGF2",Type 1 diabetes,GCST90000529
+rs10974438,9:4291928,1 x 10-6,GLIS3,Type 1 diabetes,GCST90000529
+rs2269247,1:63641613,2 x 10-6,PGM1,Type 1 diabetes,GCST90000529
+rs56337234,4:1782676,4 x 10-6,"TACC3, FGFR3",Type 1 diabetes,GCST90000529
+rs10213692,5:56146422,3 x 10-9,ANKRD55,Type 1 diabetes,GCST90013445
+rs9405661,6:424915,2 x 10-9,"IRF4, EXOC2",Type 1 diabetes,GCST90013445
+rs12665429,6:137682468,1 x 10-13,LINC02539,Type 1 diabetes,GCST90013445
+rs212408,6:159049210,1 x 10-15,TAGAP-AS1,Type 1 diabetes,GCST90013445
+rs17143056,7:20557306,2 x 10-8,EEF1A1P27,Type 1 diabetes,GCST90013445
+rs10245867,7:28102567,3 x 10-8,JAZF1,Type 1 diabetes,GCST90013445
+rs2250903,8:11877675,1 x 10-10,"CTSB, OR7E158P",Type 1 diabetes,GCST90013445
+rs1405209,9:99823263,3 x 10-8,"NR4A3, STX17-AS1",Type 1 diabetes,GCST90013445
+rs722988,10:33137219,3 x 10-15,"NRP1, IATPR",Type 1 diabetes,GCST90013445
+rs11033048,11:35267496,2 x 10-10,SLC1A2,Type 1 diabetes,GCST90013445
+rs79538630,11:60961822,1 x 10-9,"CD6, SLC15A3",Type 1 diabetes,GCST90013445
+rs968567,11:61828092,8 x 10-9,"FADS1, FADS2",Type 1 diabetes,GCST90013445
+rs645078,11:64367826,3 x 10-9,RPS6KA4,Type 1 diabetes,GCST90013445
+rs605093,11:128734337,4 x 10-9,FLI1,Type 1 diabetes,GCST90013445
+rs1805731,12:8942630,4 x 10-8,M6PR,Type 1 diabetes,GCST90013445
+rs7313065,12:53077434,3 x 10-9,SPRYD3,Type 1 diabetes,GCST90013445
+rs74537115,13:42343795,5 x 10-9,LINC02341,Type 1 diabetes,GCST90013445
+rs911263,14:68286876,3 x 10-8,RAD51B,Type 1 diabetes,GCST90013445
+rs4238595,16:20331769,2 x 10-11,"UMOD, GP2",Type 1 diabetes,GCST90013445
+rs1052553,17:45996523,2 x 10-15,MAPT,Type 1 diabetes,GCST90013445
+rs2597169,17:47956725,3 x 10-9,PRR15L,Type 1 diabetes,GCST90013445
+rs56178904,21:44204668,7 x 10-11,GATD3A,Type 1 diabetes,GCST90013445
+rs79538630,11:60961822,1 x 10-9,"CD6, SLC15A3",Type 1 diabetes,GCST90013445
+rs968567,11:61828092,8 x 10-9,"FADS1, FADS2",Type 1 diabetes,GCST90013445
+rs645078,11:64367826,3 x 10-9,RPS6KA4,Type 1 diabetes,GCST90013445
+rs605093,11:128734337,4 x 10-9,FLI1,Type 1 diabetes,GCST90013445
+rs1805731,12:8942630,4 x 10-8,M6PR,Type 1 diabetes,GCST90013445
+rs7313065,12:53077434,3 x 10-9,SPRYD3,Type 1 diabetes,GCST90013445
+rs74537115,13:42343795,5 x 10-9,LINC02341,Type 1 diabetes,GCST90013445
+rs911263,14:68286876,3 x 10-8,RAD51B,Type 1 diabetes,GCST90013445
+rs4238595,16:20331769,2 x 10-11,"UMOD, GP2",Type 1 diabetes,GCST90013445
+rs1052553,17:45996523,2 x 10-15,MAPT,Type 1 diabetes,GCST90013445
+rs2597169,17:47956725,3 x 10-9,PRR15L,Type 1 diabetes,GCST90013445
+rs56178904,21:44204668,7 x 10-11,GATD3A,Type 1 diabetes,GCST90013445
+rs34090353,1:92358141,1 x 10-8,RPAP2,Type 1 diabetes,GCST90013445
+rs2641348,1:119895261,2 x 10-8,ADAM30,Type 1 diabetes,GCST90013445
+rs2229238,1:154465420,1 x 10-12,IL6R,Type 1 diabetes,GCST90013445
+rs78037977,1:172746562,2 x 10-9,"FASLG, SLC25A38P1",Type 1 diabetes,GCST90013445
+rs2816313,1:192570207,5 x 10-9,RGS1,Type 1 diabetes,GCST90013445
+rs11120029,1:212796238,2 x 10-8,TATDN3,Type 1 diabetes,GCST90013445
+rs10169963,2:12512805,3 x 10-8,MIR3681HG,Type 1 diabetes,GCST90013445
+rs12712067,2:100147438,4 x 10-9,AFF3,Type 1 diabetes,GCST90013445
+rs7582694,2:191105394,3 x 10-9,STAT4,Type 1 diabetes,GCST90013445
+rs10933559,2:241468331,3 x 10-11,FARP2,Type 1 diabetes,GCST90013445
+rs113881148,4:973543,6 x 10-9,DGKQ,Type 1 diabetes,GCST90013445
+rs337637,4:38602849,3 x 10-10,KLF3-AS1,Type 1 diabetes,GCST90013445
+rs1876142,5:40521603,2 x 10-14,TTC33,Type 1 diabetes,GCST90013445
+rs2269242,Mapping not available,5 x 10-12,'-,Type 1 diabetes,GCST90013445
+rs34090353,1:92358141,1 x 10-8,RPAP2,Type 1 diabetes,GCST90013445
+rs2641348,1:119895261,2 x 10-8,ADAM30,Type 1 diabetes,GCST90013445
+rs2229238,1:154465420,1 x 10-12,IL6R,Type 1 diabetes,GCST90013445
+rs78037977,1:172746562,2 x 10-9,"FASLG, SLC25A38P1",Type 1 diabetes,GCST90013445
+rs2816313,1:192570207,5 x 10-9,RGS1,Type 1 diabetes,GCST90013445
+rs11120029,1:212796238,2 x 10-8,TATDN3,Type 1 diabetes,GCST90013445
+rs10169963,2:12512805,3 x 10-8,MIR3681HG,Type 1 diabetes,GCST90013445
+rs12712067,2:100147438,4 x 10-9,AFF3,Type 1 diabetes,GCST90013445
+rs7582694,2:191105394,3 x 10-9,STAT4,Type 1 diabetes,GCST90013445
+rs10933559,2:241468331,3 x 10-11,FARP2,Type 1 diabetes,GCST90013445
+rs113881148,4:973543,6 x 10-9,DGKQ,Type 1 diabetes,GCST90013445
+rs337637,4:38602849,3 x 10-10,KLF3-AS1,Type 1 diabetes,GCST90013445
+rs1876142,5:40521603,2 x 10-14,TTC33,Type 1 diabetes,GCST90013445
+rs10213692,5:56146422,3 x 10-9,ANKRD55,Type 1 diabetes,GCST90013445
+rs9405661,6:424915,2 x 10-9,"IRF4, EXOC2",Type 1 diabetes,GCST90013445
+rs2269242,Mapping not available,5 x 10-12,'-,Type 1 diabetes,GCST90013445
+rs12665429,6:137682468,1 x 10-13,LINC02539,Type 1 diabetes,GCST90013445
+rs212408,6:159049210,1 x 10-15,TAGAP-AS1,Type 1 diabetes,GCST90013445
+rs17143056,7:20557306,2 x 10-8,EEF1A1P27,Type 1 diabetes,GCST90013445
+rs10245867,7:28102567,3 x 10-8,JAZF1,Type 1 diabetes,GCST90013445
+rs2250903,8:11877675,1 x 10-10,"CTSB, OR7E158P",Type 1 diabetes,GCST90013445
+rs1405209,9:99823263,3 x 10-8,"NR4A3, STX17-AS1",Type 1 diabetes,GCST90013445
+rs722988,10:33137219,3 x 10-15,"NRP1, IATPR",Type 1 diabetes,GCST90013445
+rs11033048,11:35267496,2 x 10-10,SLC1A2,Type 1 diabetes,GCST90013445
+rs3864055,3:5093886,6 x 10-6,"Y_RNA, ARL8B",Fulminant type 1 diabetes,GCST007433
+rs12644905,4:184755529,4 x 10-6,"ACSL1, CENPU",Fulminant type 1 diabetes,GCST007433
+rs12203596,6:17120009,6 x 10-6,STMND1,Fulminant type 1 diabetes,GCST007433
+rs9356171,6:163922743,9 x 10-6,RN7SL366P,Fulminant type 1 diabetes,GCST007433
+rs7871386,9:23166744,5 x 10-6,'-,Fulminant type 1 diabetes,GCST007433
+rs5790666,11:27778324,8 x 10-9,"CBX3P1, BDNF",Fulminant type 1 diabetes,GCST007433
+rs11170445,12:53151908,8 x 10-9,"EIF4A1P4, HIGD1AP1",Fulminant type 1 diabetes,GCST007433
+rs178050,22:20814301,7 x 10-6,PI4KA,Fulminant type 1 diabetes,GCST007433
+rs9268853,6:32461866,2 x 10-23,HLA-DRB9,Fulminant type 1 diabetes,GCST007433
+rs926169,2:203858029,9 x 10-6,"RNU6-474P, CTLA4",Type 1 diabetes,GCST009916
+rs9273363,6:32658495,5 x 10-138,"HLA-DQA1, HLA-DQB1",Type 1 diabetes,GCST009916
+rs1578060,6:126391101,2 x 10-6,"MIR588, CENPW",Type 1 diabetes,GCST009916
+rs10788599,10:88428167,1 x 10-6,RNLS,Type 1 diabetes,GCST009916
+rs3842727,11:2163618,1 x 10-13,"INS, TH",Type 1 diabetes,GCST009916
+rs56380902,17:39910119,1 x 10-8,GSDMB,Type 1 diabetes,GCST009916
+rs55846421,14:49843683,2 x 10-9,NEMF,Type 1 diabetes,GCST90095483
+rs138748427,6:32516743,3 x 10-9,"HLA-DRB5, HLA-DRB9",Type 1 diabetes,GCST90018705
+rs3757787,7:127618330,1 x 10-8,"PAX4, SND1",Type 1 diabetes,GCST90018705
+rs2237897,11:2837316,2 x 10-8,KCNQ1,Type 1 diabetes,GCST90018705
+chr9:5703334,Mapping not available,5 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28485841,Mapping not available,4 x 10-39,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28355925,Mapping not available,4 x 10-39,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:117481369,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:29238474,Mapping not available,6 x 10-43,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28705657,Mapping not available,4 x 10-41,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:29051468,Mapping not available,3 x 10-42,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:29499942,Mapping not available,2 x 10-43,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30331468,Mapping not available,2 x 10-47,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28939145,Mapping not available,7 x 10-43,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:29388554,Mapping not available,6 x 10-45,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30441472,Mapping not available,1 x 10-52,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr9:71822481,Mapping not available,5 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30157766,Mapping not available,1 x 10-51,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30733315,Mapping not available,7 x 10-56,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30576624,Mapping not available,1 x 10-57,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:60197190,Mapping not available,2 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr16:73991175,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30843488,Mapping not available,2 x 10-62,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31000992,Mapping not available,2 x 10-64,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr16:9864106,Mapping not available,7 x 10-11,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31229085,Mapping not available,2 x 10-75,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31117579,Mapping not available,6 x 10-72,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:62744832,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31348918,Mapping not available,9 x 10-76,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:33020111,Mapping not available,1 x 10-12,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:33647094,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:25864590,Mapping not available,2 x 10-22,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26732200,Mapping not available,2 x 10-28,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:25710343,Mapping not available,7 x 10-23,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26073147,Mapping not available,9 x 10-24,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26266083,Mapping not available,8 x 10-27,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr5:81431680,Mapping not available,3 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:25513951,Mapping not available,3 x 10-23,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27700521,Mapping not available,4 x 10-33,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26408323,Mapping not available,4 x 10-31,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27803328,Mapping not available,6 x 10-34,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26935600,Mapping not available,1 x 10-31,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26581807,Mapping not available,1 x 10-31,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27104763,Mapping not available,7 x 10-32,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27559448,Mapping not available,2 x 10-34,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27457865,Mapping not available,2 x 10-32,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27281907,Mapping not available,7 x 10-33,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:27911422,Mapping not available,2 x 10-35,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28107123,Mapping not available,5 x 10-36,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28235278,Mapping not available,5 x 10-37,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:30018547,Mapping not available,3 x 10-42,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:29785031,Mapping not available,5 x 10-42,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:29639324,Mapping not available,4 x 10-42,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28594470,Mapping not available,7 x 10-39,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr12:65543332,Mapping not available,1 x 10-9,'-,Type 1 diabetes,GCST012179
+chr19:31157758,Mapping not available,4 x 10-16,'-,Type 1 diabetes,GCST012179
+chr1:37781423,Mapping not available,6 x 10-16,'-,Type 1 diabetes,GCST012179
+chr4:92954497,Mapping not available,7 x 10-9,'-,Type 1 diabetes,GCST012179
+chr8:56693303,Mapping not available,4 x 10-10,'-,Type 1 diabetes,GCST012179
+chr7:129949957,Mapping not available,5 x 10-12,'-,Type 1 diabetes,GCST012179
+chr7:44959149,Mapping not available,4 x 10-15,'-,Type 1 diabetes,GCST012179
+chr1:37891198,Mapping not available,1 x 10-19,'-,Type 1 diabetes,GCST012179
+chr3:57259774,Mapping not available,4 x 10-16,'-,Type 1 diabetes,GCST012179
+chr9:20324372,Mapping not available,7 x 10-23,'-,Type 1 diabetes,GCST012179
+chr12:65644210,Mapping not available,1 x 10-14,'-,Type 1 diabetes,GCST012179
+chr6:26835246,Mapping not available,8 x 10-26,'-,Type 1 diabetes,GCST012179
+chr15:27596077,Mapping not available,2 x 10-20,'-,Type 1 diabetes,GCST012179
+chr2:137009624,Mapping not available,2 x 10-26,'-,Type 1 diabetes,GCST012179
+chr2:134538048,Mapping not available,3 x 10-52,'-,Type 1 diabetes,GCST012179
+chr2:134722410,Mapping not available,3 x 10-57,'-,Type 1 diabetes,GCST012179
+chr2:134845031,Mapping not available,1 x 10-58,'-,Type 1 diabetes,GCST012179
+chr2:134947988,Mapping not available,1 x 10-73,'-,Type 1 diabetes,GCST012179
+chr18:69405649,Mapping not available,1 x 10-6,'-,Type 1 diabetes,GCST012179
+chr6:27063201,Mapping not available,3 x 10-96,'-,Type 1 diabetes,GCST012179
+chr16:9864106,Mapping not available,9 x 10-10,'-,Type 1 diabetes,GCST012179
+chr14:96458513,Mapping not available,9 x 10-7,'-,Type 1 diabetes,GCST012179
+chr9:5703334,Mapping not available,4 x 10-10,'-,Type 1 diabetes,GCST012179
+chr6:33160210,Mapping not available,2 x 10-151,'-,Type 1 diabetes,GCST012179
+chr6:25365660,Mapping not available,5 x 10-41,'-,Type 1 diabetes,GCST012179
+chr6:32684938,Mapping not available,2 x 10-308,'-,Type 1 diabetes,GCST012179
+chr6:31275040,Mapping not available,2 x 10-286,'-,Type 1 diabetes,GCST012179
+chr2:135859184,Mapping not available,1 x 10-121,'-,Type 1 diabetes,GCST012179
+chr2:135671796,Mapping not available,6 x 10-117,'-,Type 1 diabetes,GCST012179
+chr2:135149518,Mapping not available,1 x 10-116,'-,Type 1 diabetes,GCST012179
+chr2:135571320,Mapping not available,7 x 10-114,'-,Type 1 diabetes,GCST012179
+chr2:135403522,Mapping not available,2 x 10-113,'-,Type 1 diabetes,GCST012179
+chr2:136026774,Mapping not available,1 x 10-91,'-,Type 1 diabetes,GCST012179
+chr2:135265228,Mapping not available,2 x 10-75,'-,Type 1 diabetes,GCST012179
+chr2:136221960,Mapping not available,2 x 10-73,'-,Type 1 diabetes,GCST012179
+chr6:29683408,Mapping not available,2 x 10-60,'-,Type 1 diabetes,GCST012179
+chr6:29949300,Mapping not available,2 x 10-44,'-,Type 1 diabetes,GCST012179
+chr11:18269981,Mapping not available,3 x 10-39,'-,Type 1 diabetes,GCST012179
+chr4:137228466,Mapping not available,1 x 10-20,'-,Type 1 diabetes,GCST012179
+chr3:57373867,Mapping not available,6 x 10-17,'-,Type 1 diabetes,GCST012179
+chr2:41913324,Mapping not available,2 x 10-28,'-,Type 1 diabetes,GCST012179
+chr10:131361823,Mapping not available,5 x 10-12,'-,Type 1 diabetes,GCST012179
+chr1:151853237,Mapping not available,4 x 10-19,'-,Type 1 diabetes,GCST012179
+chr14:22383427,Mapping not available,8 x 10-13,'-,Type 1 diabetes,GCST012179
+chr3:64734347,Mapping not available,1 x 10-16,'-,Type 1 diabetes,GCST012179
+chr11:68326963,Mapping not available,2 x 10-12,'-,Type 1 diabetes,GCST012179
+chr5:6893947,Mapping not available,8 x 10-7,'-,Type 1 diabetes,GCST012179
+chr3:57041866,Mapping not available,4 x 10-13,'-,Type 1 diabetes,GCST012179
+chr12:65324519,Mapping not available,1 x 10-6,'-,Type 1 diabetes,GCST012179
+chr5:80384899,Mapping not available,5 x 10-16,'-,Type 1 diabetes,GCST012179
+chr2:134585720,Mapping not available,5 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr9:20324372,Mapping not available,3 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:134688820,Mapping not available,7 x 10-12,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr3:57295247,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr3:57269656,Mapping not available,4 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr5:6893947,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr7:129944187,Mapping not available,8 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr7:44959149,Mapping not available,1 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr12:65543332,Mapping not available,7 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:134947988,Mapping not available,4 x 10-14,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:26835246,Mapping not available,5 x 10-11,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr8:56693303,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr15:27596077,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:137009624,Mapping not available,4 x 10-11,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr4:92954497,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:136221960,Mapping not available,4 x 10-16,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:33168798,Mapping not available,3 x 10-16,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:37812907,Mapping not available,6 x 10-14,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr12:65324519,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr12:65644210,Mapping not available,7 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:136066296,Mapping not available,4 x 10-19,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:25371141,Mapping not available,1 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr19:42174477,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:33301993,Mapping not available,3 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:33464895,Mapping not available,3 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31799896,Mapping not available,4 x 10-282,'-,Type 1 diabetes,GCST012179
+chr6:31951083,Mapping not available,1 x 10-283,'-,Type 1 diabetes,GCST012179
+chr6:32061428,Mapping not available,7 x 10-285,'-,Type 1 diabetes,GCST012179
+chr6:32234432,Mapping not available,1 x 10-305,'-,Type 1 diabetes,GCST012179
+chr21:41956642,Mapping not available,2 x 10-7,'-,Type 1 diabetes,GCST012179
+chr20:4377254,Mapping not available,4 x 10-6,'-,Type 1 diabetes,GCST012179
+chr6:33647094,Mapping not available,1 x 10-96,'-,Type 1 diabetes,GCST012179
+chr6:33489728,Mapping not available,2 x 10-108,'-,Type 1 diabetes,GCST012179
+chr6:33387741,Mapping not available,2 x 10-108,'-,Type 1 diabetes,GCST012179
+chr19:35897277,Mapping not available,2 x 10-6,'-,Type 1 diabetes,GCST012179
+chr8:76353999,Mapping not available,4 x 10-6,'-,Type 1 diabetes,GCST012179
+chr6:32405601,Mapping not available,4 x 10-308,'-,Type 1 diabetes,GCST012179
+chr6:32596935,Mapping not available,3 x 10-28,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135623778,Mapping not available,8 x 10-23,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135859184,Mapping not available,1 x 10-22,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135080336,Mapping not available,9 x 10-23,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135197227,Mapping not available,4 x 10-22,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135516008,Mapping not available,9 x 10-21,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135403522,Mapping not available,2 x 10-21,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135301250,Mapping not available,3 x 10-15,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr10:131361823,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135731408,Mapping not available,4 x 10-14,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:135964425,Mapping not available,7 x 10-16,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:127756593,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr4:137228466,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:134846613,Mapping not available,2 x 10-13,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr11:68326963,Mapping not available,1 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr11:18264227,Mapping not available,4 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:41910220,Mapping not available,6 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr14:22390463,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:151853237,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr3:64722924,Mapping not available,6 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr5:80384899,Mapping not available,5 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr19:31157758,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+rs13147255,4:124578751,1 x 10-8,"ANKRD50, LINC02516",Type 1 diabetes with low genetic risk score,GCST90000181
+rs857786,1:158815304,6 x 10-9,"MNDA, OR10AA1P",Type 1 diabetes with low genetic risk score,GCST90000181
+chr3:57041866,Mapping not available,4 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:28026638,Mapping not available,3 x 10-94,'-,Type 1 diabetes,GCST012179
+chr6:28699892,Mapping not available,3 x 10-96,'-,Type 1 diabetes,GCST012179
+chr6:28171932,Mapping not available,7 x 10-95,'-,Type 1 diabetes,GCST012179
+chr6:29215110,Mapping not available,9 x 10-99,'-,Type 1 diabetes,GCST012179
+chr15:74624584,Mapping not available,2 x 10-6,'-,Type 1 diabetes,GCST012179
+chr6:29100913,Mapping not available,4 x 10-99,'-,Type 1 diabetes,GCST012179
+chr6:29785031,Mapping not available,1 x 10-110,'-,Type 1 diabetes,GCST012179
+chr6:29558785,Mapping not available,7 x 10-108,'-,Type 1 diabetes,GCST012179
+chr6:30064745,Mapping not available,2 x 10-113,'-,Type 1 diabetes,GCST012179
+chr6:28939145,Mapping not available,1 x 10-101,'-,Type 1 diabetes,GCST012179
+chr6:28828294,Mapping not available,4 x 10-117,'-,Type 1 diabetes,GCST012179
+chr6:30202510,Mapping not available,4 x 10-125,'-,Type 1 diabetes,GCST012179
+chr6:29388554,Mapping not available,3 x 10-114,'-,Type 1 diabetes,GCST012179
+chr6:30569095,Mapping not available,4 x 10-132,'-,Type 1 diabetes,GCST012179
+chr6:30685004,Mapping not available,2 x 10-133,'-,Type 1 diabetes,GCST012179
+chr6:32836793,Mapping not available,9 x 10-273,'-,Type 1 diabetes,GCST012179
+chr6:30387407,Mapping not available,2 x 10-151,'-,Type 1 diabetes,GCST012179
+chr21:44998426,Mapping not available,6 x 10-10,'-,Type 1 diabetes,GCST012179
+chr6:30801949,Mapping not available,1 x 10-271,'-,Type 1 diabetes,GCST012179
+chr6:31395249,Mapping not available,3 x 10-279,'-,Type 1 diabetes,GCST012179
+chr6:31517324,Mapping not available,2 x 10-308,'-,Type 1 diabetes,GCST012179
+chr6:31135418,Mapping not available,2 x 10-219,'-,Type 1 diabetes,GCST012179
+chr6:46032617,Mapping not available,9 x 10-6,'-,Type 1 diabetes,GCST012179
+chr6:32978829,Mapping not available,9 x 10-202,'-,Type 1 diabetes,GCST012179
+chr6:31635993,Mapping not available,1 x 10-302,'-,Type 1 diabetes,GCST012179
+chr2:25772946,Mapping not available,8 x 10-6,'-,Type 1 diabetes,GCST012179
+chr6:26732200,Mapping not available,1 x 10-79,'-,Type 1 diabetes,GCST012179
+chr2:60197190,Mapping not available,1 x 10-14,'-,Type 1 diabetes,GCST012179
+chr6:25710343,Mapping not available,9 x 10-70,'-,Type 1 diabetes,GCST012179
+chr6:30964532,Mapping not available,2 x 10-202,'-,Type 1 diabetes,GCST012179
+chr6:25513951,Mapping not available,3 x 10-65,'-,Type 1 diabetes,GCST012179
+chr6:27883876,Mapping not available,2 x 10-102,'-,Type 1 diabetes,GCST012179
+chr6:25822433,Mapping not available,1 x 10-71,'-,Type 1 diabetes,GCST012179
+chr6:25929860,Mapping not available,7 x 10-73,'-,Type 1 diabetes,GCST012179
+chr6:27523520,Mapping not available,2 x 10-96,'-,Type 1 diabetes,GCST012179
+chr6:26073147,Mapping not available,5 x 10-74,'-,Type 1 diabetes,GCST012179
+chr6:26199675,Mapping not available,3 x 10-79,'-,Type 1 diabetes,GCST012179
+chr18:58518360,Mapping not available,3 x 10-8,'-,Type 1 diabetes,GCST012179
+chr6:27174125,Mapping not available,9 x 10-87,'-,Type 1 diabetes,GCST012179
+chr6:27349237,Mapping not available,1 x 10-88,'-,Type 1 diabetes,GCST012179
+chr6:27624224,Mapping not available,4 x 10-90,'-,Type 1 diabetes,GCST012179
+chr6:28594470,Mapping not available,3 x 10-93,'-,Type 1 diabetes,GCST012179
+chr18:58389479,Mapping not available,2 x 10-7,'-,Type 1 diabetes,GCST012179
+chr6:26316067,Mapping not available,3 x 10-83,'-,Type 1 diabetes,GCST012179
+chr6:28309894,Mapping not available,3 x 10-92,'-,Type 1 diabetes,GCST012179
+chr6:26463346,Mapping not available,6 x 10-87,'-,Type 1 diabetes,GCST012179
+chr6:26935600,Mapping not available,3 x 10-87,'-,Type 1 diabetes,GCST012179
+chr6:27731058,Mapping not available,6 x 10-91,'-,Type 1 diabetes,GCST012179
+chr6:26581807,Mapping not available,1 x 10-87,'-,Type 1 diabetes,GCST012179
+chr6:28429899,Mapping not available,8 x 10-94,'-,Type 1 diabetes,GCST012179
+rs2476601,1:113834946,1 x 10-50,PTPN22,Type 1 diabetes,GCST90018925
+rs7567242,2:60326008,4 x 10-9,"RNA5SP94, MIR4432HG",Type 1 diabetes,GCST90018925
+rs9273367,6:32658661,6 x 10-306,"HLA-DQB1, HLA-DQA1",Type 1 diabetes,GCST90018925
+rs17711850,6:90155151,2 x 10-9,BACH2,Type 1 diabetes,GCST90018925
+rs3757787,7:127618330,1 x 10-8,"PAX4, SND1",Type 1 diabetes,GCST90018925
+rs10811662,9:22134254,1 x 10-10,"DMRTA1, CDKN2B-AS1",Type 1 diabetes,GCST90018925
+rs7903146,10:112998590,1 x 10-14,TCF7L2,Type 1 diabetes,GCST90018925
+rs706779,10:6056861,3 x 10-8,IL2RA,Type 1 diabetes,GCST90018925
+rs3842753,11:2159830,8 x 10-44,"INS, INS-IGF2",Type 1 diabetes,GCST90018925
+rs3184504,12:111446804,4 x 10-14,"ATXN2, SH2B3",Type 1 diabetes,GCST90018925
+rs10876866,12:56051582,3 x 10-8,"ERBB3, RPS26",Type 1 diabetes,GCST90018925
+rs7167984,15:93288838,3 x 10-8,"RGMA, SEPHS1P2",Type 1 diabetes,GCST90018925
+rs113935429,16:53788258,1 x 10-8,FTO,Type 1 diabetes,GCST90018925
+rs2847278,18:12778716,1 x 10-9,"PTPN2, LINC01882",Type 1 diabetes,GCST90018925
+chr3:27921000,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:182869236,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr18:21507398,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr3:114257954,Mapping not available,5 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr8:20451062,Mapping not available,8 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:46032617,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr16:51887655,Mapping not available,2 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr10:60664647,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr21:41956642,Mapping not available,4 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr7:48863732,Mapping not available,5 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:102495801,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr10:120940685,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr14:21746775,Mapping not available,3 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr20:4377254,Mapping not available,3 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr19:36633617,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr19:36013582,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:217759606,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:221898846,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr19:37034392,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr4:105683278,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr15:46441258,Mapping not available,4 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr8:76353999,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:78372988,Mapping not available,3 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:8311442,Mapping not available,6 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32535377,Mapping not available,2 x 10-306,'-,Type 1 diabetes,GCST012179
+chr6:32911694,Mapping not available,6 x 10-63,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr18:69571112,Mapping not available,1 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr14:96458513,Mapping not available,1 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31508681,Mapping not available,3 x 10-80,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr16:61597297,Mapping not available,8 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr7:117532167,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31628361,Mapping not available,3 x 10-89,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31799896,Mapping not available,2 x 10-90,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32096949,Mapping not available,1 x 10-90,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:31902549,Mapping not available,9 x 10-92,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32809144,Mapping not available,9 x 10-89,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32334605,Mapping not available,4 x 10-102,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr18:58518360,Mapping not available,5 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32231204,Mapping not available,4 x 10-106,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32469977,Mapping not available,4 x 10-108,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr19:47871241,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr11:78403273,Mapping not available,5 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr21:44998426,Mapping not available,8 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr6:32698749,Mapping not available,7 x 10-110,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr2:25865493,Mapping not available,5 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr18:58389479,Mapping not available,5 x 10-10,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr4:24259293,Mapping not available,4 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr1:63633409,Mapping not available,2 x 10-8,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr15:74624584,Mapping not available,3 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+chr11:33955292,Mapping not available,2 x 10-9,'-,Type 1 diabetes with low genetic risk score,GCST90000181
+rs2523989,6:30110498,2 x 10-8,"TRIM31, TRIM31-AS1",Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs886424,6:30814225,3 x 10-14,LINC00243,Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs2251396,6:31396930,1 x 10-22,"MICA, HLA-S",Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs2857595,6:31600692,2 x 10-23,"NCR3, UQCRHP1",Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs1270942,6:31951083,5 x 10-25,CFB,Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs1980493,6:32395438,2 x 10-20,"TSBP1-AS1, BTNL2",Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs1015166,6:32830954,4 x 10-22,TAP2,Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs2153977,1:113537449,4 x 10-7,MAGI3,Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs2476601,1:113834946,7 x 10-20,PTPN22,Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs2358994,1:113886839,2 x 10-11,"AP4B1-AS1, BCL2L15",Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs7679475,4:121392885,4 x 10-10,"TUBB4BP5, QRFPR",Type 1 diabetes and autoimmune thyroid diseases,GCST002876
+rs3842727,11:2163618,3 x 10-7,"INS, TH",Type 1 diabetes in high risk HLA genotype individuals (time to event),GCST006196
+rs73043122,6:166969779,4 x 10-6,"RNASET2, MIR3939",Type 1 diabetes in high risk HLA genotype individuals (time to event),GCST006196
+rs113306148,10:122400322,3 x 10-6,PLEKHA1,Type 1 diabetes in high risk HLA genotype individuals (time to event),GCST006196
+rs10831551,11:2217058,5 x 10-6,"ASCL2, MIR4686",Type 1 diabetes in high risk HLA genotype individuals (time to event),GCST006196
+rs428595,22:21662102,2 x 10-6,"PPIL2, MIR130B",Type 1 diabetes in high risk HLA genotype individuals (time to event),GCST006196
+rs11725853,4:174721548,8 x 10-7,GLRA3,Urinary albumin excretion rate in type 1 diabetes,GCST002382
+rs2410601,8:19065067,4 x 10-6,PSD3,Urinary albumin excretion rate in type 1 diabetes,GCST002382
+rs111821448,3:111874722,5 x 10-6,PHLDB2,Type 1 diabetes (age at diagnosis),GCST011773
+rs139881548,4:46372280,7 x 10-6,GABRA2,Type 1 diabetes (age at diagnosis),GCST011773
+rs34740712,4:165916328,5 x 10-6,TLL1,Type 1 diabetes (age at diagnosis),GCST011773
+rs4513644,5:57837318,8 x 10-7,LINC02225,Type 1 diabetes (age at diagnosis),GCST011773
+rs78824139,6:64748694,9 x 10-6,EYS,Type 1 diabetes (age at diagnosis),GCST011773
+rs6461299,7:17147155,2 x 10-6,AHR,Type 1 diabetes (age at diagnosis),GCST011773
+rs10255565,7:43408191,1 x 10-6,HECW1,Type 1 diabetes (age at diagnosis),GCST011773
+rs35766765,8:132775726,3 x 10-6,PHF20L1,Type 1 diabetes (age at diagnosis),GCST011773
+rs74629033,9:5421234,5 x 10-6,PLGRKT,Type 1 diabetes (age at diagnosis),GCST011773
+rs10961433,9:14228472,2 x 10-6,NFIB,Type 1 diabetes (age at diagnosis),GCST011773
+rs4837404,9:129743380,5 x 10-6,PTGES,Type 1 diabetes (age at diagnosis),GCST011773
+rs1110458,16:22969144,8 x 10-6,"HS3ST2, USP31",Type 1 diabetes (age at diagnosis),GCST011773
+rs2941522,17:39754115,7 x 10-9,"IKZF3, GRB7",Type 1 diabetes (age at diagnosis),GCST011773
+rs10258381,7:10057028,5 x 10-6,'-,Type 1 diabetes (age at diagnosis),GCST011773
+rs114631266,6:29058810,2 x 10-6,"OR2P1P, OR2W1",Type 1 diabetes (age at diagnosis),GCST011773
+rs2471863,6:29931850,8 x 10-7,"HLA-U, HLA-K",Type 1 diabetes (age at diagnosis),GCST011773
+rs34941730,6:29946109,2 x 10-9,"HLA-W, HLA-A",Type 1 diabetes (age at diagnosis),GCST011773
+rs45626136,6:30345252,1 x 10-6,"RPP21, TRIM39-RPP21",Type 1 diabetes (age at diagnosis),GCST011773
+rs116020851,6:30954755,3 x 10-7,"HCG21, SFTA2",Type 1 diabetes (age at diagnosis),GCST011773
+rs1265057,6:31110838,2 x 10-6,"RNU6-1133P, C6orf15",Type 1 diabetes (age at diagnosis),GCST011773
+rs116763857,6:31173705,1 x 10-14,POU5F1,Type 1 diabetes (age at diagnosis),GCST011773
+rs9264758,6:31280657,3 x 10-7,RPL3P2,Type 1 diabetes (age at diagnosis),GCST011773
+rs9501130,6:31449679,2 x 10-11,"HCP5, LINC01149",Type 1 diabetes (age at diagnosis),GCST011773
+rs3093664,6:31576865,3 x 10-7,TNF,Type 1 diabetes (age at diagnosis),GCST011773
+rs3134938,6:32238711,8 x 10-7,"NOTCH4, TSBP1-AS1",Type 1 diabetes (age at diagnosis),GCST011773
+rs926592,6:32337881,6 x 10-6,"TSBP1-AS1, TSBP1",Type 1 diabetes (age at diagnosis),GCST011773
+rs3135365,6:32421478,9 x 10-6,"HLA-DRA, TSBP1-AS1",Type 1 diabetes (age at diagnosis),GCST011773
+rs9268576,6:32427864,2 x 10-8,"TSBP1-AS1, HLA-DRA",Type 1 diabetes (age at diagnosis),GCST011773
+rs7760731,6:32615624,6 x 10-11,"HLA-DRB1, HLA-DQA1",Type 1 diabetes (age at diagnosis),GCST011773
+rs9275358,6:32700118,3 x 10-7,"MTCO3P1, HLA-DQB1",Type 1 diabetes (age at diagnosis),GCST011773
+rs35122968,6:32714422,4 x 10-11,"HLA-DQB3, MTCO3P1",Type 1 diabetes (age at diagnosis),GCST011773
+rs3997848,6:32714617,2 x 10-14,"MTCO3P1, HLA-DQB3",Type 1 diabetes (age at diagnosis),GCST011773
+rs241427,6:32836637,4 x 10-6,TAP2,Type 1 diabetes (age at diagnosis),GCST011773
+rs4148870,6:32838614,2 x 10-6,TAP2,Type 1 diabetes (age at diagnosis),GCST011773
+rs3128930,6:33107889,7 x 10-6,"HLA-DPB2, COL11A2P1",Type 1 diabetes (age at diagnosis),GCST011773
+rs17407280,1:20693912,7 x 10-6,KIF17,Type 1 diabetes (age at diagnosis),GCST011773
+rs10919543,1:161538827,6 x 10-6,"FCGR3A, RPS23P10",Type 1 diabetes (age at diagnosis),GCST011773
+rs7524087,1:212470318,8 x 10-6,LINC02771,Type 1 diabetes (age at diagnosis),GCST011773
+rs77155259,2:161647730,2 x 10-6,SLC4A10,Type 1 diabetes (age at diagnosis),GCST011773
+rs6679677,1:113761186,2 x 10-6,"RSBN1, PHTF1",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs3184504,12:111446804,4 x 10-7,"ATXN2, SH2B3",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs428595,22:21662102,1 x 10-6,"PPIL2, MIR130B",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs6679677,1:113761186,2 x 10-6,"RSBN1, PHTF1",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs3842727,11:2163618,1 x 10-7,"INS, TH",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs11705721,3:58414687,9 x 10-6,PXK,Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs28600853,1:2863195,6 x 10-6,TTC34,Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs3842727,11:2163618,6 x 10-6,"INS, TH",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs9934817,16:6086218,8 x 10-6,RBFOX1,Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),GCST006197
+rs72743477,15:67171953,8 x 10-11,SMAD3,Pediatric autoimmune diseases,GCST003097
+rs12598357,16:28329624,4 x 10-9,"SBK1, NPIPB6",Pediatric autoimmune diseases,GCST003097
+rs12928404,16:28835925,6 x 10-7,ATXN2L,Pediatric autoimmune diseases,GCST003097
+rs117372389,16:50634166,8 x 10-11,NKD1,Pediatric autoimmune diseases,GCST003097
+rs12232497,17:39883866,3 x 10-7,"GSDMB, ZPBP2",Pediatric autoimmune diseases,GCST003097
+rs62131887,19:10476920,4 x 10-7,"PDE4A, KEAP1",Pediatric autoimmune diseases,GCST003097
+rs602662,19:48703728,5 x 10-8,FUT2,Pediatric autoimmune diseases,GCST003097
+rs2738774,20:63637985,9 x 10-7,"MHENCR, STMN3",Pediatric autoimmune diseases,GCST003097
+rs2836882,21:39094644,5 x 10-8,RPL23AP12,Pediatric autoimmune diseases,GCST003097
+rs2066363,1:81771892,8 x 10-11,ADGRL2,Pediatric autoimmune diseases,GCST003097
+rs114846446,2:2944140,2 x 10-7,LINC01250,Pediatric autoimmune diseases,GCST003097
+rs7672495,4:4990640,1 x 10-7,"CYTL1, RN7SKP113",Pediatric autoimmune diseases,GCST003097
+rs7660520,4:182824168,8 x 10-11,"DCTD, TENM3",Pediatric autoimmune diseases,GCST003097
+rs7831697,8:137124061,5 x 10-7,RNU6-144P,Pediatric autoimmune diseases,GCST003097
+rs7042370,9:12785074,1 x 10-7,"LURAP1L, LURAP1L-AS1",Pediatric autoimmune diseases,GCST003097
+rs10988542,9:129894985,7 x 10-7,FNBP1,Pediatric autoimmune diseases,GCST003097
+rs7100025,10:37303610,8 x 10-11,LINC00993,Pediatric autoimmune diseases,GCST003097
+rs11839053,13:106410694,1 x 10-6,"RPL35P9, LINC00460",Pediatric autoimmune diseases,GCST003097
+rs77150043,16:50270338,6 x 10-9,ADCY7,Pediatric autoimmune diseases,GCST003097
+rs2807264,X:136583619,1 x 10-8,"LINC00892, RNU6-320P",Pediatric autoimmune diseases,GCST003097
+rs12863738,X:136949968,6 x 10-8,"SRRM1P3, RPL22P23",Pediatric autoimmune diseases,GCST003097
+rs36001488,2:233276621,8 x 10-11,ATG16L1,Pediatric autoimmune diseases,GCST003097
+rs4676410,2:240624322,2 x 10-7,GPR35,Pediatric autoimmune diseases,GCST003097
+rs4625,3:49534707,8 x 10-11,DAG1,Pediatric autoimmune diseases,GCST003097
+rs62324212,4:122639784,3 x 10-8,IL21-AS1,Pediatric autoimmune diseases,GCST003097
+rs7725052,5:40487168,8 x 10-11,"RNU1-150P, TTC33",Pediatric autoimmune diseases,GCST003097
+rs7731626,5:56148856,1 x 10-10,ANKRD55,Pediatric autoimmune diseases,GCST003097
+rs4869313,5:96888176,9 x 10-8,ERAP2,Pediatric autoimmune diseases,GCST003097
+rs11741255,5:132475490,2 x 10-9,"IRF1, IRF1-AS1",Pediatric autoimmune diseases,GCST003097
+rs755374,5:159402286,2 x 10-10,"IL12B, LINC01845",Pediatric autoimmune diseases,GCST003097
+rs36051895,9:4981866,9 x 10-8,"HNRNPA1P41, JAK2",Pediatric autoimmune diseases,GCST003097
+rs4246905,9:114790969,1 x 10-8,TNFSF15,Pediatric autoimmune diseases,GCST003097
+rs11145763,9:136369144,3 x 10-8,CARD9,Pediatric autoimmune diseases,GCST003097
+rs706778,10:6056986,6 x 10-9,IL2RA,Pediatric autoimmune diseases,GCST003097
+rs10822050,10:62679011,8 x 10-11,ALDH7A1P4,Pediatric autoimmune diseases,GCST003097
+rs1250563,10:79287626,1 x 10-8,ZMIZ1,Pediatric autoimmune diseases,GCST003097
+rs1332099,10:99538694,9 x 10-11,"SLC25A28, NKX2-3",Pediatric autoimmune diseases,GCST003097
+rs17885785,11:2146620,8 x 10-11,"INS-IGF2, IGF2-AS",Pediatric autoimmune diseases,GCST003097
+rs17466626,12:40366829,3 x 10-10,LRRK2,Pediatric autoimmune diseases,GCST003097
+rs1689510,12:56002984,4 x 10-9,SUOX,Pediatric autoimmune diseases,GCST003097
+rs11580078,1:67203951,8 x 10-11,"C1orf141, IL23R",Pediatric autoimmune diseases,GCST003097
+rs6679677,1:113761186,8 x 10-11,"RSBN1, PHTF1",Pediatric autoimmune diseases,GCST003097
+rs34884278,1:172869708,4 x 10-7,AIMP1P2,Pediatric autoimmune diseases,GCST003097
+rs6689858,1:197406337,2 x 10-7,CRB1,Pediatric autoimmune diseases,GCST003097
+rs55705316,1:206760172,1 x 10-6,"IL10, Y_RNA",Pediatric autoimmune diseases,GCST003097
+rs2075184,2:102464132,9 x 10-8,"IL18RAP, SLC9A4",Pediatric autoimmune diseases,GCST003097
