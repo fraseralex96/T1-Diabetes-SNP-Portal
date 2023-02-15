@@ -64,7 +64,7 @@ main {
 
 
 .img {
-  background: url('./diabetes.jpeg') no-repeat center center; 
+  background: url('../images/diabetes.jpeg') no-repeat center center; 
   background-size: cover;
   position: hidden;
   padding: 25px;
