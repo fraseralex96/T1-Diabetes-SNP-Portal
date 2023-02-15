@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Gene search</title>
-		<link href="style.css" rel="stylesheet">
+		<link href="../static/css/style.css" rel="stylesheet">
 	</head>
 	<body>
 
@@ -9,11 +9,11 @@
 		<header>
 		    <div class='nav'>
 		      <div class='container'>
-		        <img src='./logo.jpeg'>   
-		        <a style=float:right; href="./resources_page.html">Resources</a>
-		        <a style=float:right; href="./search_page.html">Search</a>
-		        <a style=float:right; href="./about_page.html">About</a>
-		        <a style=float:right; href="./homepage.html">Home</a>
+		        <img src='../static/images/logo.jpeg'>   
+		        <a style=float:right; href="/resources">Resources</a>
+		        <a style=float:right; href="/search/SNP">Search</a>
+		        <a style=float:right; href="/about">About</a>
+		        <a style=float:right; href="/">Home</a>
 		      </div>  
 		    </div>
 		  </header>
@@ -29,9 +29,9 @@
         	  	<div class="dropdown">
             		<button class="dropbtn">Select to search by:</button>
             		<div class="dropdown-content">
-                		<a href="./snp.html">SNP</a> <!-- link to html template with different forms! -->
-                		<a href="./gene.html">Gene Name</a>
-                		<a href="./chromo.html">Genomic coordinates</a>
+                		<a href="/search/SNP">SNP</a> <!-- link to html template with different forms! -->
+                		<a href="/search/gene">Gene Name</a>
+                		<a href="/search/chromosome">Genomic coordinates</a>
             		</div>
           		</div>
           		<div class="genelabel">
@@ -41,7 +41,7 @@
           			<form method="POST", class="search-bar">
           				<!--<label for="genename">Gene Name</label>-->
           				<input type="text" name="genename" id="genename" placeholder="e.g CCR7" required size="49">
-          				<button type="submit" id="gene_submission"><img src="./search_img.png"></button>
+          				<button type="submit" id="gene_submission"><img src="../static/images/search_img.png"></button>
           			</form>
           		</div>
           	</div>  

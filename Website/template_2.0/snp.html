@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>SNP search</title>
-		<link href="style.css" rel="stylesheet">
+		<link href="../static/css/style.css" rel="stylesheet">
 	</head>
 	<body>
 
@@ -9,11 +9,11 @@
 		<header>
 		    <div class='nav'>
 		      <div class='container'>
-		        <img src='./logo.jpeg'>   
-		        <a style=float:right; href="./resources_page.html">Resources</a>
-		        <a style=float:right; href="./search_page.html">Search</a>
-		        <a style=float:right; href="./about_page.html">About</a>
-		        <a style=float:right; href="./homepage.html">Home</a>
+		        <img src='../static/images/logo.jpeg'>   
+		        <a style=float:right; href="/resources">Resources</a>
+		        <a style=float:right; href="/search">Search</a>
+		        <a style=float:right; href="/about.html">About</a>
+		        <a style=float:right; href="/">Home</a>
 		      </div>  
 		    </div>
 		  </header>
@@ -29,9 +29,9 @@
           		<div class="dropdown">
             		<button class="dropbtn">Select to search by:</button>
             		<div class="dropdown-content">
-                		<a href="./snp.html">SNP</a> <!-- link to html template with different forms! -->
-                		<a href="./gene.html">Gene Name</a>
-                		<a href="./chromo.html">Genomic coordinates</a>
+                		<a href="/search/SNP">SNP</a> <!-- link to html template with different forms! -->
+                		<a href="/search/gene">Gene Name</a>
+                		<a href="/search/chromosome">Genomic coordinates</a>
             		</div>
           		</div>
           		<div class="snplabel">
@@ -41,7 +41,7 @@
           			<form method="POST", class="search-bar">
           				<!--<label for="snpname">SNP</label>-->
           				<input type="text" name="snpname" id="snpname" placeholder="e.g rs1234567" required size="49">
-          				<button type="submit" id="snp_submission"><img src="./search_img.png"></button>
+          				<button type="submit" id="snp_submission"><img src="../static/images/search_img.png"></button>
           			</form>
           		</div>
           	</div>  
