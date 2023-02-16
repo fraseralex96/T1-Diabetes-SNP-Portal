@@ -3,19 +3,19 @@
 <html lang="en">
 
 <head>
-	<title>Download</title>
-	<link href="../static/css/style.css" rel="stylesheet">
+	<title>Downloads</title>
+	<link href="style.css" rel="stylesheet">
 </head>
 	
 <body>
 	<header>
 		<div class='nav'>
 		    <div class='container'>
-		        <img src='../static/images/logo.jpeg' >  
-		        <a style=float:right; href="/resources">Resources</a>
-		        <a style=float:right; href="/search/SNP">Search</a>
-		        <a style=float:right; href="/about">About</a>
-		        <a style=float:right; href="/">Home</a>
+		        <a href="./homepage.html"><img src='./logo.jpeg'></a> 
+		        <a style=float:right; href="./resources_page.html">Resources</a>
+		        <a style=float:right; href="./search_page.html">Search</a>
+		        <a style=float:right; href="./about_page.html">About</a>
+		        <a style=float:right; href="./homepage.html">Home</a>
 		    </div>  
 		</div>
 	</header>
@@ -32,33 +32,33 @@
 				</tr>
 
 				<tr>
-					<td>Variant Information</td>
+					<td> <b>Variant Information</b> <em> e.g. snp name, chromosome location, mapped genes and allele frequencies</em> </td>
 					<td>comma separated values (csv)</td>
-					<td><a href="/download/main.csv">Click to download</a></td>
+					<td><a href="./Variant_data.csv" class="button">Download</a></td>
 				</tr>
 
 				<tr>
-					<td>Clinical Data</td>
+					<td><b>Clinical Data</b><em> e.g. functional and clinical signficance data</em></td>
 					<td>comma separated values (csv)</td>
-					<td><a href="/download/cs.csv">Click to download</a></td>
+					<td><a href="./Clinical_data.csv" class="button">Download</a></td>
 				</tr>
 
 				<tr>
-					<td>Gene Ontology</td>
+					<td><b>Gene Ontology</b><em> e.g. functional or ontology terms associated with each mapped gene</em></td>
 					<td>comma separated values (csv)</td>
-					<td><a href="/download/gt.csv">Click to download</a></td>
+					<td><a href="./go_terms.csv" class="button">Download</a></td>
 				</tr>
 
 				<tr>
-					<td>Linkage Disequilibrium</td>
+					<td><b>Linkage Disequilibrium</b></td>
 					<td>text file (txt)</td>
-					<td><a href="#" download>Click to download</a></td>
+					<td><a href="#" class="button">Download</a></td>
 				</tr>
 
 				<tr>
-					<td>Type 1 diabetes manhattan plot</td>
+					<td><b>Type 1 diabetes manhattan plot</b></td>
 					<td>image</td>
-					<td><a href="/download/manhattan_plot.png">Click to download</a></td>
+					<td><a href="./manhattan_plot.png" class="button">Download</a></td>
 				</tr>
 			</table>
 		</div>
