@@ -412,6 +412,7 @@ form a:hover {
   border: 1px solid #ccc;
   float: left;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .plot:hover {
