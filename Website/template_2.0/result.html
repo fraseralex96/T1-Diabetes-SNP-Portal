@@ -1,27 +1,27 @@
 <!--DOCTYPE html-->
 
 <!--Link title -->
-<head>
-  <title>Results </title>
-  <!--<link href="../static/css/resultstyles.css" rel="stylesheet">-->
-  <link href="./style.css" rel="stylesheet">
-  <link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
-</head>
+<html>
+  <head>
+    <title>Result</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
+  </head>
+  <body>
 
-<!--Header -->
-<body>
-  <header>
-      <div class='nav'>
-        <img src='../static/images/logo.jpeg'>
-        <a style=float:right; href="/resources">Resources</a>
-        <a style=float:right; href="/search">Search</a>
-        <a style=float:right; href="/about">About</a>
-        <a style=float:right; href="/">Home</a>
-      </div> 
-  </header>
-  
+    <!--Header with anchor tags to relavant pages -->
+    <header>
+        <div class='nav'>
+          <img src='../static/images/logo.jpeg'>    
+            <a style=float:right; href="/resources">Resources</a>
+            <a style=float:right; href="/search/SNP">Search</a>
+            <a style=float:right; href="/about">About</a>
+            <a style=float:right; href="/">Home</a>
+        </div>
+      </header>
+
    <!--Sidebar -->
-   <main>
+  <main>
      <div class="row">
        <div class="sidebar">
           <ul>
@@ -44,7 +44,6 @@
         
         <div><table>
           <tr>
-            <th> </th>
             <th>Variant name and risk allele</th>
             <th>Location</th>
             <th>Mapped gene(s)</th>
@@ -55,7 +54,6 @@
           </tr>
        {% for i in range(count) %}
           <tr>
-            <td><input type="checkbox"/></td>
             <td>{{ result1[i] }}</td>
             <td>{{ result3[i] }}</td>
             <td>{{ result4[i] }}</td>
@@ -68,17 +66,17 @@
        </table>
       </div>
 
-        <br>
+        <!-- Remove these buttons and create a checkbox at the bottom in a form
         <div class='analysis'> 
           <form>
             <a href="#ManhattanPlot" class="button">Manhattan Plot</a>
             <a href="#LinkageDisequilibrium" class="button">Linkage Disequilibrium (LD)</a>
           </form>
         </div>
-      </div> 
+      </div> -->
 
-      <div class= "table" id='ClinicalSignificance'>
-        <h2>Clinical Significance </h2>
+      <div class= "table">
+        <h2><div id='ClinicalSignificance'>Clinical Significance</div> </h2>
         <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
       
        <table>
@@ -106,8 +104,8 @@
        </table>
       </div>
 
-      <div id="GeneOntology" class= "table">
-        <h2> Gene Ontology</h2>
+      <div class= "table">
+        <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
         <p> Include GO terms description in a sentence</p>
       
         <table>
@@ -126,8 +124,8 @@
         {% endfor %}
         </table>  
 
-        <div id="ManhattanPlot">
-          <h2>Manhattan Plot</h2>
+        <div>
+          <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
           <p> A demo showing position where the Manhattan plot for type 1 diabetes will be placed</p>
         </div>
 
@@ -139,25 +137,35 @@
 
         <br>
 
-        <div id="LinkageDisequilibrium">
-          <h2>Linkage Disequilibrium</h2>
-          <p> A demo showing position where the LD plot will be placed</p>
+        <div>
+          <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
 
-          <div class="Population">
+          <form action="http://127.0.0.1:5000" method="get, post"> <!-- We need to link this to the LD page but I will leave it as it is for now-->
+
             <label for="popultion" >Please select population of interest: </label>
-              <select name="popultion" id="popultion">
-                <option value="British">British</option>
-                <option value="Han Chinese">Chinese</option>
-                <option value="Yoruba">African</option>
-              </select>
+            <select name="popultion" id="popultion">
+              <option value="British">British</option>
+              <option value="Han Chinese">Han Chinese</option>
+              <option value="Yoruba">Yoruba</option>
+            </select><br>
 
-            <div class="submit"><button type="submit">Submit</button></div>
-          
+            <br>
+
+            {% for i in range (count)%}
+            <label>Please select SNPs of interest:</label><br>
+            <input type="checkbox" id="snp1" name={{[i]}} value="snp1">
+            <label for="snp1">{{result1[i]}}</label><br>
+            {% endfor %}
+
+            <br>
+
+            <input type="submit" value="Submit">
+          </form> 
+
             <div class="plot">
-              <a target="_blank" href="#">
-              <img src="./LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
-              <div class="desc">Linkage Disequilibrium plot for SNPs in selected population</div>
-            </div>
+            <a target="_blank" href="#">
+            <img src="./LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
+            <div class="desc">Linkage Disequilibrium plot for SNPs in selected population</div>
           </div>
         </div>
       </div> 

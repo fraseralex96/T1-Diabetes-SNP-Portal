@@ -275,7 +275,6 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-
 .noresult {
   text-align: center;
   margin: 100px auto;
@@ -350,7 +349,6 @@ input[type=number] {
   margin-bottom: 40px;
 }
 
-
 .table table {
   border-collapse: collapse;
   border-bottom: 1px solid darkgray;
@@ -359,7 +357,6 @@ input[type=number] {
   overflow: auto;
   margin-bottom: 50px;
 }
-
 
 .table th {
   background-color: #4fc9c3;
@@ -432,10 +429,33 @@ form a:hover {
   font-family: Helvetica;
 }
 
-
 #label {
   font-family: Helvitica;
   font-size: 16px;
+}
+
+/* LD plot layout*/
+
+main .LD {
+  text-align: center ;
+}
+
+.LDplot{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 65%;
+  margin-bottom: 50px;
+  margin-left: 250px;
+}
+
+.LDplot:hover {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.LDplot img {
+  width: 100%;
+  height: auto;
+  justify: center;
 }
 
 /* Resource page design/layout */
