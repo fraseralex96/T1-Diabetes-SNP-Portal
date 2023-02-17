@@ -44,14 +44,14 @@
         
         <div><table>
           <tr>
-            <th><input type="checkbox"></th>
+            <th> </th>
             <th>Variant name and risk allele</th>
             <th>Location</th>
             <th>Mapped gene(s)</th>
             <th>p-values</th>
             <th>RAF British</th>
-            <th>RAF Chinese</th>
-            <th>RAF African</th>
+            <th>RAF Han Chinese</th>
+            <th>RAF Yoruba</th>
           </tr>
        {% for i in range(count) %}
           <tr>
@@ -147,8 +147,8 @@
             <label for="popultion" >Please select population of interest: </label>
               <select name="popultion" id="popultion">
                 <option value="British">British</option>
-                <option value="Chinese">Chinese</option>
-                <option value="African">African</option>
+                <option value="Han Chinese">Chinese</option>
+                <option value="Yoruba">African</option>
               </select>
 
             <div class="submit"><button type="submit">Submit</button></div>
