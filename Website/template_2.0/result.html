@@ -130,8 +130,8 @@
         </div>
 
         <div class="plot">
-          <a target="_blank" href="./manhattan_plot.png">
-          <img src="./manhattan_plot.png" alt="Manhattan_plot"></a>
+          <a target="_blank" href="../static/imahes/manhattan_plot.png">
+          <img src="../static/images/manhattan_plot.png" alt="Manhattan_plot"></a>
           <div class="desc">Single nucleotide polymorphisms for type 1 diabetes</div>
         </div>
 
@@ -140,10 +140,10 @@
         <div>
           <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
 
-          <form action="http://127.0.0.1:5000" method="get, post"> <!-- We need to link this to the LD page but I will leave it as it is for now-->
+          <form action="http://127.0.0.1:5000" method='POST'> <!-- We need to link this to the LD page but I will leave it as it is for now-->
 
-            <label for="popultion" >Please select population of interest: </label>
-            <select name="popultion" id="popultion">
+            <label for="population" >Please select population of interest: </label>
+            <select name="population" id="population">
               <option value="British">British</option>
               <option value="Han Chinese">Han Chinese</option>
               <option value="Yoruba">Yoruba</option>
@@ -164,7 +164,7 @@
 
             <div class="plot">
             <a target="_blank" href="#">
-            <img src="./LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
+            <img src="../static/images/LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
             <div class="desc">Linkage Disequilibrium plot for SNPs in selected population</div>
           </div>
         </div>
