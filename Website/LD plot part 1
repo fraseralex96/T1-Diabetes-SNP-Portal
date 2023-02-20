@@ -1,0 +1,11 @@
+import matplotlib.pyplot as mp
+import pandas as pd
+import seaborn as sb
+import numpy as np
+
+ld=pd.read_csv("GB.csv")
+ld
+
+mask = np.triu(np.ones_like(ld.corr()))
+
+dataplot = sb.heatmap(ld.corr(), cmap="YlGnBu", mask=mask)
