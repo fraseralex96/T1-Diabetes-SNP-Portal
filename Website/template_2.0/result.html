@@ -41,7 +41,10 @@
        
      <div id="VariantInformation" class= "table">
         <div><h2>Variant Information </h2></div>
-        
+      {% if count < 1 %}
+        <p>No data found</p>
+      {% endif %}
+      {% if count > 0 %}
         <div><table>
           <tr>
             <th>Variant name and risk allele</th>
@@ -52,6 +55,8 @@
             <th>RAF Han Chinese</th>
             <th>RAF Yoruba</th>
           </tr>
+
+
        {% for i in range(count) %}
           <tr>
             <td>{{ result1[i] }}</td>
@@ -63,7 +68,9 @@
             <td>{{ result7[i] }}</td>
           </tr>
         {% endfor %} 
+      
        </table>
+      {% endif %}
       </div>
 
         <!-- Remove these buttons and create a checkbox at the bottom in a form
@@ -78,7 +85,10 @@
       <div class= "table">
         <h2><div id='ClinicalSignificance'>Clinical Significance</div> </h2>
         <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
-      
+      {% if count2 < 1 %}
+        <p>No data found</p>
+      {% endif %}
+      {% if count2 > 0 %}
        <table>
         <tr>
           <th>Variant name</th>
@@ -102,12 +112,16 @@
        {% endfor %}
 
        </table>
+       {% endif %}
       </div>
 
       <div class= "table">
         <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
         <p> Include GO terms description in a sentence</p>
-      
+      {% if count3 < 1 %}
+        <p>No data found</p>
+      {% endif %}
+      {% if count3 > 0 %}
         <table>
           <tr>
             <th>Gene name</th>
@@ -119,23 +133,23 @@
 
         {% for i in range(count3) %}
           <tr>
-            <td>{{ result16[i] }}</td>
             <td>{{ result15[i] }}</td>
+            <td>{{ result16[i] }}</td>
             <td>{{ result17[i] }}</td>
             <td>{{ result18[i] }}</td>
             <td>{{ result19[i] }}</td>
           </tr>
         {% endfor %}
         </table>  
-
+        {% endif %}
         <div>
           <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
           <p> A demo showing position where the Manhattan plot for type 1 diabetes will be placed</p>
         </div>
 
         <div class="plot">
-          <a target="_blank" href="./manhattan_plot.png">
-          <img src="./manhattan_plot.png" alt="Manhattan_plot"></a>
+          <a target="_blank" href="../static/images/manhattan_plot.png">
+          <img src="../static/images/manhattan_plot.png" alt="Manhattan_plot"></a>
           <div class="desc">Single nucleotide polymorphisms for type 1 diabetes</div>
         </div>
 
@@ -143,33 +157,34 @@
 
         <div>
           <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
+            {% if count < 1 %}
+              <p>No SNPs available</p>
+            {% endif %}
+          {% if count > 0 %}
+          <form action="/result/LD" method='POST'> <!-- We need to link this to the LD page but I will leave it as it is for now-->
 
-          <form action="http://127.0.0.1:5000" method="get, post"> <!-- We need to link this to the LD page but I will leave it as it is for now-->
-
-            <label for="popultion" >Please select population of interest: </label>
-            <select name="popultion" id="popultion">
+            <label for="population" >Please select population of interest: </label>
+            <select name="population" id="population">
               <option value="British">British</option>
               <option value="Han Chinese">Han Chinese</option>
               <option value="Yoruba">Yoruba</option>
             </select><br>
 
             <br>
-
-            {% for i in range (count)%}
             <label>Please select SNPs of interest:</label><br>
-            <input type="checkbox" id="snp1" name={{[i]}} value="snp1">
+            {% for i in range (count)%}
+            <input type="checkbox" id="snp1" name=ld value={{result1[i]}}>
             <label for="snp1">{{result1[i]}}</label><br>
             {% endfor %}
-
             <br>
-
             <input type="submit" value="Submit">
           </form> 
-
+          {% endif %}
             <div class="plot">
             <a target="_blank" href="#">
-            <img src="./LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
+            <img src="../static/images/LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
             <div class="desc">Linkage Disequilibrium plot for SNPs in selected population</div>
+
           </div>
         </div>
       </div> 
