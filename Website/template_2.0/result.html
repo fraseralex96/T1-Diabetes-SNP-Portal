@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <!--Header with anchor tags to relavant pages -->
+   Header with anchor tags to relavant pages 
     <header>
         <div class='nav'>
           <img src='../static/images/logo.jpeg'>    
@@ -18,9 +18,9 @@
             <a style=float:right; href="/about">About</a>
             <a style=float:right; href="/">Home</a>
         </div>
-      </header>
+      </header> 
 
-   <!--Sidebar -->
+<!--Sidebar -->
   <main>
      <div class="row">
        <div class="sidebar">
@@ -35,16 +35,13 @@
      </div>
 
     <!-- Main Results --> 
-    <div class= "table" style="margin-left:20%;padding:1px 16px;height:1200px;">
+    <div class= "table" style="margin-left:20%;padding:1px 16px;height:auto;">
        <h1>Query: {{ search }}</h1>
 
        
      <div id="VariantInformation" class= "table">
         <div><h2>Variant Information </h2></div>
-      {% if count < 1 %}
-        <p>No data found</p>
-      {% endif %}
-      {% if count > 0 %}
+        
         <div><table>
           <tr>
             <th>Variant name and risk allele</th>
@@ -55,8 +52,6 @@
             <th>RAF Han Chinese</th>
             <th>RAF Yoruba</th>
           </tr>
-
-
        {% for i in range(count) %}
           <tr>
             <td>{{ result1[i] }}</td>
@@ -67,28 +62,14 @@
             <td>{{ result6[i] }}</td>
             <td>{{ result7[i] }}</td>
           </tr>
-        {% endfor %} 
-      
+        {% endfor %}
+        <div id='ClinicalSignificance'></div> 
        </table>
-      {% endif %}
-      </div>
-
-        <!-- Remove these buttons and create a checkbox at the bottom in a form
-        <div class='analysis'> 
-          <form>
-            <a href="#ManhattanPlot" class="button">Manhattan Plot</a>
-            <a href="#LinkageDisequilibrium" class="button">Linkage Disequilibrium (LD)</a>
-          </form>
-        </div>
-      </div> -->
 
       <div class= "table">
-        <h2><div id='ClinicalSignificance'>Clinical Significance</div> </h2>
+        <h2>Clinical Significance</h2>
         <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
-      {% if count2 < 1 %}
-        <p>No data found</p>
-      {% endif %}
-      {% if count2 > 0 %}
+      
        <table>
         <tr>
           <th>Variant name</th>
@@ -110,18 +91,14 @@
           <td>{{ result14[i] }}</td>
         </tr>
        {% endfor %}
-
+        <div id="GeneOntology"></div>
        </table>
-       {% endif %}
       </div>
 
       <div class= "table">
-        <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
-        <p> Include GO terms description in a sentence</p>
-      {% if count3 < 1 %}
-        <p>No data found</p>
-      {% endif %}
-      {% if count3 > 0 %}
+        <h2> Gene Ontology</h2>
+        <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
+      
         <table>
           <tr>
             <th>Gene name</th>
@@ -140,52 +117,49 @@
             <td>{{ result19[i] }}</td>
           </tr>
         {% endfor %}
+        <div id="ManhattanPlot"></div>
         </table>  
-        {% endif %}
+
         <div>
-          <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
-          <p> A demo showing position where the Manhattan plot for type 1 diabetes will be placed</p>
+          <h2>Manhattan Plot</h2>
+          <p>Interactive GWAS plot showing association between SNPs on autosomes and Type 1 diabetes. Hover over SNPs points on the graph for more information.</p>
+      
         </div>
 
         <div class="plot">
-          <a target="_blank" href="../static/images/manhattan_plot.png">
-          <img src="../static/images/manhattan_plot.png" alt="Manhattan_plot"></a>
+          <a target="_blank" href="./manhattan_plot.png">
+          <img src="./manhattan_plot.png" alt="Manhattan_plot"></a>
           <div class="desc">Single nucleotide polymorphisms for type 1 diabetes</div>
+          <div id="LinkageDisequilibrium"></div>
         </div>
 
         <br>
 
         <div>
-          <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
-            {% if count < 1 %}
-              <p>No SNPs available</p>
-            {% endif %}
-          {% if count > 0 %}
-          <form action="/result/LD" method='POST'> <!-- We need to link this to the LD page but I will leave it as it is for now-->
+          <h2>Linkage Disequilibrium</h2>
 
-            <label for="population" >Please select population of interest: </label>
-            <select name="population" id="population">
+          <form action="http://127.0.0.1:5000" method="get, post"> <!-- We need to link this to the LD page but I will leave it as it is for now-->
+
+            <label for="popultion" >Please select population of interest: </label>
+            <select name="popultion" id="popultion">
               <option value="British">British</option>
               <option value="Han Chinese">Han Chinese</option>
               <option value="Yoruba">Yoruba</option>
             </select><br>
 
             <br>
-            <label>Please select SNPs of interest:</label><br>
+
             {% for i in range (count)%}
-            <input type="checkbox" id="snp1" name=ld value={{result1[i]}}>
+            <label>Please select SNPs of interest:</label><br>
+            <input type="checkbox" id="snp1" name={{[i]}} value="snp1">
             <label for="snp1">{{result1[i]}}</label><br>
             {% endfor %}
+
             <br>
+
             <input type="submit" value="Submit">
           </form> 
-          {% endif %}
-            <div class="plot">
-            <a target="_blank" href="#">
-            <img src="../static/images/LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
-            <div class="desc">Linkage Disequilibrium plot for SNPs in selected population</div>
 
-          </div>
         </div>
       </div> 
     </div>

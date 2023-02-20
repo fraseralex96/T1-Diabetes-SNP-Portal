@@ -1,43 +1,184 @@
+<!--DOCTYPE html-->
+
+<!--Link title -->
 <html>
-	<head>
-		<title>LD plot</title>
-		<link href="../static/css/style.css" rel="stylesheet">
-		<link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
-	</head>
-	<body>
+  <head>
+    <title>LD Results</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
+  </head>
+  <body>
 
-		<!--Header with anchor tags to relavant pages -->
-		<header>
-    		<div class='nav'>
-     			<img src='../static/images/logo.jpeg'>    
-      			<a style=float:right; href="/resources">Resources</a>
-      			<a style=float:right; href="/search/SNP">Search</a>
-      			<a style=float:right; href="/about">About</a>
-      			<a style=float:right; href="/">Home</a>
-    		</div>
-  		</header>
+    Header with anchor tags to relavant pages 
+    <header>
+        <div class='nav'>
+          <img src='../static/images/logo.jpeg'>    
+            <a style=float:right; href="/resources">Resources</a>
+            <a style=float:right; href="/search/SNP">Search</a>
+            <a style=float:right; href="/about">About</a>
+            <a style=float:right; href="/">Home</a>
+        </div>
+      </header>
 
-  		<!--Main text -->
-    	<main>
-	    	<div class="LD">
-	    		<h2> Linkage disequilibrium plot for Type 1 diabetes SNPs</h2>
-	    		<br>
+   <!--Sidebar -->
+  <main>
+     <div class="row">
+       <div class="sidebar">
+          <ul>
+           <li><a href='#'>Variant Information</a></li>
+           <li><a href='#ClinicalSignificance'>Clinical Significance</a></li>
+           <li><a href='#GeneOntology'>Gene Ontology</a></li>
+           <li><a href='#ManhattanPlot'>Manhattan Plot</a></li>
+           <li><a href='#LinkageDisequilibrium'>Linkage Disequilibrium</a></li>
+          </ul>
+       </div>
+     </div>
+
+    <!-- Main Results --> 
+    <div class= "table" style="margin-left:20%;padding:1px 16px;height:auto;">
+       <h1>Query: {{ search }}</h1>
+
+       
+     <div id="VariantInformation" class= "table">
+        <div><h2>Variant Information </h2></div>
+        
+        <div><table>
+          <tr>
+            <th>Variant name and risk allele</th>
+            <th>Location</th>
+            <th>Mapped gene(s)</th>
+            <th>p-values</th>
+            <th>RAF British</th>
+            <th>RAF Han Chinese</th>
+            <th>RAF Yoruba</th>
+          </tr>
+       {% for i in range(count) %}
+          <tr>
+            <td>{{ result1[i] }}</td>
+            <td>{{ result3[i] }}</td>
+            <td>{{ result4[i] }}</td>
+            <td>{{ result2[i] }}</td>
+            <td>{{ result5[i] }}</td>
+            <td>{{ result6[i] }}</td>
+            <td>{{ result7[i] }}</td>
+          </tr>
+        {% endfor %} 
+        <div id='ClinicalSignificance'></div> 
+       </table>
+       
+      <div class= "table">
+        <h2>Clinical Significance</h2>
+        <p>Include paragraph on SIFT and Polyphen predictions and scores</p>
+      
+       <table>
+        <tr>
+          <th>Variant name</th>
+          <th>Variant Consequence</th>
+          <th>Clinical Significance</th>
+          <th>Polyphen Prediction</th>
+          <th>Polyphen Score</th>
+          <th>SIFT Prediction</th>
+          <th>SIFT Score</th>
+        </tr>
+       {% for i in range(count2) %}
+        <tr>
+          <td>{{ result8[i] }}</td>
+          <td>{{ result9[i] }}</td>
+          <td>{{ result10[i] }}</td>
+          <td>{{ result11[i] }}</td>
+          <td>{{ result12[i] }}</td>
+          <td>{{ result13[i] }}</td>
+          <td>{{ result14[i] }}</td>
+        </tr>
+       {% endfor %}
+       	<div id="GeneOntology"></div>
+       </table>
+      </div>
+
+      <div class= "table">
+        <h2>Gene Ontology</h2>
+        <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
+      
+        <table>
+          <tr>
+            <th>Gene name</th>
+            <th>GO domain</th>
+            <th>GO term name</th>
+            <th>GO term definition</th>
+            <th>GO term accession</th>
+           </tr>
+
+        {% for i in range(count3) %}
+          <tr>
+            <td>{{ result15[i] }}</td>
+            <td>{{ result16[i] }}</td>
+            <td>{{ result17[i] }}</td>
+            <td>{{ result18[i] }}</td>
+            <td>{{ result19[i] }}</td>
+          </tr>
+        {% endfor %}
+        <div id="ManhattanPlot"></div>
+        </table>  
+
+        <div>
+          <h2>Manhattan Plot</h2>
+          <p>Interactive GWAS plot showing association between SNPs on autosomes and Type 1 diabetes. Hover over SNPs points on the graph for more information.</p>
+        </div>
+
+        <div class="plot">
+          <a target="_blank" href="./manhattan_plot.png">
+          <img src="./manhattan_plot.png" alt="Manhattan_plot"></a>
+          <div class="desc">Single nucleotide polymorphisms for type 1 diabetes</div>
+          <div id="LinkageDisequilibrium"></div>
+        </div>
+
+        <br>
+
+        <div>
+          <h2>Linkage Disequilibrium</h2>
+
+          <form action="http://127.0.0.1:5000" method="get, post"> <!-- We need to link this to the LD page but I will leave it as it is for now-->
+
+            <label for="popultion" >Please select population of interest: </label>
+            <select name="popultion" id="popultion">
+              <option value="British">British</option>
+              <option value="Han Chinese">Han Chinese</option>
+              <option value="Yoruba">Yoruba</option>
+            </select><br>
+
+            <br>
+
+            {% for i in range (count)%}
+            <label>Please select SNPs of interest:</label><br>
+            <input type="checkbox" id="snp1" name={{[i]}} value="snp1">
+            <label for="snp1">{{result1[i]}}</label><br>
+            {% endfor %}
+
+            <br>
+
+            <input type="submit" value="Submit">
+          </form> 
+
+            <div class="LD">
+
 	    		<div class="LDplot">
 		            <a target="_blank" href="#">
 		            <img src="./LD.jpeg" alt="Linkage Disequilibrium plot to be positioned here"></a>
 		            <div class="desc">Linkage Disequilibrium plot for SNPs in selected population</div>
 	          	</div>
+	          	
 	          	<div class="Download"> 
-	          		<p>Click here to download LD text file <a href="#" class="button">Download</a></p>
+	          		<p>Download LD text file here:  <a href="#" class="button">Download</a></p>
 	          	</div>
+
 	        </div>
-   	 	</main>
+        </div>
+      </div> 
+    </div>
+  </main>
 
+<footer>
+   <p class="copyright">© Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
+</footer>
 
-   	 	<!--Footer -->
-    	<footer>
-      		<p class="copyright"> © Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
-    	</footer>
-
-	</body>
-</html>
+</body>
