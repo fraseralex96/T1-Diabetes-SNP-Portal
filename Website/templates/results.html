@@ -14,7 +14,7 @@
       <a style=float:right; href="./resources_page.html">Resources</a>
       <a style=float:right; href="./search_page.html">Search</a>
       <a style=float:right; href="./about_page.html">About</a>
-      <a style=float:right; href="/Users/lynnettebhebhe/Desktop/SNP website/homepage.html">Home</a>
+      <a style=float:right; href="./homepage.html">Home</a>
     </div>
   </header>
   
@@ -183,11 +183,14 @@
     <div id="ManhattanPlot">
       <h2>Manhattan Plot</h2>
       <p> A demo showing position where the Manhattan plot for type 1 diabetes will be placed</p>
+      <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="{{url_for('static', filename='newman.html')}}" height="525" width="100%"></iframe>
     </div>
 
     <div class="plot">
-      <a target="_blank" href="./manhattan_plot.png">
-      <img src="./manhattan_plot.png" alt="Manhattan_plot"></a>
+      <a target="_blank" href="figure.html">
+      <img src="figure.html" alt="Manhattan_plot"></a>
+      <embed type="text/html" src="figure.html"  width="1000" height="500">
+        
       <div class="desc">Single nucleotide polymorphisms for type 1 diabetes</div>
     </div>
 
