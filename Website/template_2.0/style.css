@@ -590,6 +590,8 @@ main .button:hover{
 footer {
      background: -webkit-linear-gradient(-45deg, #35577D, #7ab7f0);
      overflow: hidden;
-     color: white;
      font-size: 16px;
     }
+footer p {
+     color: white;
+}
