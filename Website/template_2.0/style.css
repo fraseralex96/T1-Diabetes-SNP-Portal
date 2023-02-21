@@ -428,9 +428,6 @@ input[type=number] {
   height: auto;
 }
 
-.plot:hover {
-  box-shadow: 10px 10px 5px lightblue;
-}
 
 .desc {
   padding: 15px;
