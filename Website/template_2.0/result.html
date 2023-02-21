@@ -42,55 +42,65 @@
      <div id="VariantInformation" class= "table">
         <div><h2>Variant Information </h2></div>
         
-        <div><table>
-          <tr>
-            <th>Variant name and risk allele</th>
-            <th>Location</th>
-            <th>Mapped gene(s)</th>
-            <th>p-values</th>
-            <th>RAF British</th>
-            <th>RAF Han Chinese</th>
-            <th>RAF Yoruba</th>
-          </tr>
-       {% for i in range(count) %}
-          <tr>
-            <td>{{ result1[i] }}</td>
-            <td>{{ result3[i] }}</td>
-            <td>{{ result4[i] }}</td>
-            <td>{{ result2[i] }}</td>
-            <td>{{ result5[i] }}</td>
-            <td>{{ result6[i] }}</td>
-            <td>{{ result7[i] }}</td>
-          </tr>
-        {% endfor %}
-        <div id='ClinicalSignificance'></div> 
-       </table>
+        <div>
+          <table class="fixed_header">
+            <thead>
+              <tr>
+                <th>Variant name and risk allele</th>
+                <th>Location</th>
+                <th>Mapped gene(s)</th>
+                <th>p-values</th>
+                <th>RAF British</th>
+                <th>RAF Han Chinese</th>
+                <th>RAF Yoruba</th>
+              </tr>
+            </thead>
+         {% for i in range(count) %}
+            <tbody>
+              <tr>
+                <td>{{ result1[i] }}</td>
+                <td>{{ result3[i] }}</td>
+                <td>{{ result4[i] }}</td>
+                <td>{{ result2[i] }}</td>
+                <td>{{ result5[i] }}</td>
+                <td>{{ result6[i] }}</td>
+                <td>{{ result7[i] }}</td>
+              </tr>
+          {% endfor %}
+            </tbody>
+            <div id='ClinicalSignificance'></div>
+          </table>
 
+      
       <div class= "table">
         <h2>Clinical Significance</h2>
         <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
       
-       <table>
-        <tr>
-          <th>Variant name</th>
-          <th>Variant Consequence</th>
-          <th>Clinical Significance</th>
-          <th>Polyphen Prediction</th>
-          <th>Polyphen Score</th>
-          <th>SIFT Prediction</th>
-          <th>SIFT Score</th>
-        </tr>
+       <table class="fixed_header">
+        <thead>
+          <tr>
+            <th>Variant name</th>
+            <th>Variant Consequence</th>
+            <th>Clinical Significance</th>
+            <th>Polyphen Prediction</th>
+            <th>Polyphen Score</th>
+            <th>SIFT Prediction</th>
+            <th>SIFT Score</th>
+          </tr>
+        </thead>
        {% for i in range(count2) %}
-        <tr>
-          <td>{{ result8[i] }}</td>
-          <td>{{ result9[i] }}</td>
-          <td>{{ result10[i] }}</td>
-          <td>{{ result11[i] }}</td>
-          <td>{{ result12[i] }}</td>
-          <td>{{ result13[i] }}</td>
-          <td>{{ result14[i] }}</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>{{ result8[i] }}</td>
+            <td>{{ result9[i] }}</td>
+            <td>{{ result10[i] }}</td>
+            <td>{{ result11[i] }}</td>
+            <td>{{ result12[i] }}</td>
+            <td>{{ result13[i] }}</td>
+            <td>{{ result14[i] }}</td>
+          </tr>
        {% endfor %}
+        </tbody>
         <div id="GeneOntology"></div>
        </table>
       </div>
@@ -99,24 +109,27 @@
         <h2> Gene Ontology</h2>
         <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
       
-        <table>
-          <tr>
-            <th>Gene name</th>
-            <th>GO domain</th>
-            <th>GO term name</th>
-            <th>GO term definition</th>
-            <th>GO term accession</th>
-           </tr>
-
-        {% for i in range(count3) %}
-          <tr>
-            <td>{{ result15[i] }}</td>
-            <td>{{ result16[i] }}</td>
-            <td>{{ result17[i] }}</td>
-            <td>{{ result18[i] }}</td>
-            <td>{{ result19[i] }}</td>
-          </tr>
-        {% endfor %}
+        <table class="fixed_header">
+          <thead>
+            <tr>
+              <th>Gene name</th>
+              <th>GO domain</th>
+              <th>GO term name</th>
+              <th>GO term definition</th>
+              <th>GO term accession</th>
+            </tr>
+          </thead>
+          {% for i in range(count3) %}
+          <tbody>
+            <tr>
+              <td>{{ result15[i] }}</td>
+              <td>{{ result16[i] }}</td>
+              <td>{{ result17[i] }}</td>
+              <td>{{ result18[i] }}</td>
+              <td>{{ result19[i] }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
         <div id="ManhattanPlot"></div>
         </table>  
 
