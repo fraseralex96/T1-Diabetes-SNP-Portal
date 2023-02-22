@@ -1,4 +1,5 @@
-body{
+/*----------------------------------- Body layout (all pages)---------------------------------------  */
+body {
   margin: 0;
   display: flex;
   min-height: 100vh;
@@ -6,14 +7,85 @@ body{
   font-family: helvetica;
 }
 
+/*----------------------------------- Main layout(all pages)----------------------------------------  */
+main {
+  margin-top: 90px;
+  display: block;
+  flex: 1 0 auto;
+  background: white;
+}
+
+/*----------------------------------- Navigation bar (all pages)------------------------------------  */
+.nav { 
+  background:  #5b82ab;
+  background: -webkit-linear-gradient(-45deg, #35577D, #7ab7f0);
+  background: linear-gradient(-45deg, #35577D, #7ab7f0);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.nav img {
+  background: url('./logo.jpeg');
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+}
+
+/* Nav text design */
+.nav a {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+  text-align: right;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Nav background design */
+.nav a {
+  color: white;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+}
+
+.nav a:hover {
+  background: white;
+  cursor: pointer; 
+  transition: background .5s;
+  color:  #5b82ab;
+  padding:0 10px 0 10px ;
+}
+
+/*----------------------------------- Advanced search layout----------------------------------------  */
+
+/* Drop down button */
+.search_info {
+  text-align: center;
+}
+
 .dropbtn {
-  background-color: #7ab7f0;
-  color: black;
+  background-color: #35577D;
+  color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   display:block;
+  border-radius: 6px;
+  width: 200px;
+  height: 80px;
 }
 
 .dropdown {
@@ -37,155 +109,515 @@ body{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #7ab7f0}
+.dropdown-content a:hover {
+  background-color: #35577D;
+  color: white;
+  text-decoration: none;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #7ab7f0;
+  background-color: #35577D;
 }
 
-.nav { 
-  background:  #5b82ab;
-  background: -webkit-linear-gradient(-45deg, #35577D, #7ab7f0);
-  background: linear-gradient(-45deg, #35577D, #7ab7f0);
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 80px;
-}
-
-.nav a {
-  height: 80px;
-  list-style: none;
-  margin: 0 auto; 
-  padding: 0;
-  text-align: right;
-  font-family: Helvetica;
-  font-weight: normal;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.nav a {
-  color: white;
-  display: inline-block; 
-  height: 80px;
-  line-height: 80px; 
-  list-style: none;
-  padding: 0 10px;
-  transition: background .5s; 
-  text-decoration: none;
-}
-
-.nav a:hover {
-  background: white;
-  cursor: pointer; 
-  transition: background .5s;
-  color:  #5b82ab;
-}
-
-.nav img {
-  background: url('./logo.jpeg');
-  display: inline-block; 
-  height: 80px;
-  line-height: 80px; 
-  list-style: none;
-  padding: 0 10px;
-}
-
-
-main {
-  margin-top: 100px;
-  display: block;
-  flex: 1 0 auto;
-}
-
-
-
-/* #container {
-  display: flex;
-  align-items: center;
+.dropdown {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  
-} */
-
-
-.snp_search {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 500px;
-  width: 500px;
+  top: 291px;
+  left: 154px;
   margin-top: 0;
   padding: 10px;
 }
 
+/* Search options labelled */
+.snplabel {
+  text-align:center;
+  position: absolute;
+  top: 300px;
+  left: 365px;
+  margin-top: 0;
+  width: 100%;
+  max-width: 194px;
+  background: #35577D;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 7px 20px;
+  color: white;
 
+}
+
+.genelabel {
+  text-align:center;
+  position: absolute;
+  top: 300px;
+  left: 365px;
+  margin-top: 0;
+  width: 100%;
+  max-width: 194px;
+  background: #35577D;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 7px 20px;
+  color: white;
+}
+
+.chromolabel {
+  text-align:center;
+  position: absolute;
+  top: 300px;
+  left: 365px;
+  margin-top: 0;
+  width: 100%;
+  max-width: 194px;
+  background: #35577D;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 11px 20px;
+  color: white;
+}
+
+/*search bar background and visuals*/
+.search-bar{
+  width: 100%;
+  max-width: 700px;
+  background: #35577D;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px 20px;
+}
+
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: white;
+}
+
+#chromoloc1 {
+  border-right: 2px solid white; /*show line to seperate two input fields for coordinates*/
+}
+
+.search-bar button img{
+  width: 25px;
+}
+
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #7ab7f0;
+  cursor: pointer;
+}
+
+/* search bars */
+.snp_search {
+  text-align:center;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  margin-top: 0;
+}
 
 .gene_search {
   text-align:center;
   position: absolute;
   top: 300px;
-  left: 500px;
-  width: 530px;
+  left: 600px;
   margin-top: 0;
-  padding: 10px;
 }
 
 .chromoloc_search {
   text-align:center;
   position: absolute;
   top: 300px;
-  left: 580px;
-  width: 650px;
+  left: 600px;
   margin-top: 0;
-  padding: 10px;
 }
 
-input[type=submit]{
-  background-color: #7ab7f0;
-  text-decoration: none;
-  
-  cursor: pointer;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+/*change colour of suggested input in search bar*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
 }
 
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
 
-
-.dropdown {
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  width: 500px;
-  margin-top: 0;
-  padding: 10px;
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
 }
 
 
-/* Chrome, Safari, Edge, Opera */
+/* Get rid of arrows in number input bar.Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
+/* get rid of arrows in number input bar Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/*----------------------------------- No result layout----------------------------------------------  */
+
+.noresult {
+  text-align: center;
+  margin: 100px auto;
+}
+
+/*----------------------------------- About page layout---------------------------------------------  */
+
+.about_text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 80em
+}
+
+.about_text p {
+  color: black;
+}
+
+/*----------------------------------- Results page layout-------------------------------------------  */
+
+/*Side bar design*/
+.sidebar {
+  background: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  height: 70%;
+  overflow: hidden;
+}
+
+.sidebar ul {
+  display:block;
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.sidebar ul li a{
+  display: block;
+  color: #35577D; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: background .5s; 
+}
+
+.sidebar ul li a:hover {
+  background: white;
+  cursor: pointer;
+  transition: background .5s;
+  color:  #35577D;
+  font-weight: bold;
+}
+
+/* Table design */
+.table p {
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+.table h1 {
+  margin-top: 0px;
+  font-family: Helvetica;
+  margin-bottom: 40px;
+}
+
+.table table {
+  border-collapse: collapse;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.table th {
+  background-color: #4fc9c3;
+  margin-top: 100px; 
+  color: white;
+  padding: 12px;
+  border-bottom: 1px solid darkgray;
+  overflow-x: auto;
+}
+
+.table table th, td {
+ text-align: justify;
+ font-family: Helvetica;
+ padding: 12px;
+}
+
+.table tr:nth-child(even){
+  background-color: #f2f2f2
+}
+.table tr:hover {
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+}
+
+/* table scroll variants/cs */
+
+.fixed_header{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.fixed_header thead tr {
+  display: block;
+}
+
+.fixed_header th, td {
+  padding: 12px;
+  text-align: justify;
+  width: 500px;
+}
+
+/* table scroll go_terms */
+
+.go_fixed_header{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.go_fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.go_fixed_header thead tr {
+  display: block;
+}
+
+.go_fixed_header th, td {
+  padding: 12px;
+  text-align: left;
+  width: 500px;
+}
+
+.go_fixed_header td {
+  width: auto;
+}
+
+
+/* LD plot */
+.submit {
+  display: inline-block;
+}
+
+.plot {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.plot img {
+  width: 100%;
+  height: auto;
+}
+
+.plot:hover {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#label {
+  font-family: Helvitica;
+  font-size: 16px;
+}
+
+/* LD plot layout*/
+
+main .LD {
+  text-align: center ;
+}
+
+.LDplot{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.LDplot img {
+  width: 100%;
+  height: auto;
+  justify: center;
+}
+
+.LDplot:hover {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+/*----------------------------------- Resource page layout-------------------------------------------  */
+.info h2, p {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.column {
+  margin-left: 300px;
+  width: 60%;
+  border-collapse: collapse;
+}
+
+.column img {
+  border-radius: 12px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.box {
+  border-bottom: 1px solid lightgray;
+}
+
+.box p {
+  margin-bottom: 20px;
+  color: gray;
+  text-align: left;  
+}
+
+.column .box h2 {
+  color: #133178 !important;
+}
+
+main .button {
+  background-color: #133178;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+main .button:hover{
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+/*----------------------------------- Download page layout-------------------------------------------  */
+
+.download h2 {
+  margin-left: 80px;
+  font-family: Helvetica;
+  margin-top: 40px;
+}
+
+.download table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto; 
+}
+
+.download tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.download table th, td {
+ text-align: justify;
+ font-family: Helvetica;
+ padding: 12px;
+}
+
+.download th {
+  background-color: white;
+  font-size: 18px;
+  color: #133178;
+  padding: 12px;
+  border-bottom: 2px solid darkgray;
+  overflow-x: auto;
+}
+
+.download table td a{
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2854ad;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 10px;
+}
+
+.download table tr a:hover {
+  background-color: #133178;
+  cursor: pointer;
+}
+
+.download table tr a:active {
+  background-color: #133178;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*----------------------------------- Footer layout (all pages)-------------------------------------  */
+
 footer {
      background: -webkit-linear-gradient(-45deg, #35577D, #7ab7f0);
      overflow: hidden;
-     color: white;
      font-size: 16px;
     }
+footer p {
+     color: white;
+}
