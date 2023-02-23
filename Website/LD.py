@@ -107,7 +107,7 @@ mask[np.tril_indices_from(mask)] = True
 sns.heatmap(df, cmap="coolwarm", annot=True, mask=mask, square=True)
 
 
- #all important code for the linkage disequilibrium polot here. 
+ #all important code for the linkage disequilibrium plot here. 
 
 
 #my attempt with the ld_plot
