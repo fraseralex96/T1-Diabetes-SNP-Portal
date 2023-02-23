@@ -1,0 +1,379 @@
+﻿Variant and risk allele,P-value,P-value annotation,RAF,OR,Beta,CI,Mapped gene,Reported trait,Trait(s),Background trait(s),Study accession,Location
+rs2153977-<b>T</b>,4 x 10-7,,NR,1.491,'-,'-,MAGI3,Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,1:113537449
+rs6679677-<b>A</b>,5 x 10-26,,0.1,1.82,'-,[1.59-2.09],"RSBN1, PHTF1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,1:113761186
+rs2476601-<b>?</b>,5 x 10-16,,0.14,1.529,'-,[1.38-1.693],PTPN22,Latent autoimmune diabetes vs. type 2 diabetes,"latent autoimmune diabetes in adults, type 2 diabetes mellitus",'-,GCST007246,1:113834946
+rs2476601-<b>A</b>,1 x 10-7,,0.09,1.8,'-,[1.44-2.24],PTPN22,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000054,1:113834946
+rs2476601-<b>T</b>,2 x 10-80,,0.09,1.98,'-,[1.82-2.15],PTPN22,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,1:113834946
+rs2476601-<b>G</b>,1 x 10-50,,NR,'-,0.4287 unit decrease,[0.37-0.48],PTPN22,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,1:113834946
+rs2358994-<b>A</b>,2 x 10-11,,NR,1.8688,'-,'-,"AP4B1-AS1, BCL2L15",Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,1:113886839
+rs2641348-<b>G</b>,2 x 10-8,,0.107,1.113,'-,'-,ADAM30,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,1:119895261
+rs1493696-<b>A</b>,8 x 10-9,,0.13231,'-,0.12832591 unit increase,[0.085-0.172],NOTCH2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:119962909
+rs2229238-<b>C</b>,1 x 10-12,,0.813,0.896,'-,'-,IL6R,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,1:154465420
+rs857786-<b>T</b>,6 x 10-9,,NR,1.322,'-,[1.203-1.452],"MNDA, OR10AA1P",Type 1 diabetes with low genetic risk score,type 1 diabetes mellitus,'-,GCST90000181,1:158815304
+rs10919543-<b>G</b>,6 x 10-6,,0.346,'-,0.055 unit decrease,[0.031-0.079],"FCGR3A, RPS23P10",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,1:161538827
+rs78037977-<b>G</b>,2 x 10-9,,0.124,0.884,'-,'-,"FASLG, SLC25A38P1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,1:172746562
+rs34884278-<b>C</b>,4 x 10-7,,0.3,'-,'-,'-,AIMP1P2,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,1:172869708
+rs2816313-<b>A</b>,5 x 10-9,,0.719,1.09,'-,'-,RGS1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,1:192570207
+rs6689858-<b>C</b>,2 x 10-7,,0.29,'-,'-,'-,CRB1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,1:197406337
+rs570794153-<b>GA</b>,4 x 10-11,,0.139675,'-,0.14543974 unit decrease,[0.1-0.19],"PTPRC, ATP6V1G3",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:198629260
+rs6691977-<b>C</b>,4 x 10-8,,0.19,1.13,'-,'-,CAMSAP2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,1:200845831
+rs55705316-<b>G</b>,1 x 10-6,,0.14,'-,'-,'-,"IL10, Y_RNA",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,1:206760172
+rs3024505-<b>?</b>,2 x 10-9,,0.83,1.19,'-,[1.10-1.30],"Y_RNA, IL10",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,1:206766559
+rs3024505-<b>G</b>,5 x 10-10,,NR,1.2,'-,[NR],"Y_RNA, IL10",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,1:206766559
+rs17407280-<b>C</b>,7 x 10-6,,0.777,'-,0.058 unit increase,[0.033-0.083],KIF17,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,1:20693912
+rs7524087-<b>G</b>,8 x 10-6,,0.019,'-,0.285 unit increase,[0.16-0.41],LINC02771,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,1:212470318
+rs12128789-<b>C</b>,4 x 10-9,,0.131779,'-,0.12696852 unit increase,[0.085-0.169],"BATF3, LINC02773",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:212679490
+rs11120029-<b>T</b>,2 x 10-8,,0.147,1.102,'-,'-,TATDN3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,1:212796238
+rs10751776-<b>C</b>,3 x 10-8,,0.509915,'-,0.07814535 unit increase,[0.051-0.106],"RUNX3, MIR4425",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:24970252
+rs28600853-<b>G</b>,6 x 10-6,(IAA-first),0.011,3.233,'-,'-,TTC34,Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),"event free survival time, type 1 diabetes mellitus, autoantibody measurement",carrier status,GCST006197,1:2863195
+rs574384-<b>A</b>,2 x 10-8,,0.894668,'-,0.13360222 unit decrease,[0.087-0.18],PSMB2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:35622060
+rs12742756-<b>G</b>,4 x 10-8,,0.428204,'-,0.08310696 unit decrease,[0.054-0.113],INPP5B,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:37881745
+rs2269247-<b>T</b>,1 x 10-10,,0.18,1.17,'-,[1.12-1.23],PGM1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST010681,1:63641613
+rs2269241-<b>G</b>,4 x 10-7,,0.19,1.1,'-,[1.02-1.18],PGM1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,1:63643100
+rs855330-<b>C</b>,5 x 10-11,,0.259422,'-,0.111207716 unit increase,[0.078-0.144],PGM1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,1:63648218
+rs11580078-<b>G</b>,8 x 10-11,,0.43,'-,'-,'-,"C1orf141, IL23R",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,1:67203951
+rs2066363-<b>C</b>,8 x 10-11,,0.34,'-,'-,'-,ADGRL2,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,1:81771892
+rs1983853-<b>?</b>,2 x 10-6,,NR,1.2,'-,[1.11-1.29],LPAR3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000244,1:84845509
+rs34090353-<b>C</b>,1 x 10-8,,0.361,1.078,'-,'-,RPAP2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,1:92358141
+rs7903146-<b>T</b>,1 x 10-14,,NR,'-,0.1668 unit increase,[0.12-0.21],TCF7L2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,10:112998590
+rs113306148-<b>A</b>,3 x 10-6,,0.013,3.067,'-,'-,PLEKHA1,Type 1 diabetes in high risk HLA genotype individuals (time to event),"disease free survival, type 1 diabetes mellitus",carrier status,GCST006196,10:122400322
+rs722988-<b>C</b>,3 x 10-15,,0.367,1.108,'-,'-,"NRP1, IATPR",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,10:33137219
+rs7100025-<b>G</b>,8 x 10-11,,0.34,'-,'-,'-,LINC00993,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,10:37303610
+rs61839660-<b>?</b>,5 x 10-9,,NR,1.6,'-,[1.44-1.76],IL2RA,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001394,10:6052734
+rs61839660-<b>C</b>,3 x 10-39,,0.9,1.6129031,'-,'-,IL2RA,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,10:6052734
+rs12722495-<b>A</b>,1 x 10-38,,NR,1.61,'-,[NR],IL2RA,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,10:6055320
+rs706779-<b>C</b>,3 x 10-8,,NR,'-,0.0963 unit decrease,[0.062-0.13],IL2RA,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,10:6056861
+rs706778-<b>T</b>,6 x 10-9,,0.41,'-,'-,'-,IL2RA,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,10:6056986
+rs10795791-<b>G</b>,6 x 10-11,(conditioned rs61839660),0.41,1.16,'-,'-,"IL2RA, RPL32P23",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,10:6066377
+rs12251307-<b>T</b>,2 x 10-6,,NR,'-,'-,'-,"RPL32P23, RBM17",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,10:6081532
+rs12251307-<b>?</b>,1 x 10-13,,NR,'-,'-,'-,"RPL32P23, RBM17",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,10:6081532
+rs41295121-<b>C</b>,5 x 10-8,"(conditioned rs61839660, rs10795791)",0.99,2.0408163,'-,'-,"RBM17, RPL32P23",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,10:6087680
+rs1983890-<b>C</b>,3 x 10-8,,0.642,1.2302363,'-,[1.14396450049362-1.32301382549448],"RBM17, PFKFB3",Latent autoimmune diabetes,latent autoimmune diabetes in adults,'-,GCST007245,10:6136651
+rs10822050-<b>C</b>,8 x 10-11,,0.39,'-,'-,'-,ALDH7A1P4,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,10:62679011
+rs947474-<b>G</b>,4 x 10-9,,0.19,1.1,'-,[1.03-1.18],LINC02649,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,10:6348488
+rs11258747-<b>?</b>,1 x 10-7,,NR,'-,'-,'-,PRKCQ,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,10:6430929
+rs78325861-<b>G</b>,2 x 10-11,,0.039037,'-,0.2820823 unit decrease,[0.2-0.36],"ADAMTS14, PRF1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,10:70618733
+rs1250563-<b>C</b>,1 x 10-8,,0.29,'-,'-,'-,ZMIZ1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,10:79287626
+rs3802604-<b>C</b>,2 x 10-8,,0.38,1.24,'-,[1.15-1.33],GATA3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST008377,10:8060309
+rs537544-<b>T</b>,9 x 10-9,,0.615565,'-,0.08641077 unit decrease,[0.057-0.116],GATA3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,10:8066419
+rs10509540-<b>?</b>,1 x 10-28,,0.71,1.33,'-,[1.25-1.43],RNLS,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,10:88263276
+rs12416116-<b>C</b>,4 x 10-15,,0.72,1.1764705,'-,'-,RNLS,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,10:88275897
+rs10788599-<b>?</b>,1 x 10-6,,0.83,1.4492754,'-,'-,RNLS,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST009916,10:88428167
+rs10786436-<b>T</b>,8 x 10-7,,NR,1.1,'-,[NR],HPSE2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,10:98540425
+rs1332099-<b>T</b>,9 x 10-11,,0.46,'-,'-,'-,"SLC25A28, NKX2-3",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,10:99538694
+rs607703-<b>T</b>,1 x 10-10,,0.484409,'-,0.09201457 unit increase,[0.064-0.12],FLI1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,11:128734279
+rs605093-<b>T</b>,4 x 10-9,,0.47,1.077,'-,'-,FLI1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,11:128734337
+rs78896587-<b>T</b>,1 x 10-9,,'-,'-,0.20937194 unit decrease,[0.14-0.28],"H19, IGF2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,11:2055620
+rs4366464-<b>C</b>,1 x 10-9,,'-,'-,0.403326 unit increase,[0.27-0.53],"IGF2-AS, INS-IGF2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,11:2143569
+rs17885785-<b>T</b>,8 x 10-11,,0.2,'-,'-,'-,"INS-IGF2, IGF2-AS",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,11:2146620
+rs3741208-<b>T</b>,2 x 10-7,,0.38,1.25,'-,[1.15-1.35],"INS-IGF2, IGF2-AS",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,11:2148544
+rs1004446-<b>C</b>,4 x 10-9,,0.65,1.61,'-,[1.37-1.89],INS-IGF2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000054,11:2148913
+rs1004446-<b>G</b>,3 x 10-23,,NR,1.4,'-,[NR],INS-IGF2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,11:2148913
+rs3842753-<b>G</b>,8 x 10-44,,NR,'-,0.3085 unit increase,[0.26-0.35],"INS, INS-IGF2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,11:2159830
+rs689-<b>?</b>,1 x 10-18,,0.715,1.473,'-,[1.352-1.605],"INS-IGF2, INS",Latent autoimmune diabetes vs. type 2 diabetes,"latent autoimmune diabetes in adults, type 2 diabetes mellitus",'-,GCST007246,11:2160994
+rs689-<b>A</b>,5 x 10-196,,NR,'-,'-,'-,"INS-IGF2, INS",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,11:2160994
+rs689-<b>T</b>,1 x 10-160,,0.71,2.21,'-,[2.08-2.34],"INS-IGF2, INS",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST010681,11:2160994
+rs3842727-<b>T</b>,1 x 10-13,,0.26,1.53,'-,[1.37–1.72],"INS, TH",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST009916,11:2163618
+rs3842727-<b>A</b>,3 x 10-7,,0.716,1.9841269,'-,'-,"INS, TH",Type 1 diabetes in high risk HLA genotype individuals (time to event),"disease free survival, type 1 diabetes mellitus",carrier status,GCST006196,11:2163618
+rs4929965-<b>G</b>,2 x 10-31,,'-,'-,0.36365113 unit increase,[0.3-0.42],"ASCL2, MIR4686",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,11:2176056
+rs72853903-<b>C</b>,6 x 10-10,(conditioned on rs689),0.62,1.1764705,'-,'-,"ASCL2, MIR4686",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,11:2177435
+rs7111341-<b>?</b>,4 x 10-48,,NR,'-,'-,'-,"ASCL2, MIR4686",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,11:2191936
+rs10831551-<b>C</b>,5 x 10-6,,0.048,2.219,'-,'-,"ASCL2, MIR4686",Type 1 diabetes in high risk HLA genotype individuals (time to event),"disease free survival, type 1 diabetes mellitus",carrier status,GCST006196,11:2217058
+rs5790666-<b>?</b>,8 x 10-9,,NR,2.32,'-,[1.65-3.26],"CBX3P1, BDNF",Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,11:27778324
+rs2237897-<b>T</b>,2 x 10-8,,0.391598026,'-,0.24306235 unit decrease,[0.16-0.33],KCNQ1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018705,11:2837316
+rs140215710-<b>A</b>,4 x 10-8,,0.010339,'-,0.412643 unit increase,[0.27-0.56],"KCNQ1DN, CDKN1C",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,11:2881830
+rs11033048-<b>T</b>,2 x 10-10,,0.366,1.091,'-,'-,SLC1A2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,11:35267496
+rs79538630-<b>T</b>,1 x 10-9,,0.035,1.213,'-,'-,"CD6, SLC15A3",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,11:60961822
+rs968567-<b>T</b>,8 x 10-9,,0.177,0.903,'-,'-,"FADS1, FADS2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,11:61828092
+rs645078-<b>C</b>,3 x 10-9,,0.385,0.925,'-,'-,RPS6KA4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,11:64367826
+rs4084127-<b>?</b>,3 x 10-6,,NR,1.11,'-,[NR],"FGF3, FGF4",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,11:69781755
+rs7936434-<b>C</b>,4 x 10-8,,0.464277,'-,0.07692268 unit increase,[0.05-0.104],"LINC02757, EMSY",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,11:76582761
+rs1265564-<b>?</b>,1 x 10-16,,NR,1.45,'-,[1.28-1.67],CUX2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001394,12:111270654
+rs3184504-<b>?</b>,2 x 10-8,,0.52,1.24,'-,[1.151-1.336],"ATXN2, SH2B3",Latent autoimmune diabetes vs. type 2 diabetes,"latent autoimmune diabetes in adults, type 2 diabetes mellitus",'-,GCST007246,12:111446804
+rs3184504-<b>T</b>,2 x 10-38,,NR,1.3,'-,[NR],"ATXN2, SH2B3",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,12:111446804
+rs3184504-<b>C</b>,4 x 10-14,,NR,'-,0.1433 unit decrease,[0.11-0.18],"ATXN2, SH2B3",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,12:111446804
+rs3184504-<b>A</b>,4 x 10-7,(any IA),0.462,1.35,'-,'-,"ATXN2, SH2B3",Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),"event free survival time, type 1 diabetes mellitus, autoantibody measurement",carrier status,GCST006197,12:111446804
+rs653178-<b>C</b>,2 x 10-44,,0.48,1.3,'-,'-,ATXN2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,12:111569952
+rs17696736-<b>G</b>,2 x 10-14,,0.42,1.34,'-,[1.16-1.53],NAA25,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,12:112049014
+rs17466626-<b>G</b>,3 x 10-10,,0.02,'-,'-,'-,LRRK2,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,12:40366829
+rs7313065-<b>A</b>,3 x 10-9,,0.162,1.101,'-,'-,SPRYD3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,12:53077434
+rs11170445-<b>T</b>,8 x 10-9,,NR,1.96,'-,[1.56-2.46],"EIF4A1P4, HIGD1AP1",Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,12:53151908
+rs705699-<b>T</b>,7 x 10-20,,0.26,1.46,'-,[1.34-1.58],RAB5B,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST008377,12:55991020
+rs1689510-<b>C</b>,4 x 10-9,,0.31,'-,'-,'-,SUOX,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,12:56002984
+rs1701704-<b>C</b>,9 x 10-10,,0.35,1.25,'-,[1.12-1.40],IKZF4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000141,12:56018703
+rs1701704-<b>T</b>,5 x 10-18,,NR,1.25,'-,[NR],IKZF4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,12:56018703
+rs705705-<b>C</b>,4 x 10-32,,0.34,1.25,'-,'-,RPS26,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,12:56041720
+rs10876866-<b>A</b>,3 x 10-8,,NR,'-,0.1105 unit increase,[0.071-0.15],"ERBB3, RPS26",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,12:56051582
+rs11171739-<b>C</b>,1 x 10-11,,0.42,1.34,'-,[1.17-1.54],ERBB3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,12:56076841
+rs2292239-<b>A</b>,3 x 10-16,,NR,'-,'-,'-,ERBB3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,12:56088396
+rs2292239-<b>?</b>,2 x 10-25,,NR,'-,'-,'-,ERBB3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,12:56088396
+rs2292239-<b>T</b>,3 x 10-27,,NR,1.3,'-,[NR],ERBB3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,12:56088396
+rs1805731-<b>C</b>,4 x 10-8,,0.389,1.073,'-,'-,M6PR,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,12:8942630
+rs7301381-<b>C</b>,5 x 10-11,,0.463691,'-,0.09358772 unit decrease,[0.066-0.122],KLRG1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,12:8971336
+rs3764021-<b>C</b>,5 x 10-8,,0.47,1.57,'-,[1.38-1.79],CLEC2D,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,12:9681032
+rs11052552-<b>G</b>,7 x 10-7,,0.49,1.49,'-,[1.28-1.73],"CLEC2D, LINC02390",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,12:9703362
+rs917911-<b>C</b>,2 x 10-7,,0.36,1.1,'-,'-,CD69,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,12:9753255
+rs4763879-<b>A</b>,2 x 10-11,,0.37,1.09,'-,[1.02-1.16],CD69,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,12:9757568
+rs11839053-<b>C</b>,1 x 10-6,,0.02,'-,'-,'-,"RPL35P9, LINC00460",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,13:106410694
+rs74537115-<b>T</b>,5 x 10-9,,0.141,1.109,'-,'-,LINC02341,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,13:42343795
+rs238265-<b>G</b>,2 x 10-9,,0.695162,'-,0.09082453 unit decrease,[0.061-0.121],LINC02341,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,13:42356523
+rs539514-<b>?</b>,6 x 10-11,,0.5,1.43,'-,[NR],LMO7,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,13:75752146
+rs9585056-<b>C</b>,3 x 10-8,,0.24,1.12,'-,'-,"CCR12P, TM9SF2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,13:99429512
+rs941576-<b>A</b>,1 x 10-10,,0.57,1.11,'-,[1.06-1.16],MEG3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000539,14:100839708
+rs56994090-<b>T</b>,1 x 10-11,,0.59,1.1363636,'-,'-,MEG3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,14:100840110
+rs10137082-<b>?</b>,6 x 10-6,,NR,1.1,'-,[NR],"IL25, EFS",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,14:23370824
+rs55846421-<b>?</b>,2 x 10-9,,NR,0.113,'-,[0.081-0.156],NEMF,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90095483,14:49843683
+rs911263-<b>T</b>,3 x 10-8,,0.71,1.083,'-,'-,RAD51B,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,14:68286876
+rs1465788-<b>?</b>,2 x 10-12,,0.71,1.16,'-,[1.10-1.25],"MAGOH3P, ZFP36L1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,14:68796882
+rs1456988-<b>G</b>,3 x 10-8,,0.27,1.12,'-,'-,LINC01550,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,14:98021670
+rs4900384-<b>G</b>,4 x 10-9,,0.29,1.09,'-,[1.02-1.16],LINC01550,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,14:98032614
+rs8035957-<b>C</b>,4 x 10-6,,NR,1.14,'-,[1.08-1.21],RASGRP1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000244,15:38546063
+rs72727394-<b>T</b>,4 x 10-10,,0.19,1.15,'-,'-,RASGRP1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,15:38554821
+rs7171171-<b>G</b>,2 x 10-7,,NR,'-,'-,'-,"LINC02694, RASGRP1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,15:38614840
+rs72743477-<b>G</b>,8 x 10-11,,0.21,'-,'-,'-,SMAD3,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,15:67171953
+rs34593439-<b>G</b>,9 x 10-14,,0.9,1.2820514,'-,'-,CTSH,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,15:78942615
+rs3825932-<b>T</b>,3 x 10-15,,0.68,1.16,'-,[1.10-1.22],CTSH,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,15:78943104
+rs3825932-<b>?</b>,8 x 10-8,,NR,'-,'-,'-,CTSH,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,15:78943104
+rs7167984-<b>A</b>,3 x 10-8,,NR,'-,0.1262 unit decrease,[0.082-0.171],"RGMA, SEPHS1P2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,15:93288838
+rs12708716-<b>A</b>,5 x 10-7,,0.65,1.19,'-,[0.97-1.45],CLEC16A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,16:11086016
+rs12708716-<b>G</b>,7 x 10-13,,NR,'-,'-,'-,CLEC16A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,16:11086016
+rs12708716-<b>?</b>,2 x 10-16,,NR,'-,'-,'-,CLEC16A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,16:11086016
+rs12927355-<b>C</b>,3 x 10-22,,0.68,1.2195122,'-,'-,CLEC16A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,16:11100914
+rs2903692-<b>G</b>,7 x 10-11,,0.62,1.54,'-,[1.32-1.79],CLEC16A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000054,16:11144926
+rs193778-<b>G</b>,4 x 10-10,,0.25,1.14,'-,'-,RMI2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,16:11257354
+rs416603-<b>T</b>,3 x 10-6,,0.44,1.06,'-,[1.01-1.12],RMI2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,16:11270222
+rs12444268-<b>A</b>,2 x 10-7,,0.3,1.1,'-,[1.03-1.17],"UMOD, GP2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,16:20331250
+rs4238595-<b>C</b>,2 x 10-11,,0.680478,'-,0.11213453 unit decrease,[0.079-0.145],"UMOD, GP2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,16:20331769
+rs1110458-<b>C</b>,8 x 10-6,,0.239,'-,0.055 unit decrease,[0.031-0.079],"HS3ST2, USP31",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,16:22969144
+rs12598357-<b>G</b>,4 x 10-9,,0.39,'-,'-,'-,"SBK1, NPIPB6",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,16:28329624
+rs151234-<b>C</b>,5 x 10-11,,0.12,1.19,'-,'-,CLN3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,16:28494339
+rs4788084-<b>G</b>,3 x 10-13,,0.42,1.09,'-,[1.02-1.16],"IL27, NUPR1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,16:28528527
+rs4788084-<b>C</b>,1 x 10-8,,NR,1.15,'-,[NR],"IL27, NUPR1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,16:28528527
+rs12928404-<b>C</b>,6 x 10-7,,0.38,'-,'-,'-,ATXN2L,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,16:28835925
+rs77150043-<b>T</b>,6 x 10-9,,0.23,'-,'-,'-,ADCY7,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,16:50270338
+rs117372389-<b>T</b>,8 x 10-11,,0.02,'-,'-,'-,NKD1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,16:50634166
+rs113935429-<b>A</b>,1 x 10-8,,NR,'-,0.1044 unit increase,[0.069-0.14],FTO,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,16:53788258
+rs9934817-<b>G</b>,8 x 10-6,(GADA-first),0.019,2.663,'-,'-,RBFOX1,Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),"event free survival time, type 1 diabetes mellitus, autoantibody measurement",carrier status,GCST006197,16:6086218
+rs72802342-<b>A</b>,6 x 10-10,,'-,'-,0.2877386 unit increase,[0.2-0.38],"CTRB2, ZFP1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,16:75200974
+rs7202877-<b>G</b>,3 x 10-15,,0.1,1.28,'-,[1.17-1.41],"CTRB1, CTRB2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,16:75213347
+rs8056814-<b>A</b>,3 x 10-19,,0.07,1.32,'-,'-,"CTRB1, CTRB2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,16:75218429
+rs8046043-<b>C</b>,2 x 10-8,,0.391629,'-,0.08458667 unit decrease,[0.055-0.114],'-,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,16:80250127
+rs2941522-<b>C</b>,7 x 10-9,,0.575,'-,0.069 unit decrease,[0.045-0.093],"IKZF3, GRB7",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,17:39754115
+rs12232497-<b>C</b>,3 x 10-7,,0.45,'-,'-,'-,"GSDMB, ZPBP2",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,17:39883866
+rs2872507-<b>A</b>,2 x 10-6,,NR,1.1,'-,[NR],"GSDMB, ZPBP2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,17:39884510
+rs12453507-<b>G</b>,1 x 10-8,,0.51,1.1111112,'-,'-,"ZPBP2, GSDMB",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,17:39896954
+rs2290400-<b>?</b>,6 x 10-13,,0.5,1.15,'-,[1.08-1.22],GSDMB,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,17:39909987
+rs56380902-<b>C</b>,1 x 10-8,,0.44,1.35,'-,[1.22–1.50],GSDMB,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST009916,17:39910119
+rs7221109-<b>?</b>,1 x 10-9,,0.65,1.05,'-,[0.99-1.12],"SMARCE1, CCR7",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,17:40614034
+rs757411-<b>T</b>,1 x 10-7,,0.64,1.1111112,'-,'-,"SMARCE1, CCR7",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,17:40618898
+rs1052553-<b>A</b>,8 x 10-8,,0.76,1.1235955,'-,'-,MAPT,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,17:45996523
+rs1052553-<b>G</b>,2 x 10-15,,0.232,0.879,'-,'-,MAPT,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,17:45996523
+rs11651753-<b>T</b>,1 x 10-9,,0.41983,'-,0.08688845 unit decrease,[0.059-0.115],"PRR15L, PNPO",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,17:47951723
+rs2597169-<b>G</b>,3 x 10-9,,0.348,1.081,'-,'-,PRR15L,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,17:47956725
+rs57209021-<b>T</b>,4 x 10-8,,0.225582,'-,0.1006932 unit increase,[0.065-0.137],"RDM1P3, ARHGAP27P2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,17:68168777
+rs61759532-<b>T</b>,2 x 10-10,,0.234556,'-,0.11837882 unit increase,[0.082-0.155],ACAP1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,17:7337072
+rs16956936-<b>?</b>,5 x 10-7,,0.86,1.09,'-,[1.00-1.19],DNAH2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,17:7730374
+rs2847278-<b>T</b>,1 x 10-9,,NR,'-,0.1554 unit decrease,[0.11-0.21],"PTPN2, LINC01882",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,18:12778716
+rs2542151-<b>C</b>,9 x 10-8,,NR,'-,'-,'-,"LINC01882, PTPN2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,18:12779948
+rs2542151-<b>G</b>,4 x 10-13,,NR,1.3,'-,[NR],"LINC01882, PTPN2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,18:12779948
+rs1893217-<b>?</b>,4 x 10-15,,NR,'-,'-,'-,PTPN2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,18:12809341
+rs1893217-<b>G</b>,1 x 10-15,,0.16,1.21,'-,'-,PTPN2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,18:12809341
+rs12971201-<b>G</b>,2 x 10-6,(conditioned on rs1893217),0.61,1.1235955,'-,'-,PTPN2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,18:12830539
+rs1615504-<b>T</b>,2 x 10-11,,0.47,1.13,'-,'-,CD226,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,18:69859408
+rs763361-<b>A</b>,1 x 10-8,,0.47,1.16,'-,[1.10-1.22],CD226,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,18:69864406
+rs763361-<b>C</b>,1 x 10-9,,NR,1.12,'-,[NR],CD226,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,18:69864406
+rs34536443-<b>G</b>,2 x 10-11,,0.0515,1.45,'-,[1.31-1.62],TYK2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST010681,19:10352442
+rs12720356-<b>A</b>,4 x 10-7,(conditioned on rs34536443),0.91,1.2195122,'-,'-,TYK2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,19:10359299
+rs2304256-<b>C</b>,4 x 10-9,,0.71,1.16,'-,[1.11-1.22],TYK2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000539,19:10364976
+rs2304256-<b>?</b>,1 x 10-10,,NR,'-,'-,'-,TYK2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,19:10364976
+rs62131887-<b>T</b>,4 x 10-7,,0.28,'-,'-,'-,"PDE4A, KEAP1",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,19:10476920
+rs425105-<b>?</b>,3 x 10-11,,0.84,1.16,'-,[1.08-1.27],PRKD2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,19:46705224
+rs402072-<b>T</b>,5 x 10-8,,0.84,1.1494253,'-,'-,PRKD2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,19:46715865
+rs516246-<b>T</b>,5 x 10-14,,0.51,1.1494253,'-,'-,FUT2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,19:48702915
+rs602662-<b>G</b>,5 x 10-8,,0.49,'-,'-,'-,FUT2,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,19:48703728
+rs12712067-<b>T</b>,4 x 10-9,,0.358,0.925,'-,'-,AFF3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,2:100147438
+rs13415583-<b>T</b>,1 x 10-7,,0.65,1.1111112,'-,'-,AFF3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,2:100147625
+rs9653442-<b>G</b>,5 x 10-6,,0.46,1.11,'-,[1.05-1.17],LINC01104,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,2:100208905
+rs2075184-<b>T</b>,9 x 10-8,,0.23,'-,'-,'-,"IL18RAP, SLC9A4",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,2:102464132
+rs4849135-<b>G</b>,4 x 10-8,,0.71,1.1235955,'-,'-,ACOXL,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,2:110857502
+rs1881146-<b>T</b>,5 x 10-8,,0.310529,'-,0.09517027 unit decrease,[0.061-0.129],MIR3681HG,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,2:12494668
+rs1534422-<b>G</b>,2 x 10-6,,0.46,1.08,'-,[1.02-1.15],MIR3681HG,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,2:12500615
+rs10169963-<b>T</b>,3 x 10-8,,0.58,1.074,'-,'-,MIR3681HG,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,2:12512805
+rs192324744-<b>G</b>,2 x 10-11,,0.0131,1.63,'-,[1.41-1.88],LRP1B,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST010681,2:141543366
+rs77155259-<b>G</b>,2 x 10-6,,0.944,'-,0.142 unit increase,[0.083-0.201],SLC4A10,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,2:161647730
+rs2111485-<b>G</b>,4 x 10-18,,0.61,1.1764705,'-,'-,"FAP, IFIH1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,2:162254026
+rs1990760-<b>A</b>,2 x 10-11,,0.6,1.18,'-,[1.11-1.23],IFIH1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,2:162267541
+rs1990760-<b>?</b>,7 x 10-9,,NR,'-,'-,'-,IFIH1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,2:162267541
+rs1990760-<b>C</b>,2 x 10-14,,NR,1.2,'-,[NR],IFIH1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,2:162267541
+rs35667974-<b>T</b>,9 x 10-9,(conditioned on rs2111485),0.98,1.6949153,'-,'-,IFIH1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,2:162268127
+rs72871627-<b>A</b>,2 x 10-6,"(conditioned rs2111485, rs35667974)",0.99,1.6393442,'-,'-,IFIH1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,2:162280432
+rs60587303-<b>C</b>,3 x 10-9,,0.0051,1.97,'-,[1.58-2.47],STK39,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST010681,2:168190122
+rs7582694-<b>G</b>,3 x 10-9,,0.773,0.916,'-,'-,STAT4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,2:191105394
+rs926169-<b>T</b>,9 x 10-6,,0.36,1.28,'-,[1.15–1.42],"RNU6-474P, CTLA4",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST009916,2:203858029
+rs3087243-<b>A</b>,8 x 10-11,,NR,'-,'-,'-,"ICOS, CTLA4",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,2:203874196
+rs3087243-<b>?</b>,1 x 10-15,,NR,'-,'-,'-,"ICOS, CTLA4",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,2:203874196
+rs3087243-<b>G</b>,7 x 10-21,,0.55,1.1904762,'-,'-,"ICOS, CTLA4",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,2:203874196
+rs36001488-<b>C</b>,8 x 10-11,,0.48,'-,'-,'-,ATG16L1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,2:233276621
+rs4676410-<b>A</b>,2 x 10-7,,0.19,'-,'-,'-,GPR35,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,2:240624322
+rs13018977-<b>A</b>,2 x 10-8,,0.224602,'-,0.100334994 unit increase,[0.065-0.135],SEPTIN2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,2:241338592
+rs10933559-<b>G</b>,3 x 10-11,,0.208,1.109,'-,'-,FARP2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,2:241468331
+rs2165738-<b>C</b>,4 x 10-6,,0.27,1.07,'-,[1.01-1.13],"ITSN2, NCOA1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,2:24469940
+rs478222-<b>?</b>,4 x 10-9,,0.59,1.22,'-,[NR],EFR3B,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,2:25078886
+rs6547853-<b>?</b>,8 x 10-7,,0.6,1.19,'-,[NR],"PLB1, FOSL2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,2:28423934
+rs114846446-<b>A</b>,2 x 10-7,,0.01,'-,'-,'-,LINC01250,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, psoriasis, ankylosing spondylitis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,2:2944140
+rs11888640-<b>?</b>,2 x 10-6,,0.481522,1.1833298,'-,[1.1-1.27],THADA,Latent autoimmune diabetes,latent autoimmune diabetes in adults,'-,GCST007245,2:43579243
+rs7567242-<b>A</b>,4 x 10-9,,NR,'-,0.1416 unit increase,[0.094-0.189],"RNA5SP94, MIR4432HG",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,2:60326008
+rs12464462-<b>G</b>,9 x 10-10,,0.410445,'-,0.0879553 unit decrease,[0.06-0.116],MIR4432HG,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,2:60409281
+rs2281808-<b>?</b>,1 x 10-11,,0.64,1.11,'-,[1.05-1.19],SIRPG,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,20:1629905
+rs6043409-<b>G</b>,3 x 10-10,,0.65,1.1363636,'-,'-,"SIRPG-AS1, SIRPG",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,20:1635560
+rs2738774-<b>A</b>,9 x 10-7,,0.32,'-,'-,'-,"MHENCR, STMN3",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,20:63637985
+rs2128344-<b>A</b>,8 x 10-12,,0.0055,2.12,'-,[1.71-2.63],LINC00320,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST010681,21:20724226
+rs2836882-<b>A</b>,5 x 10-8,,0.27,'-,'-,'-,RPL23AP12,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,21:39094644
+rs11203202-<b>G</b>,1 x 10-15,,0.33,1.16,'-,'-,UBASH3A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,21:42405248
+rs11203203-<b>?</b>,2 x 10-9,,NR,'-,'-,'-,UBASH3A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,21:42416077
+rs9976767-<b>C</b>,2 x 10-8,,NR,1.16,'-,[1.10-1.22],UBASH3A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000244,21:42416281
+rs3788013-<b>A</b>,1 x 10-7,,NR,1.1,'-,[NR],UBASH3A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,21:42421219
+rs6518350-<b>A</b>,1 x 10-7,,0.82,1.1363636,'-,'-,GATD3A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,21:44201934
+rs56178904-<b>T</b>,7 x 10-11,,0.187,0.898,'-,'-,GATD3A,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,21:44204668
+rs74203920-<b>T</b>,2 x 10-8,,0.019793,'-,0.3138792 unit increase,[0.2-0.42],AIRE,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,21:44294411
+rs178050-<b>A</b>,7 x 10-6,,NR,1.66,'-,[1.33-2.07],PI4KA,Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,22:20814301
+rs428595-<b>A</b>,2 x 10-6,,0.011,3.424,'-,'-,"PPIL2, MIR130B",Type 1 diabetes in high risk HLA genotype individuals (time to event),"disease free survival, type 1 diabetes mellitus",carrier status,GCST006196,22:21662102
+rs4820830-<b>C</b>,1 x 10-12,,0.38,1.14,'-,'-,HORMAD2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,22:30135102
+rs5753037-<b>T</b>,3 x 10-16,,0.39,1.1,'-,[1.04-1.17],"LIF-AS1, HORMAD2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,22:30185733
+rs743777-<b>G</b>,2 x 10-6,,NR,1.1,'-,[NR],IL2RB,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,22:37155567
+rs229533-<b>C</b>,2 x 10-8,,0.43,1.11,'-,'-,C1QTNF6,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,22:37191071
+rs229541-<b>T</b>,2 x 10-8,,0.43,1.11,'-,[1.05-1.16],C1QTNF6,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,22:37195278
+rs229541-<b>?</b>,2 x 10-7,,NR,'-,'-,'-,C1QTNF6,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,22:37195278
+rs111821448-<b>C</b>,5 x 10-6,,0.972,'-,0.164 unit increase,[0.093-0.235],PHLDB2,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,3:111874722
+rs113010081-<b>T</b>,5 x 10-8,,0.89,1.1764705,'-,'-,"LINC02009, CCRL2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,3:46415921
+rs4625-<b>G</b>,8 x 10-11,,0.31,'-,'-,'-,DAG1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,3:49534707
+rs3864055-<b>T</b>,6 x 10-6,,NR,1.79,'-,[1.39-2.31],"Y_RNA, ARL8B",Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,3:5093886
+rs11705721-<b>G</b>,9 x 10-6,(multiple-IA),0.321,1.41,'-,'-,PXK,Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event),"event free survival time, type 1 diabetes mellitus, autoantibody measurement",carrier status,GCST006197,3:58414687
+rs7679475-<b>A</b>,4 x 10-10,,NR,1.6198,'-,'-,"TUBB4BP5, QRFPR",Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,4:121392885
+rs4505848-<b>?</b>,5 x 10-13,,NR,'-,'-,'-,KIAA1109,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,4:122211337
+rs6534347-<b>A</b>,2 x 10-6,,0.35,1.3,'-,[1.10-1.55],KIAA1109,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,4:122277280
+rs75793288-<b>G</b>,6 x 10-13,,0.36,1.15,'-,'-,KIAA1109,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,4:122322441
+rs17388568-<b>A</b>,3 x 10-6,,0.26,1.26,'-,[1.11-1.42],ADAD1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,4:122408207
+rs2069762-<b>A</b>,5 x 10-7,,NR,1.12,'-,[NR],IL2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001191,4:122456825
+rs62324212-<b>A</b>,3 x 10-8,,0.42,'-,'-,'-,IL21-AS1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,4:122639784
+rs13147255-<b>A</b>,1 x 10-8,,NR,1.318,'-,[1.198-1.449],"ANKRD50, LINC02516",Type 1 diabetes with low genetic risk score,type 1 diabetes mellitus,'-,GCST90000181,4:124578751
+rs2611215-<b>A</b>,2 x 10-11,,0.15,1.18,'-,'-,LINC01179,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,4:165653115
+rs34740712-<b>C</b>,5 x 10-6,,0.104,'-,0.088 unit decrease,[0.051-0.125],TLL1,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,4:165916328
+rs11725853-<b>A</b>,8 x 10-7,,0.15,'-,0.11 unit increase,[0.07-0.16],GLRA3,Urinary albumin excretion rate in type 1 diabetes,"urinary albumin excretion rate, type 1 diabetes mellitus",'-,GCST002382,4:174721548
+rs56337234-<b>T</b>,4 x 10-6,,'-,'-,0.1142075 unit increase,[0.066-0.163],"TACC3, FGFR3",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,4:1782676
+rs7660520-<b>A</b>,8 x 10-11,,0.26,'-,'-,'-,"DCTD, TENM3",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,4:182824168
+rs12644686-<b>G</b>,2 x 10-8,,0.193778,'-,0.10774961 unit decrease,[0.07-0.146],LINC02362,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,4:184381748
+rs12644905-<b>C</b>,4 x 10-6,,NR,1.91,'-,[1.45-2.52],"ACSL1, CENPU",Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,4:184755529
+rs10517086-<b>A</b>,5 x 10-10,,0.3,1.09,'-,[1.02-1.17],LINC02357,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,4:26083889
+rs337637-<b>A</b>,3 x 10-10,,0.364,0.919,'-,'-,KLF3-AS1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,4:38602849
+rs139881548-<b>C</b>,7 x 10-6,,0.984,'-,0.222 unit increase,[0.13-0.32],GABRA2,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,4:46372280
+rs7672495-<b>C</b>,1 x 10-7,,0.18,'-,'-,'-,"CYTL1, RN7SKP113",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,4:4990640
+rs113881148-<b>A</b>,6 x 10-9,,0.626,1.082,'-,'-,DGKQ,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,4:973543
+rs114378220-<b>T</b>,5 x 10-9,,0.070292,'-,0.17790234 unit increase,[0.12-0.24],CAMK4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,5:111230662
+rs766751473-<b>T</b>,1 x 10-8,,0.40393,'-,0.080249354 unit increase,[0.053-0.108],IRF1-AS1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,5:132431072
+rs11741255-<b>A</b>,2 x 10-9,,0.42,'-,'-,'-,"IRF1, IRF1-AS1",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,5:132475490
+rs17166496-<b>G</b>,5 x 10-6,,0.61,1.3,'-,[1.15-1.47],FSTL4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,5:133293192
+rs755374-<b>T</b>,2 x 10-10,,0.32,'-,'-,'-,"IL12B, LINC01845",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,5:159402286
+rs6897932-<b>G</b>,8 x 10-6,,0.71,1.12,'-,[1.06-1.19],IL7R,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,5:35874473
+rs11954020-<b>G</b>,4 x 10-8,,0.39,1.11,'-,'-,"CAPSL, IL7R",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,5:35883149
+rs1445898-<b>G</b>,8 x 10-6,,0.55,1.12,'-,[1.06-1.19],CAPSL,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000038,5:35910427
+rs7725052-<b>C</b>,8 x 10-11,,0.43,'-,'-,'-,"RNU1-150P, TTC33",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,5:40487168
+rs1876142-<b>T</b>,2 x 10-14,,0.658,0.905,'-,'-,TTC33,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,5:40521603
+rs10213692-<b>C</b>,3 x 10-9,,0.241,0.912,'-,'-,ANKRD55,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,5:56146422
+rs7731626-<b>A</b>,1 x 10-10,,0.39,'-,'-,'-,ANKRD55,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,5:56148856
+rs4513644-<b>T</b>,8 x 10-7,,0.794,'-,0.067 unit increase,[0.04-0.094],LINC02225,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,5:57837318
+rs4869313-<b>T</b>,9 x 10-8,,0.42,'-,'-,'-,ERAP2,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,5:96888176
+rs9388489-<b>G</b>,4 x 10-13,,0.45,1.17,'-,[1.10-1.24],CENPW,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,6:126377573
+rs1578060-<b>C</b>,2 x 10-6,,0.13,1.42,'-,[1.23–1.64],"MIR588, CENPW",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST009916,6:126391101
+rs1538171-<b>G</b>,7 x 10-10,,0.45,1.12,'-,'-,"CENPW, MIR588",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,6:126431738
+rs12665429-<b>C</b>,1 x 10-13,,0.37,0.907,'-,'-,LINC02539,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,6:137682468
+rs212408-<b>T</b>,1 x 10-15,,0.638,1.112,'-,'-,TAGAP-AS1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,6:159049210
+rs9356171-<b>A</b>,9 x 10-6,,NR,1.9,'-,[1.43-2.52],RN7SL366P,Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,6:163922743
+rs73043122-<b>C</b>,4 x 10-6,,0.013,3.351,'-,'-,"RNASET2, MIR3939",Type 1 diabetes in high risk HLA genotype individuals (time to event),"disease free survival, type 1 diabetes mellitus",carrier status,GCST006196,6:166969779
+rs924043-<b>?</b>,8 x 10-9,,0.85,1.35,'-,[NR],'-,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,6:170063801
+rs12203596-<b>C</b>,6 x 10-6,,NR,2.84,'-,[1.78-4.53],STMND1,Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,6:17120009
+rs4320356-<b>T</b>,3 x 10-8,,0.28,1.26,'-,[1.16-1.36],BTN2A3P,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST008377,6:26423332
+rs114631266-<b>C</b>,2 x 10-6,,0.974,'-,0.284 unit increase,[0.17-0.4],"OR2P1P, OR2W1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:29058810
+rs2471863-<b>C</b>,8 x 10-7,,0.526,'-,0.057 unit increase,[0.033-0.081],"HLA-U, HLA-K",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:29931850
+rs34941730-<b>G</b>,2 x 10-9,,0.119,'-,0.102 unit decrease,[0.069-0.135],"HLA-W, HLA-A",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:29946109
+rs2523989-<b>A</b>,2 x 10-8,,NR,1.7499,'-,'-,"TRIM31, TRIM31-AS1",Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:30110498
+rs45626136-<b>C</b>,1 x 10-6,,0.939,'-,0.111 unit increase,[0.066-0.156],"RPP21, TRIM39-RPP21",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:30345252
+rs886424-<b>A</b>,3 x 10-14,,NR,2.2107,'-,'-,LINC00243,Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:30814225
+rs116020851-<b>C</b>,3 x 10-7,,0.971,'-,0.182 unit increase,[0.11-0.25],"HCG21, SFTA2",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:30954755
+rs1265057-<b>C</b>,2 x 10-6,,0.491,'-,0.053 unit decrease,[0.031-0.075],"RNU6-1133P, C6orf15",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:31110838
+rs116763857-<b>G</b>,1 x 10-14,,0.027,'-,0.295 unit decrease,[0.22-0.37],POU5F1,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:31173705
+rs9264758-<b>G</b>,3 x 10-7,,0.866,'-,0.082 unit increase,[0.051-0.113],RPL3P2,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:31280657
+rs2251396-<b>T</b>,1 x 10-22,,NR,2.2132,'-,'-,"MICA, HLA-S",Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:31396930
+rs9501130-<b>G</b>,2 x 10-11,,0.822,'-,0.099 unit increase,[0.07-0.128],"HCP5, LINC01149",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:31449679
+rs3093664-<b>G</b>,3 x 10-7,,0.048,'-,0.13 unit increase,[0.081-0.179],TNF,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:31576865
+rs2857595-<b>T</b>,2 x 10-23,,NR,2.3765,'-,'-,"NCR3, UQCRHP1",Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:31600692
+rs1270942-<b>C</b>,5 x 10-25,,NR,3.0494,'-,'-,CFB,Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:31951083
+rs3134938-<b>C</b>,8 x 10-7,,0.832,'-,0.076 unit decrease,[0.047-0.105],"NOTCH4, TSBP1-AS1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32238711
+rs926592-<b>C</b>,6 x 10-6,,0.658,'-,0.059 unit increase,[0.034-0.084],"TSBP1-AS1, TSBP1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32337881
+rs1980493-<b>G</b>,2 x 10-20,,NR,2.5034,'-,'-,"TSBP1-AS1, BTNL2",Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:32395438
+rs3135365-<b>C</b>,9 x 10-6,,0.022,'-,0.202 unit increase,[0.11-0.29],"HLA-DRA, TSBP1-AS1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32421478
+rs9268576-<b>C</b>,2 x 10-8,,0.359,'-,0.111 unit decrease,[0.072-0.15],"TSBP1-AS1, HLA-DRA",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32427864
+rs9268645-<b>?</b>,1 x 10-100,,NR,'-,'-,'-,HLA-DRA,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,6:32440750
+rs9268853-<b>?</b>,2 x 10-23,,NR,3.18,'-,[2.53-4.01],HLA-DRB9,Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,6:32461866
+rs138748427-<b>A</b>,3 x 10-9,,0.507810792,'-,0.29127777 unit increase,[0.2-0.39],"HLA-DRB5, HLA-DRB9",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018705,6:32516743
+rs7760731-<b>C</b>,6 x 10-11,,0.642,'-,0.087 unit increase,[0.062-0.112],"HLA-DRB1, HLA-DQA1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32615624
+rs9272346-<b>G</b>,5 x 10-134,,0.61,5.49,'-,[4.83-6.24],HLA-DQA1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000043,6:32636595
+rs9273363-<b>A</b>,5 x 10-138,,0.13,5.48,'-,[4.80–6.27],"HLA-DQA1, HLA-DQB1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST009916,6:32658495
+rs9273367-<b>T</b>,6 x 10-306,,NR,'-,0.7272 unit increase,[0.69-0.77],"HLA-DQB1, HLA-DQA1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,6:32658661
+rs9273368-<b>G</b>,8 x 10-40,,0.35,2.99,'-,[2.60-3.91],"HLA-DQB1, HLA-DQA1",Latent autoimmune diabetes vs. type 1 diabetes,"type 1 diabetes mellitus, latent autoimmune diabetes in adults",'-,GCST007247,6:32658698
+rs9273368-<b>?</b>,3 x 10-78,,0.301,2.439,'-,[2.222-2.676],"HLA-DQB1, HLA-DQA1",Latent autoimmune diabetes vs. type 2 diabetes,"latent autoimmune diabetes in adults, type 2 diabetes mellitus",'-,GCST007246,6:32658698
+rs1770-<b>G</b>,2 x 10-232,,0.46,4.28,'-,[3.92-4.68],"HLA-DQB1, HLA-DQB1-AS1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST008377,6:32660056
+rs9275358-<b>G</b>,3 x 10-7,,0.475,'-,0.083 unit decrease,[0.052-0.114],"MTCO3P1, HLA-DQB1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32700118
+rs2647044-<b>A</b>,1 x 10-16,,0.13,8.3,'-,[6.97-9.89],"HLA-DQB1, MTCO3P1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000054,6:32700133
+rs35122968-<b>C</b>,4 x 10-11,,0.043,'-,0.2 unit increase,[0.14-0.26],"HLA-DQB3, MTCO3P1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32714422
+rs3997848-<b>G</b>,2 x 10-14,,0.117,'-,0.135 unit increase,[0.1-0.17],"MTCO3P1, HLA-DQB3",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32714617
+rs1015166-<b>T</b>,4 x 10-22,,NR,2.1428,'-,'-,TAP2,Type 1 diabetes and autoimmune thyroid diseases,"autoimmune thyroid disease, type 1 diabetes mellitus",'-,GCST002876,6:32830954
+rs241427-<b>G</b>,4 x 10-6,,0.797,'-,0.062 unit decrease,[0.035-0.089],TAP2,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32836637
+rs4148870-<b>C</b>,2 x 10-6,,0.402,'-,0.053 unit increase,[0.031-0.075],TAP2,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:32838614
+rs3128930-<b>C</b>,7 x 10-6,,0.683,'-,0.053 unit increase,[0.029-0.077],"HLA-DPB2, COL11A2P1",Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:33107889
+rs1050979-<b>G</b>,6 x 10-14,,0.515138,'-,0.106195554 unit increase,[0.079-0.134],IRF4,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,6:410417
+rs9405661-<b>A</b>,2 x 10-9,,0.514,1.08,'-,'-,"IRF4, EXOC2",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,6:424915
+rs78824139-<b>C</b>,9 x 10-6,,0.986,'-,0.294 unit increase,[0.16-0.42],EYS,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,6:64748694
+rs17711850-<b>C</b>,2 x 10-9,,NR,'-,0.1236 unit increase,[0.083-0.164],BACH2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,6:90155151
+rs3757247-<b>A</b>,1 x 10-6,,NR,1.13,'-,[1.08-1.19],BACH2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000244,6:90247744
+rs11755527-<b>?</b>,1 x 10-7,,0.443857,1.203898,'-,[1.125016-1.288312],BACH2,Latent autoimmune diabetes,latent autoimmune diabetes in adults,'-,GCST007245,6:90248512
+rs11755527-<b>G</b>,5 x 10-12,,0.47,1.13,'-,[1.08-1.19],BACH2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000258,6:90248512
+rs72928038-<b>A</b>,6 x 10-14,,0.17,1.2,'-,'-,BACH2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,6:90267049
+rs10258381-<b>G</b>,5 x 10-6,,0.049,'-,0.119 unit decrease,[0.068-0.17],'-,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,7:10057028
+rs7795896-<b>T</b>,2 x 10-16,,0.691577,'-,0.13543522 unit decrease,[0.1-0.17],CFTR,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,7:117446559
+rs3757787-<b>T</b>,1 x 10-8,,NR,'-,0.4363 unit increase,[0.29-0.59],"PAX4, SND1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,7:127618330
+rs6461299-<b>C</b>,2 x 10-6,,0.422,'-,0.078 unit decrease,[0.047-0.109],AHR,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,7:17147155
+rs7805218-<b>A</b>,9 x 10-9,,0.30774,'-,0.09541352 unit increase,[0.063-0.128],ITGB8,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,7:20339178
+rs17143056-<b>G</b>,2 x 10-8,,0.183,0.909,'-,'-,EEF1A1P27,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,7:20557306
+rs7804356-<b>?</b>,5 x 10-9,,0.76,1.14,'-,[1.06-1.22],SKAP2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,7:26852046
+rs10245867-<b>T</b>,3 x 10-8,,0.331,0.928,'-,'-,JAZF1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,7:28102567
+rs550448-<b>?</b>,5 x 10-7,,0.86,1.32,'-,[NR],JAZF1-AS1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,7:28189423
+rs10255565-<b>C</b>,1 x 10-6,,0.154,'-,0.086 unit decrease,[0.051-0.121],HECW1,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,7:43408191
+rs62447205-<b>A</b>,3 x 10-8,,0.72,1.1235955,'-,'-,IKZF1,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,7:50398132
+rs4263714-<b>A</b>,4 x 10-6,,'-,'-,0.20912386 unit increase,[0.12-0.3],COBL,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,7:50955790
+rs4948088-<b>?</b>,4 x 10-8,,0.95,1.3,'-,[1.11-1.49],COBL,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,7:50959497
+rs10277986-<b>A</b>,1 x 10-7,,0.96,1.3157895,'-,'-,COBL,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,7:50961290
+rs2250903-<b>T</b>,1 x 10-10,,0.283,0.905,'-,'-,"CTSB, OR7E158P",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,8:11877675
+rs12679857-<b>?</b>,4 x 10-7,,0.69,1.2,'-,[NR],"TNFRSF11B, RNU6-12P",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST001255,8:118965098
+rs13259300-<b>C</b>,3 x 10-10,,0.598278,'-,0.0921915 unit decrease,[0.063-0.121],COLEC10,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,8:119070702
+rs35766765-<b>G</b>,3 x 10-6,,0.092,'-,0.091 unit decrease,[0.054-0.128],PHF20L1,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,8:132775726
+rs7831697-<b>G</b>,5 x 10-7,,0.25,'-,'-,'-,RNU6-144P,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,8:137124061
+rs3802214-<b>C</b>,3 x 10-8,,0.798827,'-,0.10660862 unit decrease,[0.069-0.144],AGO2,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,8:140606084
+rs2410601-<b>G</b>,4 x 10-6,,0.47,'-,0.08 unit increase,[0.04-0.11],PSD3,Urinary albumin excretion rate in type 1 diabetes,"urinary albumin excretion rate, type 1 diabetes mellitus",'-,GCST002382,8:19065067
+rs1947178-<b>G</b>,2 x 10-9,,0.791944,'-,0.10326733 unit decrease,[0.07-0.137],TOX,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,8:58959618
+rs4246905-<b>T</b>,1 x 10-8,,0.28,'-,'-,'-,TNFSF15,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,9:114790969
+rs7042370-<b>T</b>,1 x 10-7,,0.43,'-,'-,'-,"LURAP1L, LURAP1L-AS1",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,9:12785074
+rs4837404-<b>G</b>,5 x 10-6,,0.368,'-,0.064 unit increase,[0.037-0.091],PTGES,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,9:129743380
+rs10988542-<b>C</b>,7 x 10-7,,0.08,'-,'-,'-,FNBP1,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,9:129894985
+rs541856133-<b>T</b>,4 x 10-17,,0.001509,'-,1.1022301 unit increase,[0.85-1.36],"GTF3C5, CEL",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90014023,9:133060938
+rs11145763-<b>C</b>,3 x 10-8,,0.4,'-,'-,'-,CARD9,Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,9:136369144
+rs10961433-<b>G</b>,2 x 10-6,,0.867,'-,0.079 unit increase,[0.046-0.112],NFIB,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,9:14228472
+rs10811662-<b>A</b>,1 x 10-10,,NR,'-,0.1412 unit decrease,[0.098-0.184],"DMRTA1, CDKN2B-AS1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90018925,9:22134254
+rs7871386-<b>C</b>,5 x 10-6,,NR,2.54,'-,[1.69-3.83],'-,Fulminant type 1 diabetes,type 1 diabetes mellitus,'-,GCST007433,9:23166744
+rs6476839-<b>T</b>,1 x 10-9,,0.4,1.12,'-,'-,GLIS3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST005536,9:4290823
+rs7020673-<b>?</b>,5 x 10-12,,0.5,1.14,'-,[1.08-1.20],GLIS3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000392,9:4291747
+rs10974438-<b>C</b>,1 x 10-6,,'-,'-,0.12805976 unit increase,[0.076-0.18],GLIS3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90000529,9:4291928
+rs10758593-<b>A</b>,3 x 10-6,,NR,1.13,'-,[1.07-1.19],GLIS3,Type 1 diabetes,type 1 diabetes mellitus,'-,GCST000244,9:4292083
+rs36051895-<b>T</b>,9 x 10-8,,0.29,'-,'-,'-,"HNRNPA1P41, JAK2",Pediatric autoimmune diseases,"autoimmune thyroid disease, obsolete_common variable immunodeficiency, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, celiac disease, obsolete_systemic lupus erythematosus, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis",'-,GCST003097,9:4981866
+rs74629033-<b>G</b>,5 x 10-6,,0.95,'-,0.116 unit increase,[0.067-0.165],PLGRKT,Type 1 diabetes (age at diagnosis),"age at diagnosis, type 1 diabetes mellitus",'-,GCST011773,9:5421234
+rs1405209-<b>C</b>,3 x 10-8,,0.375,1.075,'-,'-,"NR4A3, STX17-AS1",Type 1 diabetes,type 1 diabetes mellitus,'-,GCST90013445,9:99823263
