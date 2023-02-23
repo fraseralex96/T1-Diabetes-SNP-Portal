@@ -1,0 +1,220 @@
+<!--DOCTYPE html-->
+
+<!--Link title -->
+<html>
+  <head>
+    <title>Result</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
+  </head>
+  <body>
+
+    <!--Header with anchor tags to relavant pages -->
+    <header>
+        <div class='nav'>
+          <img src='../static/images/logo.jpeg'>    
+            <a style=float:right; href="/resources">Resources</a>
+            <a style=float:right; href="/search/SNP">Search</a>
+            <a style=float:right; href="/about">About</a>
+            <a style=float:right; href="/">Home</a>
+        </div>
+      </header>
+
+   <!--Sidebar -->
+  <main>
+     <div class="row">
+       <div class="sidebar">
+          <ul>
+           <li><a href='#'>Variant Information</a></li>
+           <li><a href='#ClinicalSignificance'>Clinical Significance</a></li>
+           <li><a href='#GeneOntology'>Gene Ontology</a></li>
+           <li><a href='#ManhattanPlot'>Manhattan Plot</a></li>
+           <li><a href='#LinkageDisequilibrium'>Linkage Disequilibrium</a></li>
+          </ul>
+       </div>
+     </div>
+
+    <!-- Main Results --> 
+    <div class= "table" style="margin-left:20%;padding:1px 16px;height:auto;">
+       <h1>Query: {{ search }}</h1>
+
+       
+     <div id="VariantInformation" class= "table">
+        <div><h2>Variant Information </h2></div>
+      {% if count < 1 %}
+        <p>No data found</p>
+      {% endif %}
+      {% if count > 0 %}
+        <div><table>
+          <tr>
+            <th>Variant name and risk allele</th>
+            <th>Location</th>
+            <th>Mapped gene(s)</th>
+            <th>p-values</th>
+            <th>RAF British</th>
+            <th>RAF Han Chinese</th>
+            <th>RAF Yoruba</th>
+          </tr>
+
+
+       {% for i in range(count) %}
+          <tr>
+            <td>{{ result1[i] }}</td>
+            <td>{{ result3[i] }}</td>
+            <td>{{ result4[i] }}</td>
+            <td>{{ result2[i] }}</td>
+            <td>{{ result5[i] }}</td>
+            <td>{{ result6[i] }}</td>
+            <td>{{ result7[i] }}</td>
+          </tr>
+        {% endfor %} 
+      
+       </table>
+      {% endif %}
+      </div>
+
+        <!-- Remove these buttons and create a checkbox at the bottom in a form
+        <div class='analysis'> 
+          <form>
+            <a href="#ManhattanPlot" class="button">Manhattan Plot</a>
+            <a href="#LinkageDisequilibrium" class="button">Linkage Disequilibrium (LD)</a>
+          </form>
+        </div>
+      </div> -->
+
+      <div class= "table">
+        <h2><div id='ClinicalSignificance'>Clinical Significance</div> </h2>
+        <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
+      {% if count2 < 1 %}
+        <p>No data found</p>
+      {% endif %}
+      {% if count2 > 0 %}
+       <table>
+        <tr>
+          <th>Variant name</th>
+          <th>Variant Consequence</th>
+          <th>Clinical Significance</th>
+          <th>Polyphen Prediction</th>
+          <th>Polyphen Score</th>
+          <th>SIFT Prediction</th>
+          <th>SIFT Score</th>
+        </tr>
+       {% for i in range(count2) %}
+        <tr>
+          <td>{{ result8[i] }}</td>
+          <td>{{ result9[i] }}</td>
+          <td>{{ result10[i] }}</td>
+          <td>{{ result11[i] }}</td>
+          <td>{{ result12[i] }}</td>
+          <td>{{ result13[i] }}</td>
+          <td>{{ result14[i] }}</td>
+        </tr>
+       {% endfor %}
+
+       </table>
+       {% endif %}
+      </div>
+
+      <div class= "table">
+        <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
+        <p> Include GO terms description in a sentence</p>
+
+      <form action="/result/gene" method='POST'> 
+        <label for="GO">Select GO term: </label>
+        <select name="GO" id="population" placeholder='Alex'>
+        {% if option == 'cellular_component' %}
+          <option value="cellular_component">Cellular Component</option>
+          <option value="molecular_function">Molecular Function</option>
+          <option value="biological_process">Biological Process</option>
+        {% elif option == 'molecular_function' %}
+          <option value="molecular_function">Molecular Function</option>
+          <option value="cellular_component">Cellular Component</option>
+          <option value="biological_process">Biological Process</option>
+        {% elif option == 'biological_process' %}
+          <option value="biological_process">Biological Process</option>
+          <option value="cellular_component">Cellular Component</option>
+          <option value="molecular_function">Molecular Function</option>
+        {% else %}
+          <option value="cellular_component">Cellular Component</option>
+          <option value="molecular_function">Molecular Function</option>
+          <option value="biological_process">Biological Process</option>
+        {% endif %}
+        </select><br>
+        <input type="submit" value="Submit">
+      </form>
+      {% if count3 < 1 %}
+        <p>No data found</p>
+      {% endif %}
+      {% if count3 > 0 %}
+        <table>
+          <tr>
+            <th>Gene name</th>
+            <th>GO domain</th>
+            <th>GO term name</th>
+            <th>GO term definition</th>
+            <th>GO accession</th>
+           </tr>
+
+        {% for i in range(count3) %}
+          <tr>
+            <td>{{ result15[i] }}</td>
+            <td>{{ result16[i] }}</td>
+            <td>{{ result17[i] }}</td>
+            <td>{{ result18[i] }}</td>
+            <td>{{ result19[i] }}</td>
+          </tr>
+        {% endfor %}
+        </table>  
+        {% endif %}
+        <div>
+          <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
+          <p> A demo showing position where the Manhattan plot for type 1 diabetes will be placed</p>
+        </div>
+
+        <div class="plot">
+          <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="{{url_for('static', filename='newman.html')}}" height="525" width="100%"></iframe>
+          
+          <div class="desc">Single nucleotide polymorphisms for type 1 diabetes</div>
+          <div id="LinkageDisequilibrium"></div>
+        </div>
+
+        <br>
+
+        <div>
+          <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
+            {% if count < 1 %}
+              <p>No SNPs available</p>
+            {% endif %}
+          {% if count > 0 %}
+          <form action="/result/LD" method='POST'> <!-- We need to link this to the LD page but I will leave it as it is for now-->
+
+            <label for="population" >Please select population of interest: </label>
+            <select name="population" id="population">
+              <option value="British">British</option>
+              <option value="Han Chinese">Han Chinese</option>
+              <option value="Yoruba">Yoruba</option>
+            </select><br>
+
+            <br>
+            <label>Please select SNPs of interest:</label><br>
+            {% for i in range (count)%}
+            <input type="checkbox" id="snp1" name=ld value={{result1[i]}}>
+            <label for="snp1">{{result1[i]}}</label><br>
+            {% endfor %}
+            <br>
+            <input type="submit" value="Submit">
+          </form> 
+          {% endif %}
+
+
+          </div>
+        </div>
+      </div> 
+    </div>
+  </main>
+
+  <footer>
+    <p class="copyright">© Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
+  </footer>
+
+</body>
