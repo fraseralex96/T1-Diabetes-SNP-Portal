@@ -43,6 +43,7 @@
         <div><h2>Variant Information </h2></div>
         
         <div>
+          <div class="table_container">
           <table class="fixed_header">
             <thead>
               <tr>
@@ -70,12 +71,13 @@
             </tbody>
             <div id='ClinicalSignificance'></div>
           </table>
+          </div>
 
       
       <div class= "table">
         <h2>Clinical Significance</h2>
         <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
-      
+      <div class="table_container">
        <table class="fixed_header">
         <thead>
           <tr>
@@ -103,12 +105,13 @@
         </tbody>
         <div id="GeneOntology"></div>
        </table>
+        </div>
       </div>
 
       <div class= "table">
         <h2> Gene Ontology</h2>
         <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
-      
+        <div class="table_container">
         <table class="fixed_header">
           <thead>
             <tr>
@@ -131,7 +134,8 @@
           {% endfor %}
           </tbody>
         <div id="ManhattanPlot"></div>
-        </table>  
+        </table>
+        </div>
 
         <div>
           <h2>Manhattan Plot</h2>
