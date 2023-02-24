@@ -69,21 +69,13 @@
           </tr>
         {% endfor %} 
       
+        <div id='ClinicalSignificance'></div>
        </table>
       {% endif %}
       </div>
 
-        <!-- Remove these buttons and create a checkbox at the bottom in a form
-        <div class='analysis'> 
-          <form>
-            <a href="#ManhattanPlot" class="button">Manhattan Plot</a>
-            <a href="#LinkageDisequilibrium" class="button">Linkage Disequilibrium (LD)</a>
-          </form>
-        </div>
-      </div> -->
-
       <div class= "table">
-        <h2><div id='ClinicalSignificance'>Clinical Significance</div> </h2>
+        <h2>Clinical Significance</h2>
         <p>Clinical signifiance is described as either benign or pathogenic(harmful). Polyphen  describe SNPs predictions and score by severity of damage ranging from 0 (no effect) to 1 (possibly damaging/damaging). SIFT predicts whether a SNP is tolerated and has no effect on function or deleterious (affects protein function).SIFT score threshold is 0.05 and any score <0.05 is considered deleterious.</p>
       {% if count2 < 1 %}
         <p>No data found</p>
@@ -110,13 +102,14 @@
           <td>{{ result14[i] }}</td>
         </tr>
        {% endfor %}
-
+      
+        <div id="GeneOntology"></div> 
        </table>
        {% endif %}
       </div>
 
       <div class= "table">
-        <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
+        <h2>Gene Ontology</h2>
         <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
 
       <form action="/result/gene" method='POST'> 
@@ -164,10 +157,11 @@
             <td>{{ result19[i] }}</td>
           </tr>
         {% endfor %}
+          <div id="ManhattanPlot"></div> 
         </table>  
         {% endif %}
         <div>
-          <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
+          <h2>Manhattan Plot</h2>
           <p>Interactive GWAS plot showing association between SNPs on autosomes and Type 1 diabetes. Hover over SNPs points on the graph for more information.</p>
         </div>
 
@@ -181,7 +175,7 @@
         <br>
 
         <div>
-          <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
+          <h2>Linkage Disequilibrium</h2>
             {% if count < 1 %}
               <p>No SNPs available</p>
             {% endif %}
