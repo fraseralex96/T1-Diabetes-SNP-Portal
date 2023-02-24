@@ -173,7 +173,8 @@ def download():
 
 @app.route('/download/<file>')
 def download_file(file):
-	return send_file(file, as_attachment=True)
+	f = f'database\\data\\{file}'
+	return send_file(f, as_attachment=True)
 
 @app.route('/result', methods=['GET', 'POST'])
 def result():
@@ -269,7 +270,7 @@ def result():
 @app.route('/result/LD', methods=['GET', 'POST'])
 def resultLD():
 	if request.method == 'POST':
-		global ld, pop
+		global df
 		pop = request.form.get('population')
 		ld = request.form.getlist('ld')
 		d = dictMaker(ld, pop)
@@ -277,21 +278,20 @@ def resultLD():
 		plot_data = plotMaker(df)
 		return render_template('LD.html', plot_url=plot_data, ld=ld)
 
-#@app.route('/downloadLD')
-#def download_file1():
-#	ld = dictMaker(ld, pop)
-#    my_dict = ld
-#    text = ''
-#    # Create a file-like buffer and write the string to it
-#    buffer = io.StringIO(my_list)
-#   # Set the buffer's position to the beginning of the file
-#    buffer.seek(0)
-#    # Create a response object that will return the file
-#    response = make_response(buffer.getvalue())
-#    # Set the appropriate headers to trigger a file download
-#    response.headers.set('Content-Disposition', 'attachment', filename='my_list.txt')
-#    response.headers.set('Content-Type', 'text/plain')
-#    return response
+@app.route('/downloadLD')
+def download_file1():
+	global df
+	table_string = df.to_csv(sep='\t')
+	# Create a file-like buffer and write the string to it
+	buffer = io.StringIO(table_string)
+	#Set the buffer's position to the beginning of the file
+	buffer.seek(0)
+	# Create a response object that will return the file
+	response = make_response(buffer.getvalue())
+	# Set the appropriate headers to trigger a file download
+	response.headers.set('Content-Disposition', 'attachment', filename='ld.txt')
+	response.headers.set('Content-Type', 'text/plain')
+	return response
 
 @app.route('/noResult')
 def noResult():
