@@ -84,7 +84,7 @@
 
       <div class= "table">
         <h2><div id='ClinicalSignificance'>Clinical Significance</div> </h2>
-        <p> Include paragraph on SIFT and Polyphen predictions and scores</p>
+        <p>Clinical signifiance is described as either benign or pathogenic(harmful). Polyphen  describe SNPs predictions and score by severity of damage ranging from 0 (no effect) to 1 (possibly damaging/damaging). SIFT predicts whether a SNP is tolerated and has no effect on function or deleterious (affects protein function).SIFT score threshold is 0.05 and any score <0.05 is considered deleterious.</p>
       {% if count2 < 1 %}
         <p>No data found</p>
       {% endif %}
@@ -117,7 +117,7 @@
 
       <div class= "table">
         <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
-        <p> Include GO terms description in a sentence</p>
+        <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
 
       <form action="/result/chromosome" method='POST'> 
         <label for="GO">Select GO term: </label>
@@ -168,7 +168,7 @@
         {% endif %}
         <div>
           <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
-          <p> A demo showing position where the Manhattan plot for type 1 diabetes will be placed</p>
+          <p>Interactive GWAS plot showing association between SNPs on autosomes and Type 1 diabetes. Hover over SNPs points on the graph for more information.</p>
         </div>
 
         <div class="plot">
