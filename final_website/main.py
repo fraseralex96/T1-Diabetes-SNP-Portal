@@ -173,8 +173,7 @@ def download():
 
 @app.route('/download/<file>')
 def download_file(file):
-	f = f'database\\data\\{file}'
-	return send_file(f, as_attachment=True)
+	return send_file(file, as_attachment=True)
 
 @app.route('/result', methods=['GET', 'POST'])
 def result():
