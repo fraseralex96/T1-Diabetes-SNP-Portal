@@ -46,7 +46,9 @@
          <div id='ClinicalSignificance'></div> 
       {% endif %}
       {% if count > 0 %}
-        <div><table>
+        <div>
+          <div class="table_container">
+          <table class="fixed_header">
           <tr>
             <th>Variant name and risk allele</th>
             <th>Location</th>
@@ -71,6 +73,7 @@
         {% endfor %} 
         <div id='ClinicalSignificance'></div> 
        </table>
+     </div>
       {% endif %}
       </div>
 
@@ -81,7 +84,8 @@
         <p>No data found</p>
       {% endif %}
       {% if count2 > 0 %}
-       <table>
+      <div class="table_container">
+       <table class="fixed_header">
         <tr>
           <th>Variant name</th>
           <th>Variant Consequence</th>
@@ -104,6 +108,7 @@
        {% endfor %}
 
        </table>
+     </div>
        {% endif %}
       </div>
 
@@ -138,7 +143,8 @@
         <p>No data found</p>
       {% endif %}
       {% if count3 > 0 %}
-        <table>
+      <div class="table_container">
+        <table class="fixed_header">
           <tr>
             <th>Gene name</th>
             <th>GO domain</th>
@@ -157,6 +163,7 @@
           </tr>
         {% endfor %}
         </table>  
+      </div>
         {% endif %}
         <div>
           <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
