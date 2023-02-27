@@ -35,4 +35,5 @@ To install these packages:
 
 
 ## Acknowledgements
+Thank you to Professor Conrad Bessant and Dr Matteo Fumagalli for your support and guidance.
 
