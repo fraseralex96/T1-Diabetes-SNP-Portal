@@ -43,9 +43,12 @@
         <div><h2>Variant Information </h2></div>
       {% if count < 1 %}
         <p>No data found</p>
+         <div id='ClinicalSignificance'></div> 
       {% endif %}
       {% if count > 0 %}
-        <div><table>
+        <div>
+          <div class="table_container">
+          <table class="fixed_header">
           <tr>
             <th>Variant name and risk allele</th>
             <th>Location</th>
@@ -68,9 +71,9 @@
             <td>{{ result7[i] }}</td>
           </tr>
         {% endfor %} 
-      
-        <div id='ClinicalSignificance'></div>
+        <div id='ClinicalSignificance'></div> 
        </table>
+     </div>
       {% endif %}
       </div>
 
@@ -81,7 +84,8 @@
         <p>No data found</p>
       {% endif %}
       {% if count2 > 0 %}
-       <table>
+      <div class="table_container">
+       <table class="fixed_header">
         <tr>
           <th>Variant name</th>
           <th>Variant Consequence</th>
@@ -102,14 +106,14 @@
           <td>{{ result14[i] }}</td>
         </tr>
        {% endfor %}
-      
-        <div id="GeneOntology"></div> 
+
        </table>
+     </div>
        {% endif %}
       </div>
 
       <div class= "table">
-        <h2>Gene Ontology</h2>
+        <h2> <div id="GeneOntology"> Gene Ontology</div></h2>
         <p>GO terms describe biological classes that affect biologial processes, cellular locations and molecular functions.</p>
 
       <form action="/result/gene" method='POST'> 
@@ -133,13 +137,14 @@
           <option value="biological_process">Biological Process</option>
         {% endif %}
         </select><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="submit-button">
       </form>
       {% if count3 < 1 %}
         <p>No data found</p>
       {% endif %}
       {% if count3 > 0 %}
-        <table>
+      <div class="table_container">
+        <table class="fixed_header">
           <tr>
             <th>Gene name</th>
             <th>GO domain</th>
@@ -157,11 +162,11 @@
             <td>{{ result19[i] }}</td>
           </tr>
         {% endfor %}
-          <div id="ManhattanPlot"></div> 
         </table>  
+      </div>
         {% endif %}
         <div>
-          <h2>Manhattan Plot</h2>
+          <h2><div id="ManhattanPlot"> Manhattan Plot</div></h2>
           <p>Interactive GWAS plot showing association between SNPs on autosomes and Type 1 diabetes. Hover over SNPs points on the graph for more information.</p>
         </div>
 
@@ -175,7 +180,7 @@
         <br>
 
         <div>
-          <h2>Linkage Disequilibrium</h2>
+          <h2><div id="LinkageDisequilibrium">Linkage Disequilibrium</div></h2>
             {% if count < 1 %}
               <p>No SNPs available</p>
             {% endif %}
@@ -191,16 +196,18 @@
 
             <br>
             <label>Please select SNPs of interest:</label><br>
+            <input type="checkbox" name="select-all" id="select-all"> Select All<br>  
             {% for i in range (count)%}
-            <input type="checkbox" id="snp1" name=ld value={{result1[i]}}>
+            <input type="checkbox" id="snp1" name={{[i]}} value="snp1">
             <label for="snp1">{{result1[i]}}</label><br>
             {% endfor %}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script src="../select_all.js"></script> 
             <br>
             <input type="submit" value="Submit">
           </form> 
           {% endif %}
-
-
+            
           </div>
         </div>
       </div> 
