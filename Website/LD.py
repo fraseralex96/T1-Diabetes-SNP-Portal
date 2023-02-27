@@ -98,19 +98,20 @@ df = df.transpose()
 df
 
 #my attempt with the heatmap function
-import pandas as pd
-import seaborn as sns
+#import pandas as pd
+#import seaborn as sns
 
-mask = np.zeros_like(df)
-mask[np.tril_indices_from(mask)] = True
+#mask = np.zeros_like(df)
+#mask[np.tril_indices_from(mask)] = True
 
-sns.heatmap(df, cmap="coolwarm", annot=True, mask=mask, square=True)
+#sns.heatmap(df, cmap="coolwarm", annot=True, mask=mask, square=True)
 
 
- #all important code for the linkage disequilibrium plot here. 
+#all important code for the linkage disequilibrium plot here. 
 
 
 #my attempt with the ld_plot
+
 from ld_plot.ld_plot import ld_plot
 import numpy as np 
 
@@ -119,11 +120,10 @@ import numpy as np
 def test_ld_plot():
     n = df.columns.values
 
-    #ld = np.random.RandomState(seed=42).random((n, n))
     labels = [f'chr1.{i}' for i in n]
-
-    figure = ld_plot(ld=df, labels=labels) 
-
-    #return figure
+    
+    figure = ld_plot(ld=df, labels=labels)
+    #matplotlib.rc('axes',edgecolor='green')
+    plt.xticks(fontsize=6)
 
 test_ld_plot()
