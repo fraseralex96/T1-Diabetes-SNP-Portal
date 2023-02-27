@@ -8,43 +8,7 @@ import seaborn as sns
 import matplotlib as plt
 from matplotlib.figure import Figure
 
-def goJoin(searchTerm='cellular_component'):
-	db_session = session()
-	results = db_session.query(GO_terms, Variant_gene_relationship).join(Variant_gene_relationship).filter(GO_terms.go_domain == searchTerm).all()
-	serialized_results = []
-	for result in results:
-		row = {
-		"gene_name": result.GO_terms.gene_name,
-		"go_domain": result.GO_terms.go_domain,
-		"go_term_name": result.GO_terms.go_term_name,
-		"go_term_definition": result.GO_terms.go_term_definition,
-		"go_term_accession": result.GO_terms.go_term_accession,
-		"variant_name": result.Variant_gene_relationship.variant_name,
-		}
-		serialized_results.append(row)
-	db_session.close()
-	return serialized_results
-
-def goJoin2(searchTerm='cellular_component'):
-	db_session = session()
-	results = db_session.query(Variants, Variant_gene_relationship, GO_terms).join(Variant_gene_relationship, Variant_gene_relationship.variant_name == Variants.variant_name).filter(GO_terms.go_domain == searchTerm).join(GO_terms, GO_terms.gene_name == Variant_gene_relationship.gene_name).all()
-	serialized_results = []
-	for result in results:
-		row = {
-		"chromosome": result.Variants.chromosome,
-		"location_on_chromosome": result.Variants.location_on_chromosome,
-		"gene_name": result.GO_terms.gene_name,
-		"go_domain": result.GO_terms.go_domain,
-		"go_term_name": result.GO_terms.go_term_name,
-		"go_term_definition": result.GO_terms.go_term_definition,
-		"go_term_accession": result.GO_terms.go_term_accession,
-		"variant_name": result.Variant_gene_relationship.variant_name,
-		}
-		serialized_results.append(row)
-	db_session.close()
-	return serialized_results
-
-def rafJoin():
+def variantJoin():
 	db_session = session()
 	results = db_session.query(Variants, RAFs).join(RAFs).all()
 	serialized_results = []
@@ -55,6 +19,26 @@ def rafJoin():
 		"allele": result.Variants.allele,
 		"chromosome": result.Variants.chromosome,
 		"location_on_chromosome": result.Variants.location_on_chromosome,
+		"han_raf": result.RAFs.han_raf,
+		"yoruba_raf": result.RAFs.yoruba_raf,
+		"gbr_raf": result.RAFs.gbr_raf
+		}
+		serialized_results.append(row)
+	db_session.close()
+	return serialized_results
+
+def variantJoin2():
+	db_session = session()
+	results = db_session.query(Variants, Variant_gene_relationship, RAFs).join(Variant_gene_relationship, RAFs).all()
+	serialized_results = []
+	for result in results:
+		row = {
+		"variant_name": result.Variants.variant_name,
+		"p_value": result.Variants.p_value,
+		"allele": result.Variants.allele,
+		"chromosome": result.Variants.chromosome,
+		"location_on_chromosome": result.Variants.location_on_chromosome,
+		"gene_name": result.Variant_gene_relationship.gene_name,
 		"han_raf": result.RAFs.han_raf,
 		"yoruba_raf": result.RAFs.yoruba_raf,
 		"gbr_raf": result.RAFs.gbr_raf
@@ -106,26 +90,55 @@ def clinJoin2():
 	db_session.close()
 	return serialized_results
 
-def variantJoin():
+def goJoin(searchTerm='cellular_component'):
 	db_session = session()
-	results = db_session.query(Variants, Variant_gene_relationship, RAFs).join(Variant_gene_relationship, RAFs).all()
+	results = db_session.query(GO_terms, Variant_gene_relationship).join(Variant_gene_relationship).filter(GO_terms.go_domain == searchTerm).all()
+	serialized_results = []
+	for result in results:
+	    row = {
+	    "gene_name": result.GO_terms.gene_name,
+	    "go_domain": result.GO_terms.go_domain,
+	    "go_term_name": result.GO_terms.go_term_name,
+	    "go_term_definition": result.GO_terms.go_term_definition,
+	    "go_term_accession": result.GO_terms.go_term_accession,
+	    "variant_name": result.Variant_gene_relationship.variant_name,
+	    }
+	    serialized_results.append(row)
+	db_session.close()
+	uniqueList = []
+	for d in serialized_results:
+	  if not any(
+	    nd["gene_name"] == d["gene_name"] and nd["go_term_accession"] == d["go_term_accession"]
+	    for nd in uniqueList
+	    ):
+	      uniqueList.append(d)
+	return uniqueList
+
+def goJoin2(searchTerm='cellular_component'):
+	db_session = session()
+	results = db_session.query(Variants, Variant_gene_relationship, GO_terms).join(Variant_gene_relationship, Variant_gene_relationship.variant_name == Variants.variant_name).filter(GO_terms.go_domain == searchTerm).join(GO_terms, GO_terms.gene_name == Variant_gene_relationship.gene_name).all()
 	serialized_results = []
 	for result in results:
 		row = {
-		"variant_name": result.Variants.variant_name,
-		"p_value": result.Variants.p_value,
-		"allele": result.Variants.allele,
 		"chromosome": result.Variants.chromosome,
 		"location_on_chromosome": result.Variants.location_on_chromosome,
-		"gene_name": result.Variant_gene_relationship.gene_name,
-		"han_raf": result.RAFs.han_raf,
-		"yoruba_raf": result.RAFs.yoruba_raf,
-		"gbr_raf": result.RAFs.gbr_raf
+		"gene_name": result.GO_terms.gene_name,
+		"go_domain": result.GO_terms.go_domain,
+		"go_term_name": result.GO_terms.go_term_name,
+		"go_term_definition": result.GO_terms.go_term_definition,
+		"go_term_accession": result.GO_terms.go_term_accession,
+		"variant_name": result.Variant_gene_relationship.variant_name,
 		}
 		serialized_results.append(row)
 	db_session.close()
-	return serialized_results
-
+	uniqueList = []
+	for d in serialized_results:
+		if not any(
+			nd["gene_name"] == d["gene_name"] and nd["go_term_accession"] == d["go_term_accession"]
+			for nd in uniqueList
+			):
+				uniqueList.append(d)
+	return uniqueList
 
 def geneJoin():
 	db_session = session()
@@ -293,29 +306,34 @@ def goTerms2(goJSON):
 		return [l15,l16,l17,l18,l19]
 
 def rangeMaker(cMin, cMax, JSON):
-	cMin = cMin.split(".")
-	cMax = cMax.split(".")
-	r1 = list(range(int(cMin[0]), (int(cMax[0])+1)))
-	r2 = [[r1[0]], r1[1:-1], [r1[-1]]]
-	newJSON1 = [x for x in JSON if x['chromosome'] in r1]
-	newJSON2 = [[], [], []]
-	newJSON3 = []
-	for obj in newJSON1:
-		if obj['chromosome'] == r1[0]:
-			newJSON2[0].append(obj)
-		elif obj['chromosome'] == r1[-1]:
-			newJSON2[2].append(obj)
-		else:
-			newJSON2[1].append(obj)
-	for i in range(len(newJSON2[0])-1, -1, -1):
-		if newJSON2[0][i]['location_on_chromosome'] < int(cMin[1]):
-			del newJSON2[0][i]
-	for i in range(len(newJSON2[2])-1, -1, -1):	
-		if newJSON2[2][i]['location_on_chromosome'] > int(cMax[1]):
-			del newJSON2[2][i]
-	for l in newJSON2:
-		newJSON3.extend(l)
-	return newJSON3
+  cMin = cMin.split(".")
+  cMax = cMax.split(".")
+  r1 = list(range(int(cMin[0]), (int(cMax[0])+1)))
+  r2 = [[r1[0]], r1[1:-1], [r1[-1]]]
+  newJSON1 = [x for x in JSON if x['chromosome'] in r1]
+  newJSON2 = [[], [], []]
+  newJSON3 = []
+  for obj in newJSON1:
+    if obj['chromosome'] == r1[0]:
+      newJSON2[0].append(obj)
+    elif obj['chromosome'] == r1[-1]:
+      newJSON2[2].append(obj)
+    else:
+      newJSON2[1].append(obj)
+  if (len(newJSON2[0])>0) and (len(newJSON2[2])>0):
+    for i in range(len(newJSON2[0])-1, -1, -1):
+      if newJSON2[0][i]['location_on_chromosome'] < int(cMin[1]):
+        del newJSON2[0][i]
+    for i in range(len(newJSON2[2])-1, -1, -1): 
+      if newJSON2[2][i]['location_on_chromosome'] > int(cMax[1]):
+        del newJSON2[2][i]
+  elif (len(newJSON2[0])>0) and (len(newJSON2[2])==0):  
+    for i in range(len(newJSON2[0])-1, -1, -1):
+      if not int(cMin[1]) <= newJSON2[0][i]['location_on_chromosome'] <= int(cMax[1]):
+        del newJSON2[0][i]
+  for l in newJSON2:
+    newJSON3.extend(l)
+  return newJSON3
 
 def ldSearch(ld, searchTerm):
 	with engine.connect() as conn:
