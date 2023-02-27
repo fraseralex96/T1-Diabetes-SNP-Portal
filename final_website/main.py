@@ -2,7 +2,7 @@ from app import app
 from models import Variants, Clinical_significance, GO_terms, RAFs, Variant_gene_relationship, chr6_GBR_r, chr6_Han_r, chr6_Yoruba_r
 from db_init import init_db, session, engine
 from flask import Flask, jsonify, redirect, url_for, render_template, request, send_file, make_response
-from functions import goJoin, dictMaker, dfMaker, plotMaker, goJoin2, rangeMaker, rafJoin, geneJoin, variants, goTerms, goTerms2, clinSif, clinSif2, clinSif3, geneCheck, variantJoin, variants2, clinJoin, clinJoin2, variants3
+from functions import goJoin, dictMaker, dfMaker, plotMaker, goJoin2, rangeMaker, variantJoin, geneJoin, variants, goTerms, goTerms2, clinSif, clinSif2, clinSif3, geneCheck, variantJoin2, variants2, clinJoin, clinJoin2, variants3
 import rpy2
 import rpy2.robjects as robjects
 from rpy2.rinterface_lib.embedded import RRuntimeError
@@ -33,7 +33,7 @@ def snpSearchResult():
 	if request.method == 'POST' and ('snpname' in request.form):
 		global search, x, y
 		search = request.form.get('snpname')
-		rafJSON = rafJoin()
+		rafJSON = variantJoin()
 		geneJSON = geneJoin()
 		x = variants(search, rafJSON, geneJSON)
 		y = clinSif(search)
@@ -80,7 +80,7 @@ def geneSearchResult():
 		global search, x, y
 		search = request.form.get('genename')
 		option = request.form.get('GO')
-		variantJSON = variantJoin()
+		variantJSON = variantJoin2()
 		x = variants2(search, variantJSON)
 		clinJSON = clinJoin()
 		y = clinSif2(search, clinJSON)
@@ -125,7 +125,7 @@ def chromoSearchResult():
 		global cMax, cMin, x, y, query
 		cMin = request.form.get('chromoloc1')
 		cMax = request.form.get('chromoloc2')
-		variantJSON = variantJoin()
+		variantJSON = variantJoin2()
 		query = f'{cMin} - {cMax}'
 		variantJSON2 = rangeMaker(cMin, cMax, variantJSON)
 		x = variants3(variantJSON2)
@@ -184,7 +184,7 @@ def result():
 		rgx = re.compile(r"^rs\d*")
 		g = geneCheck(search)
 		if rgx.search(search):
-			rafJSON = rafJoin()
+			rafJSON = variantJoin()
 			geneJSON = geneJoin()
 			x = variants(search, rafJSON, geneJSON)
 			y = clinSif(search)
@@ -204,7 +204,7 @@ def result():
 				result15=z[0], result16=z[1], result17=z[2], result18=z[3], result19=z[4]
 				)
 		if g==True:
-			variantJSON = variantJoin()
+			variantJSON = variantJoin2()
 			x = variants2(search, variantJSON)
 			clinJSON = clinJoin()
 			y = clinSif2(search, clinJSON)
@@ -229,7 +229,7 @@ def result():
 		rgx = re.compile(r"^rs\d*")
 		g = geneCheck(search)
 		if rgx.search(search):
-			rafJSON = rafJoin()
+			rafJSON = variantJoin()
 			geneJSON = geneJoin()
 			x = variants(search, rafJSON, geneJSON)
 			y = clinSif(search)
@@ -249,7 +249,7 @@ def result():
 				result15=z[0], result16=z[1], result17=z[2], result18=z[3], result19=z[4]
 				)
 		if g==True:
-			variantJSON = variantJoin()
+			variantJSON = variantJoin2()
 			x = variants2(search, variantJSON)
 			clinJSON = clinJoin()
 			y = clinSif2(search, clinJSON)
@@ -273,10 +273,13 @@ def resultLD():
 		global df
 		pop = request.form.get('population')
 		ld = request.form.getlist('ld')
-		d = dictMaker(ld, pop)
-		df = dfMaker(d)
-		plot_data = plotMaker(df)
-		return render_template('LD.html', plot_url=plot_data, ld=ld)
+		if (len(ld) > 0):
+			d = dictMaker(ld, pop)
+			df = dfMaker(d)
+			plot_data = plotMaker(df)
+			return render_template('LD.html', plot_url=plot_data, ld=ld)
+		else:
+			return render_template('LD.html', plot_url=None, ld=ld)
 
 @app.route('/downloadLD')
 def download_file1():
