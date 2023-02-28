@@ -1,13 +1,12 @@
 from app import app
-from models import Variants, Clinical_significance, GO_terms, RAFs, Variant_gene_relationship, chr6_GBR_r, chr6_Han_r, chr6_Yoruba_r
+from models import *
+from functions import *
 from db_init import init_db, session, engine
 from flask import Flask, jsonify, redirect, url_for, render_template, request, send_file, make_response
-from functions import goJoin, dictMaker, dfMaker, plotMaker, goJoin2, rangeMaker, variantJoin, geneJoin, variants, goTerms, goTerms2, clinSif, clinSif2, clinSif3, geneCheck, variantJoin2, variants2, clinJoin, clinJoin2, variants3
 import rpy2
 import rpy2.robjects as robjects
 from rpy2.rinterface_lib.embedded import RRuntimeError
 import json
-import re
 import io
 
 r = robjects.r
@@ -33,25 +32,29 @@ def snpSearchResult():
 	if request.method == 'POST' and ('snpname' in request.form):
 		global search, x, y
 		search = request.form.get('snpname')
-		rafJSON = variantJoin()
-		geneJSON = geneJoin()
-		x = variants(search, rafJSON, geneJSON)
-		y = clinSif(search)
-		goJSON = goJoin()
-		z = goTerms(search, goJSON, 'variant_name')
-		#list of snps that need to be highlighted
-		highlight_snps=y[0]
-		#call manhattan plot function including argument to highlight specific snps
-		r = robjects.r
-		r.source("manfunction.R")
-		r('man_function')(highlight_snps)
-		return render_template('snpResult.html', option=None, search = search, count = len(x[0]), 
-			result1=x[0], result2=x[1], result3=x[2], result4=x[3],
-			result5=x[4], result6=x[5], result7=x[6], count2 = len(y[0]),
-			result8=y[0],result9=y[1], result11=y[2], result10=y[3],
-			result12=y[4], result13=y[5], result14=y[6], count3 = len(z[0]),
-			result15=z[0], result16=z[1], result17=z[2], result18=z[3], result19=z[4]
-			)
+		r = rsCheck(search)
+		if r==True:
+			rafJSON = variantJoin()
+			geneJSON = geneJoin()
+			x = variants(search, rafJSON, geneJSON)
+			y = clinSif(search)
+			goJSON = goJoin()
+			z = goTerms(search, goJSON, 'variant_name')
+			#list of snps that need to be highlighted
+			highlight_snps=y[0]
+			#call manhattan plot function including argument to highlight specific snps
+			r = robjects.r
+			r.source("manfunction.R")
+			r('man_function')(highlight_snps)
+			return render_template('snpResult.html', option=None, search = search, count = len(x[0]), 
+				result1=x[0], result2=x[1], result3=x[2], result4=x[3],
+				result5=x[4], result6=x[5], result7=x[6], count2 = len(y[0]),
+				result8=y[0],result9=y[1], result11=y[2], result10=y[3],
+				result12=y[4], result13=y[5], result14=y[6], count3 = len(z[0]),
+				result15=z[0], result16=z[1], result17=z[2], result18=z[3], result19=z[4]
+				)
+		else:
+			return redirect(url_for('noResult'))	
 	elif request.method == 'POST' and ('GO' in request.form):
 		option = request.form.get('GO')
 		goJSON = goJoin(option)
@@ -79,25 +82,29 @@ def geneSearchResult():
 	if request.method == 'POST' and ('genename' in request.form):
 		global search, x, y
 		search = request.form.get('genename')
-		option = request.form.get('GO')
-		variantJSON = variantJoin2()
-		x = variants2(search, variantJSON)
-		clinJSON = clinJoin()
-		y = clinSif2(search, clinJSON)
-		goJSON = goJoin()
-		z = goTerms(search, goJSON, 'gene_name')
-		#list of snps that need to be highlighted
-		highlight_snps=y[0]
-		#call manhattan plot function including argument to highlight specific snps
-		r = robjects.r
-		r.source("manfunction.R")
-		r('man_function')(highlight_snps)
-		return render_template('geneResult.html', option=None, search = search, count = len(x[0]), 
-			result1=x[0], result2=x[1], result3=x[2], result4=x[3],
-			result5=x[4], result6=x[5], result7=x[6], count2 = len(y[0]),
-			result8=y[0],result9=y[1], result11=y[2], result10=y[3],
-			result12=y[4], result13=y[5], result14=y[6], count3 = len(z[0]),
-			result15=z[0], result16=z[1], result17=z[2], result18=z[3], result19=z[4])
+		g = geneCheck(search)
+		if g==True:
+			option = request.form.get('GO')
+			variantJSON = variantJoin2()
+			x = variants2(search, variantJSON)
+			clinJSON = clinJoin()
+			y = clinSif2(search, clinJSON)
+			goJSON = goJoin()
+			z = goTerms(search, goJSON, 'gene_name')
+			#list of snps that need to be highlighted
+			highlight_snps=y[0]
+			#call manhattan plot function including argument to highlight specific snps
+			r = robjects.r
+			r.source("manfunction.R")
+			r('man_function')(highlight_snps)
+			return render_template('geneResult.html', option=None, search = search, count = len(x[0]), 
+				result1=x[0], result2=x[1], result3=x[2], result4=x[3],
+				result5=x[4], result6=x[5], result7=x[6], count2 = len(y[0]),
+				result8=y[0],result9=y[1], result11=y[2], result10=y[3],
+				result12=y[4], result13=y[5], result14=y[6], count3 = len(z[0]),
+				result15=z[0], result16=z[1], result17=z[2], result18=z[3], result19=z[4])
+		else:
+			return redirect(url_for('noResult'))
 	elif request.method == 'POST' and ('GO' in request.form):
 		option = request.form.get('GO')
 		goJSON = goJoin(option)
@@ -181,9 +188,9 @@ def result():
 	if request.method == 'POST' and ('SEARCH' in request.form):
 		global search
 		search = request.form.get('SEARCH')
-		rgx = re.compile(r"^rs\d*")
+		r = rsCheck(search)
 		g = geneCheck(search)
-		if rgx.search(search):
+		if r==True:
 			rafJSON = variantJoin()
 			geneJSON = geneJoin()
 			x = variants(search, rafJSON, geneJSON)
@@ -226,9 +233,9 @@ def result():
 			return redirect(url_for('noResult'))	
 	elif request.method == 'POST' and ('GO' in request.form):
 		option = request.form.get('GO')
-		rgx = re.compile(r"^rs\d*")
+		r = rsCheck(search)
 		g = geneCheck(search)
-		if rgx.search(search):
+		if r==True:
 			rafJSON = variantJoin()
 			geneJSON = geneJoin()
 			x = variants(search, rafJSON, geneJSON)

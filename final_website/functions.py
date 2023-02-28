@@ -7,6 +7,8 @@ import base64
 import seaborn as sns
 import matplotlib as plt
 from matplotlib.figure import Figure
+import re
+
 
 def variantJoin():
 	db_session = session()
@@ -382,16 +384,25 @@ def plotMaker(df):
 	plot_data = base64.b64encode(buffer.getvalue()).decode('utf-8')
 	return plot_data
 
+#creates a list of genes that will be used for the below function
+geneList = []
+for i in GO_terms.query.all():
+	if i.gene_name in geneList:
+		pass
+	else:
+		geneList.append(i.gene_name)
 
 def geneCheck(search):
-	geneList = []
-	for i in GO_terms.query.all():
-		if i.gene_name in geneList:
-			pass
-		else:
-			geneList.append(i.gene_name)
-	if search in geneList:
+	if geneList.count(search)>0:
 		return True
 	else: 
 		return False
+
+def rsCheck(search):
+	rgx = re.compile(r"^rs\d*")
+	if rgx.search(search):
+		return True
+	else:
+		return False
+
 
