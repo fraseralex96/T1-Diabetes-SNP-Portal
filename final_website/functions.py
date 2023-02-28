@@ -309,8 +309,8 @@ def goTerms2(goJSON):
 		return [l15,l16,l17,l18,l19]
 
 def rangeMaker(cMin, cMax, JSON):
-  cMin = cMin.split(".")
-  cMax = cMax.split(".")
+  cMin = cMin.split(":")
+  cMax = cMax.split(":")
   r1 = list(range(int(cMin[0]), (int(cMax[0])+1)))
   r2 = [[r1[0]], r1[1:-1], [r1[-1]]]
   newJSON1 = [x for x in JSON if x['chromosome'] in r1]
