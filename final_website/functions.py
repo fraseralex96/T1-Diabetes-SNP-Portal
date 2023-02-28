@@ -425,7 +425,4 @@ def ldCheck(ld):
 			count+=1
 		else:
 			pass
-	if count > 0:
-		return True
-	elif count == 0:
-		return False
+	return count

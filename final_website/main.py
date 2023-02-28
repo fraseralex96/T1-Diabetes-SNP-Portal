@@ -279,14 +279,14 @@ def resultLD():
 		global df
 		pop = request.form.get('population')
 		ld = request.form.getlist('ld')
-		rs = ldCheck(ld)
-		if rs==True:
+		count = ldCheck(ld)
+		if count>1:
 			d = dictMaker(ld, pop)
 			df = dfMaker(d)
 			plot_data = plotMaker(df)
-			return render_template('LD.html', plot_url=plot_data, ld=ld, rs=rs)
+			return render_template('LD.html', plot_url=plot_data, ld=ld, count=count)
 		else:
-			return render_template('LD.html', plot_url=None, ld=ld, rs=rs)
+			return render_template('LD.html', plot_url=None, ld=ld, count=count)
 
 
 @app.route('/downloadLD')
