@@ -4,7 +4,6 @@ from models import Variants, Clinical_significance, GO_terms, RAFs, Variant_gene
 import json
 import io
 import base64
-import seaborn as sns
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 from ld_plot.ld_plot import ld_plot
@@ -213,14 +212,31 @@ def variants3(variantJSON):
 		l5 = []
 		l6 = []
 		l7 = []
-		for i in variantJSON:
+		variantJSON2 = []
+		for d in variantJSON:
+			found = False
+			for nd in variantJSON2:
+			  if nd["p_value"] == d["p_value"] and nd["variant_name"] == d["variant_name"]:
+			  	if isinstance(nd['gene_name'], list):
+			  		nd['gene_name'].append(d['gene_name'])
+			  	else:
+			  		nd['gene_name'] = [nd['gene_name'], d['gene_name']]
+			  	found = True
+			  	break
+			if not found:
+				variantJSON2.append(d)
+		for i in variantJSON2:
 			l1.append(f"{i['variant_name']} - {i['allele']}")
 			l2.append(i['p_value'])
 			l3.append(f"{i['chromosome']}:{i['location_on_chromosome']}")
-			l4.append(i['gene_name'])
 			l5.append(i['gbr_raf'])
 			l6.append(i['han_raf'])	
 			l7.append(i['yoruba_raf'])	
+			if isinstance(i['gene_name'], list):
+				x = ', '.join(i['gene_name'])
+				l4.append(x)
+			else:
+				l4.append(i['gene_name'])
 		return [l1,l2,l3,l4,l5,l6,l7]
 
 def clinSif(search):
