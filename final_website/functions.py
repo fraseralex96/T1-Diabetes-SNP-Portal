@@ -5,8 +5,9 @@ import json
 import io
 import base64
 import seaborn as sns
-import matplotlib as plt
 from matplotlib.figure import Figure
+import matplotlib.pyplot as plt
+from ld_plot.ld_plot import ld_plot
 import re
 
 
@@ -375,9 +376,11 @@ def dfMaker(ld_dict):
 	return df
 
 def plotMaker(df):
-	fig = Figure()
-	ax = fig.subplots()
-	sns.heatmap(df, cmap="coolwarm", ax=ax)
+	n = df.columns.values
+	fig = ld_plot(ld=df, labels=n)
+	plt.xticks(fontsize=7)
+
+	# Save plot to buffer
 	buffer = io.BytesIO()
 	fig.savefig(buffer, format='png')
 	buffer.seek(0)
