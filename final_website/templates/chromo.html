@@ -39,8 +39,8 @@
           		<div class="chromoloc_search">
           			<form method="POST", class="search-bar", action="/result/chromosome">
           				<!--<label for="chromoloc">Chromosome Coordinates</label>-->
-          				<input type="number" step="any"name="chromoloc1" id="chromoloc1" placeholder="e.g 6.123758" min="1" max="24" required>
-          				<input type="number" step="any" name="chromoloc2" id="chromoloc2" placeholder="e.g 6.992125" min="1" max="24"required>
+          				<input type="text" step="any"name="chromoloc1" id="chromoloc1" placeholder="e.g 6:123758" pattern="\d{1,2}:\d{1,}" title="e.g 6:123758" required>
+          				<input type="text" step="any" name="chromoloc2" id="chromoloc2" placeholder="e.g 6:992125" pattern="\d{1,2}:\d{1,}" title="e.g 6:992125" required>
           				<button type="submit" id="chromo_submission"><img src="../static/images/search_img.png"></button>
           			</form>
           		</div>
