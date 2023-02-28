@@ -22,7 +22,7 @@
 	    	<div class="LD">
 	    		<h2> Linkage disequilibrium plot for Type 1 diabetes SNPs</h2>
 	    		<br>
-	    	{% if rs==True %}
+	    	{% if count > 1 %}
 	    		<div class="LDplot">
 		            <a target="_blank" href="#">
 		                  <img src="data:image/png;base64,{{ plot_url }}" alt="plot">
@@ -32,11 +32,19 @@
 	          	<div class="Download"> 
 	          		<p>Click here to download LD text file <a href="{{ url_for('download_file1') }}" class="button">Download</a></p>
 	          	</div>
-    		{% elif rs==False %}
+    		{% elif count == 1 %}
     		<div class="noresult">
-	    		<h2>No Result...</h2>
+	    		<h2>Insufficient data</h2>
+	    		<img src='../static/images/no_data.png' width="200" height="200">
+	    		<h4>Linkage disequilibrium data is only available for searches including more than one SNP on chromosome 6</h4>
+	    		<p>This search did not fulfil this condition...</p>
+	    		<p> You can fix this by submitting a broader search using the <a href="/search/chromosome">Advanced Search</a>.</p>
+    		</div>
+    		{% elif count == 0 %}
+    		<div class="noresult">
+	    		<h2>No result...</h2>
 	    		<img src='../static/images/no_result.jpg'>
-	    		<p>Linkage disequilibrium data is not available for these SNPs</p>
+	    		<h4>Linkage disequilibrium data is not available for these SNPs</h4>
 	    		<p> For a search that specifically looks for chromosome 6, use the <a href="/search/chromosome">Advanced Search</a>.</p>
     		</div>
 	        {% endif %}
