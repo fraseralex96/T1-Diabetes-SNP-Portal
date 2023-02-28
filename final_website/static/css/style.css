@@ -72,6 +72,10 @@ main {
 
 /*----------------------------------- Advanced search layout----------------------------------------  */
 
+.search_info {
+  text-align: center;
+}
+
 /* Drop down button */
 #container{
   display: flex;
