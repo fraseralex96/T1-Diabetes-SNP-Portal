@@ -22,14 +22,7 @@
 	    	<div class="LD">
 	    		<h2> Linkage disequilibrium plot for Type 1 diabetes SNPs</h2>
 	    		<br>
-	    	{% if plot_url == None %}
-    		<div class="noresult">
-	    		<h2>No Result...</h2>
-	    		<img src='../static/images/no_result.jpg'>
-	    		<p>Linkage disequilibrium data is not available for these SNPs</p>
-	    		<p> For a search that specifically looks for chromosome 6, use the <a href="/search/chromosome">Advanced Search</a>.</p>
-    		</div>
-    		{% else %}
+	    	{% if rs==True %}
 	    		<div class="LDplot">
 		            <a target="_blank" href="#">
 		                  <img src="data:image/png;base64,{{ plot_url }}" alt="plot">
@@ -39,7 +32,14 @@
 	          	<div class="Download"> 
 	          		<p>Click here to download LD text file <a href="{{ url_for('download_file1') }}" class="button">Download</a></p>
 	          	</div>
-	          {% endif %}
+    		{% elif rs==False %}
+    		<div class="noresult">
+	    		<h2>No Result...</h2>
+	    		<img src='../static/images/no_result.jpg'>
+	    		<p>Linkage disequilibrium data is not available for these SNPs</p>
+	    		<p> For a search that specifically looks for chromosome 6, use the <a href="/search/chromosome">Advanced Search</a>.</p>
+    		</div>
+	        {% endif %}
 	        </div>
    	 	</main>
 
