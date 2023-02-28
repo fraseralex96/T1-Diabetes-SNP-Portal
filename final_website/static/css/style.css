@@ -73,9 +73,13 @@ main {
 /*----------------------------------- Advanced search layout----------------------------------------  */
 
 /* Drop down button */
-.search_info {
-  text-align: center;
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative; top:50px;
 }
+
 
 .dropbtn {
   background-color: #35577D;
@@ -126,20 +130,15 @@ main {
 }
 
 .dropdown {
-  position: absolute;
-  top: 291px;
-  left: 154px;
-  margin-top: 0;
+  position:relative; left:14px;
   padding: 10px;
 }
 
+
+
 /* Search options labelled */
 .snplabel {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 365px;
-  margin-top: 0;
+  
   width: 100%;
   max-width: 194px;
   background: #35577D;
@@ -148,15 +147,12 @@ main {
   border-radius: 6px;
   padding: 7px 20px;
   color: white;
+  position:relative; left:5px;
 
 }
 
 .genelabel {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 365px;
-  margin-top: 0;
+  
   width: 100%;
   max-width: 194px;
   background: #35577D;
@@ -165,14 +161,10 @@ main {
   border-radius: 6px;
   padding: 7px 20px;
   color: white;
+  position:relative; left:5px;
 }
 
 .chromolabel {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 365px;
-  margin-top: 0;
   width: 100%;
   max-width: 194px;
   background: #35577D;
@@ -181,25 +173,26 @@ main {
   border-radius: 6px;
   padding: 11px 20px;
   color: white;
+  position:relative; left:5px;
 }
+
+
 
 /*search bar background and visuals*/
 .search-bar{
   width: 100%;
   max-width: 700px;
   background: #35577D;
-  display: flex;
-  align-items: center;
   border-radius: 6px;
-  padding: 5px 20px;
+  padding: 7px 20px;
+  position:relative; left:6px; top:8px
 }
 
 .search-bar input{
   background: transparent;
-  flex: 1;
   border: 0;
   outline: none;
-  padding: 24px 20px;
+  padding: 20px 20px;
   font-size: 20px;
   color: white;
 }
@@ -210,6 +203,7 @@ main {
 
 .search-bar button img{
   width: 25px;
+  
 }
 
 .search-bar button{
@@ -219,32 +213,10 @@ main {
   height: 60px;
   background: #7ab7f0;
   cursor: pointer;
+  position:relative; left:45px; top:3px;
 }
 
-/* search bars */
-.snp_search {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 600px;
-  margin-top: 0;
-}
 
-.gene_search {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 600px;
-  margin-top: 0;
-}
-
-.chromoloc_search {
-  text-align:center;
-  position: absolute;
-  top: 300px;
-  left: 600px;
-  margin-top: 0;
-}
 
 /*change colour of suggested input in search bar*/
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -272,6 +244,7 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
 
 /*----------------------------------- No result layout----------------------------------------------  */
 
