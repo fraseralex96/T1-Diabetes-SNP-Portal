@@ -1,4 +1,4 @@
-dict1 = {
+dict_1 = {
   "rs9268576": {
     "rs1980493": 0.015,
     "rs3135365": 0.032,
@@ -92,30 +92,17 @@ dict1 = {
   }
 }
 
+pip install ld_plot
+import pandas as pd
+from ld_plot.ld_plot import ld_plot
+import numpy as np 
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
+
 #create the dataframe
 df = pd.DataFrame.from_dict(dict_1, orient='index')
 df = df.transpose()
 df
-
-#my attempt with the heatmap function
-#import pandas as pd
-#import seaborn as sns
-
-#mask = np.zeros_like(df)
-#mask[np.tril_indices_from(mask)] = True
-
-#sns.heatmap(df, cmap="coolwarm", annot=True, mask=mask, square=True)
-
-
-#all important code for the linkage disequilibrium plot here. 
-
-
-#my attempt with the ld_plot
-
-from ld_plot.ld_plot import ld_plot
-import numpy as np 
-
-#pip install ld_plot
 
 def test_ld_plot():
     n = df.columns.values
@@ -124,6 +111,12 @@ def test_ld_plot():
     
     figure = ld_plot(ld=df, labels=labels)
     #matplotlib.rc('axes',edgecolor='green')
-    plt.xticks(fontsize=6)
+    plt.xticks(fontsize=7)
+    
+    #plt.imshow(cmap='RdBu')
+    #plt.cm.Blues
+
 
 test_ld_plot()
+
+
