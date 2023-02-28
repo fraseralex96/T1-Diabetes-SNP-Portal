@@ -213,17 +213,25 @@ def variants3(variantJSON):
 		l6 = []
 		l7 = []
 		variantJSON2 = []
+		#this checks if the dictionary is repeated and collates them all into one dictionary
+		#with gene_name as a lit containing all gene name values from the repeats
 		for d in variantJSON:
 			found = False
 			for nd in variantJSON2:
+				#specifically checks for repeats with the values of p_value and variant_name
+				#this is actually checking if the dictionary has been added to the new list
 			  if nd["p_value"] == d["p_value"] and nd["variant_name"] == d["variant_name"]:
+			  	#checks if there is already a list at 'gene_name'
 			  	if isinstance(nd['gene_name'], list):
+			  		#appends values to this list if there is
 			  		nd['gene_name'].append(d['gene_name'])
 			  	else:
+			  		#creates a list if not
 			  		nd['gene_name'] = [nd['gene_name'], d['gene_name']]
 			  	found = True
 			  	break
 			if not found:
+				#this adds the dict from the old list to the new list if it is not already present
 				variantJSON2.append(d)
 		for i in variantJSON2:
 			l1.append(f"{i['variant_name']} - {i['allele']}")
