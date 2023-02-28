@@ -409,7 +409,6 @@ input[type=number] {
 }
 
 /* LD plot layout*/
-
 main .LD {
   text-align: center ;
 }
@@ -418,8 +417,9 @@ main .LD {
   margin: 5px;
   border: 1px solid #ccc;
   width: 40%;
-  margin-bottom: 50px;
-  margin-left: 570px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .LDplot img {
