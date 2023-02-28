@@ -405,4 +405,24 @@ def rsCheck(search):
 	else:
 		return False
 
+rsList=[]
+with engine.connect() as conn:
+  result = conn.execute(chr6_GBR_r.select())
+  rows = [dict(row) for row in result]
+  serialised_rows = json.dumps(rows)
+  deserialised_rows = json.loads(serialised_rows)
+  conn.close()
+for key, value in deserialised_rows[1].items():
+  rsList.append(key)
 
+def ldCheck(ld):
+	count = 0
+	for i in ld:
+		if i in rsList:
+			count+=1
+		else:
+			pass
+	if count > 0:
+		return True
+	elif count == 0:
+		return False

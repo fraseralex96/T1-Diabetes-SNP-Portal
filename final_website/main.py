@@ -279,13 +279,15 @@ def resultLD():
 		global df
 		pop = request.form.get('population')
 		ld = request.form.getlist('ld')
-		if (len(ld) > 0):
+		rs = ldCheck(ld)
+		if rs==True:
 			d = dictMaker(ld, pop)
 			df = dfMaker(d)
 			plot_data = plotMaker(df)
-			return render_template('LD.html', plot_url=plot_data, ld=ld)
+			return render_template('LD.html', plot_url=plot_data, ld=ld, rs=rs)
 		else:
-			return render_template('LD.html', plot_url=None, ld=ld)
+			return render_template('LD.html', plot_url=None, ld=ld, rs=rs)
+
 
 @app.route('/downloadLD')
 def download_file1():
