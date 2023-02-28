@@ -99,15 +99,15 @@ gtDF.to_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project
 #import data
 rafDF = pd.read_csv(r'C:/Users/frase/OneDrive/Documents/MSc Bioinformatics/Group Project/Website/database/Data/RAF-complete.csv')
 
-#drop unnecessary columns
-rafDF = rafDF.drop(['Location'], axis=1)
-
 #rename necessary columns
 rafDF.columns = ['Variant ID and risk allele', 'Han Chinese RAF', 'Yoruba RAF', 'GBR RAF']
 
-#remove HTML tag from rsValue
-rafDF["Variant ID and risk allele"] = rafDF["Variant ID and risk allele"].str.replace('<b>','')
-rafDF["Variant ID and risk allele"] = rafDF["Variant ID and risk allele"].str.replace('</b>','')
+#remove the allele from variants
+newRS = []
+for i in rafDF['Variant ID and risk allele']:
+    l = i.split('-')
+    newRS.append(l[0])
+rafDF['Variant ID and risk allele']=newRS
 
 #replace blanks with N/A
 rafDF = rafDF.fillna('N/A')
