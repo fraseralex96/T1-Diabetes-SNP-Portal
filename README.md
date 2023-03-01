@@ -20,7 +20,7 @@ To run on your localhost please download the directory 'final_website'. Alternat
 Clone the project
 
 ```bash
-  git clone https://github.com/fraseralex96/MSc-Bioinformatics-group-project
+  git clone https://github.com/fraseralex96/Microsoft_edge
 ```
 
 Go to the project directory
