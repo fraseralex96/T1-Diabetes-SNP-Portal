@@ -1,27 +1,29 @@
+#important packages- see requirements.txt for versions
 from db_init import Base, metadata, engine
 from sqlalchemy.schema import PrimaryKeyConstraint
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, Table
 from sqlalchemy.orm import relationship
 
 
+#classes created for each table in the database
 class Variants(Base):
 
-    __tablename__ = 'Variants'
+    __tablename__ = 'Variants' # specifies table name
 
-    id = Column('variant_id', Integer, primary_key = True)
+    id = Column('variant_id', Integer, primary_key = True) # attributes are added per column
     variant_name = Column('variant_name', String)
     allele = Column('allele', String)
     p_value = Column('p_value', Float)
     chromosome = Column('chromosome', Integer)
     location_on_chromosome= Column('location_on_chromosome', Integer)
-    rel1 = relationship('Clinical_significance')
+    rel1 = relationship('Clinical_significance') # rel specifies relationships for foreign keys
     rel2 = relationship('RAFs')
     rel3 = relationship('Variant_gene_relationship')
 
 
     def __init__(self, id=None, 
         variant_name=None, p_value=None, 
-        chromosome=None, location_on_chromosome=None):
+        chromosome=None, location_on_chromosome=None): # init function initialises the class
         self.id = id    
         self.variant_name = variant_name
         self.allele = allele
@@ -34,7 +36,7 @@ class Clinical_significance(Base):
     __tablename__ = 'Clinical_significance'
 
     id = Column('variant_ID', Integer, primary_key = True)
-    variant_name = Column('variant_name', String, ForeignKey('Variants.variant_name'))
+    variant_name = Column('variant_name', String, ForeignKey('Variants.variant_name')) # foreign key reference 
     variant_consequence = Column('variant_consequence', String)
     clinical_significance = Column('clinical_significance', String)
     polyPhen_prediction = Column('polyPhen_prediction', String)
@@ -83,7 +85,7 @@ class Variant_gene_relationship(Base):
     variant_name = Column('Variant_name', String, ForeignKey('Variants.variant_name'))
     gene_name = Column('Gene_name', String)
     __table_args__ = (
-    PrimaryKeyConstraint(variant_name, gene_name),
+    PrimaryKeyConstraint(variant_name, gene_name), # this syntax was required to set a compound primary key
     {})
     rel = relationship('GO_terms')
 
@@ -113,7 +115,10 @@ class GO_terms(Base):
         self.go_term_definition = go_term_definition
         self.go_term_accession = go_term_accession
 
-chr6_GBR_r = Table('chr6_GBR_r', metadata, autoload=True, autoload_with=engine)
+# the above classes are used to manually map tables
+# mapping can be used to refect a SQL table without manually creating columns
+# this was required for these matrixes that were 50x50
+chr6_GBR_r = Table('chr6_GBR_r', metadata, autoload=True, autoload_with=engine) # Table object created per matrix in SQL 
 chr6_Han_r = Table('chr6_Han_r', metadata, autoload=True, autoload_with=engine)
 chr6_Yoruba_r = Table('chr6_Yoruba_r', metadata, autoload=True, autoload_with=engine)
 
