@@ -36,6 +36,7 @@ main {
   list-style: none;
   padding: 0 10px;
   margin: 0 auto;
+  margin-left: -10px;
 }
 
 /* Nav text design */
