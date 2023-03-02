@@ -89,11 +89,6 @@ main h1, h2, p {
 }
 
 
-/*get rid of highlight when you use automatic suggested input*/
-input:-webkit-autofill {
-    -webkit-box-shadow:0 0 0 50px white inset;
-    -webkit-text-fill-color: #333;
-}
 
 
 
