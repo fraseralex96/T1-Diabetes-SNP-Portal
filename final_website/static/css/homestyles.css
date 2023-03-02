@@ -89,47 +89,39 @@ main h1, h2, p {
 }
 
 
-
-
-
-
-.search-bar{
-  width: 55%;
-  height:12%;
+/* there are issues with overflow and margins for the search bar*/
+input[type=text] {
+  padding: 12px 20px;
   background: white;
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin-block: inherit;
+  margin-left: 350px; 
+}
+
+input:focus {
+  outline: none;
   border-color: #9ecaed;
   box-shadow: 0 0 10px #9ecaed;
-  outline: none;
-  margin: auto;
 }
 
-.search-bar input{
-  width: 90%;
-  height: 100%;
-  background: white;
-  border: 0;
-  outline: none;
-  padding: 7px 20px;
-  font-size: 20px;
+button {
+  background-color: #35577D;
+  border: none;
   color: white;
-  outline: none;
-}
-
-
-.search-bar button img{
-  width: 25px;
-}
-
-
-.search-bar button{
-  border: 0;
-  border-radius: 50%;
-  width: 5%;
-  height: 100%;
-  background: transparent;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   cursor: pointer;
-  float: right;
-  margin-right: 10px;
+  overflow: auto;
+}
+
+button:hover {
+  background: #143254;
 }
 
 p {
