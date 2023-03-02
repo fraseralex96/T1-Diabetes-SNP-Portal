@@ -28,15 +28,16 @@
         <h1>  Type 1 Diabetes SNP Portal</h1>
 
       <div id="search">
-        <form action="/result" method="POST"> 
-          <br>
-          <h2>Find your SNP</h2>
-          <br>
+        <h2>Find your SNP</h2>
+        <br>
+        <form action="/result" method="POST" class="search-bar"> 
           <label for="search"></label>
           <input type="text" name="SEARCH" id=seacrh required class="searchbar" placeholder="Search..."> 
-          <button type="submit">Search</button>
-          <p> Examples: rs72928038, HLA-DQB1</p>
+          <button type="submit"><img src="../static/images/search.png"></button>
+          
         </form>
+        <br>
+        <p> Examples: rs72928038, HLA-DQB1</p>
       </div>
       </div>
     </div>
