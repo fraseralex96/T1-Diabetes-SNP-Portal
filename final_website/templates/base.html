@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
+  <head>
+    <title>SNP Portal</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
+  </head>
+  <body>
 
-<!--This provides the title on the browser tab -->
-<head>
-  <title>SNP Portal </title>
-  <link href="homestyles.css" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class='nav'>
-      <div class='container'>
-        <img src='./logo.jpeg'>   
-        <a style=float:right; href="./resources_page.html">Resources</a>
-        <a style=float:right; href="./search_page.html">Search</a>
-        <a style=float:right; href="./about_page.html">About</a>
-        <a style=float:right; href="/Users/lynnettebhebhe/Desktop/SNP website/homepage.html">Home</a>
-      </div>  
-    </div>
-  </header>
+    <!--Header with anchor tags to relavant pages -->
+    <header>
+        <div class='nav'>
+          <img src='../static/images/logo.jpeg'>    
+            <a style=float:right; href="/resources">Resources</a>
+            <a style=float:right; href="/search/SNP">Search</a>
+            <a style=float:right; href="/about">About</a>
+            <a style=float:right; href="/">Home</a>
+        </div>
+      </header>
 
 {% block content %}{% endblock %}
 
-  <footer>
-    <div class="footer" style="margin-top: 90%;">
-      <p class="copyright">© Type 1 Diabetes SNP Portal 2023</p>
-    </div>
-  </footer>
-
-</body>
+  <!--Footer -->
+      <footer>
+          <p class="copyright"> © Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
+      </footer>
+  </body>
 </html>

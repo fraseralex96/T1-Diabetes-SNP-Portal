@@ -1,21 +1,6 @@
-<html>
-	<head>
-		<title>No result</title>
-		<link href="../static/css/style.css" rel="stylesheet">
-		<link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
-	</head>
-	<body>
+{% extends "base.html" %}
 
-		<!--Header with anchor tags to relavant pages -->
-		<header>
-    		<div class='nav'>
-     			<img src='../static/images/logo.jpeg'>    
-      			<a style=float:right; href="/resources">Resources</a>
-      			<a style=float:right; href="/search/SNP">Search</a>
-      			<a style=float:right; href="/about">About</a>
-      			<a style=float:right; href="/">Home</a>
-    		</div>
-  		</header>
+{% block content %}
 
   		<!--Main text -->
     	<main>
@@ -27,9 +12,5 @@
     		</div>
    	 	</main>
 
-   	 	<!--Footer -->
-    	<footer>
-      		<p class="copyright"> © Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
-    	</footer>
-	</body>
-</html>
+
+{% endblock %}

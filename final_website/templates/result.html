@@ -1,28 +1,10 @@
-<!--DOCTYPE html-->
+{% extends "base.html" %}
 
-<!--Link title -->
-<html>
-  <head>
-    <title>Result</title>
-    <link href="../static/css/style.css" rel="stylesheet">
-    <link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
-    <script src="{{url_for('static', filename='select_all.js')}}"></script>
-  </head>
-  <body>
-
-    <!--Header with anchor tags to relavant pages -->
-    <header>
-        <div class='nav'>
-          <img src='../static/images/logo.jpeg'>    
-            <a style=float:right; href="/resources">Resources</a>
-            <a style=float:right; href="/search/SNP">Search</a>
-            <a style=float:right; href="/about">About</a>
-            <a style=float:right; href="/">Home</a>
-        </div>
-      </header>
+{% block content %}
 
    <!--Sidebar -->
   <main>
+  <script src="{{url_for('static', filename='select_all.js')}}"></script>
      <div class="row">
        <div class="sidebar">
           <ul>
@@ -42,10 +24,12 @@
        
      <div id="VariantInformation" class= "table">
         <div><h2>Variant Information </h2></div>
+       <!-- checks if there is data in the database -->
       {% if count < 1 %}
         <p>No data found</p>
          <div id='ClinicalSignificance'></div> 
       {% endif %}
+      <!-- if there is data in the database, creates table -->
       {% if count > 0 %}
         <div>
           <div class="table_container">
@@ -60,7 +44,7 @@
             <th>RAF Yoruba</th>
           </tr>
 
-
+      <!-- adds row for each snp -->
        {% for i in range(count) %}
           <tr>
             <td>{{ result1[i] }}</td>
@@ -120,6 +104,7 @@
       <form action="/result" method='POST'> 
         <label for="GO">Select GO term: </label>
         <select name="GO" id="population" placeholder='Alex'>
+        <!-- select go term domain -->
         {% if option == 'cellular_component' %}
           <option value="cellular_component">Cellular Component</option>
           <option value="molecular_function">Molecular Function</option>
@@ -140,6 +125,7 @@
         </select>
         <input type="submit" value="Submit" id="submit-button">
       </form>
+      <br>
       {% if count3 < 1 %}
         <p>No data found</p>
       {% endif %}
@@ -201,6 +187,7 @@
               <input type="button" onclick='selectAll()' value="Select All"/>
               <input type="button" onclick='deselectAll()' value="Deselect All"/>
             </p>
+            <!-- lists all the snps to checkbox for ld plot -->
             {% for i in range (count)%}
             <input type="checkbox" id="snp1" name='ld' value={{result1[i]}}>
             <label for="snp1">{{result1[i]}}</label><br>
@@ -208,6 +195,7 @@
             <br>
             <input type="submit" value="Submit">
           </form> 
+          <br>
           {% endif %}
             
           </div>
@@ -216,8 +204,4 @@
     </div>
   </main>
 
-  <footer>
-    <p class="copyright">© Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
-  </footer>
-
-</body>
+{% endblock %}

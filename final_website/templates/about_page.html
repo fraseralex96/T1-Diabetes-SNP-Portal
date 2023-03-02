@@ -1,43 +1,24 @@
-<html>
-	<head>
-		<title>About</title>
-		<link href="../static/css/style.css" rel="stylesheet">
-		<link rel="icon" type="image/jpeg" href="../static/images/logo.jpeg">
-	</head>
-	<body>
+{% extends "base.html" %}
 
-		<!--Header with anchor tags to relavant pages -->
-		<header>
-    		<div class='nav'>
-     			<img src='../static/images/logo.jpeg'>    
-      			<a style=float:right; href="/resources">Resources</a>
-      			<a style=float:right; href="/search/SNP">Search</a>
-      			<a style=float:right; href="/about">About</a>
-      			<a style=float:right; href="/">Home</a>
-    		</div>
-  		</header>
-
+{% block content %}
   		<!--Main text -->
     	<main>
     		<div class="about_text">
       			<h2>About the Type 1 Diabetes SNP Portal</h2>
       			<p>Type 1 Diabetes SNP Portal is a website founded by team Microsoft Edge in 2023 in order to leverage upon and link all the genomic, functional, and clinical information available on Type 1 Diabetes (T1D). Genome-wide association studies (GWAS) have identified a large number of SNPs (single nucleotide polymorphisms) / genetic variants associated with T1D, however properly interpreting the mapping of the genetic basis of T1D can be difficult. The Type 1 Diabetes SNP Portal makes it easier for users to retrieve genomic information of variants along with population, functional and clinical information ultimately making it easier to interpret the mapping of the genetic basis of T1D.</p>
       			<p>The Type 1 Diabetes SNP Portal provides T1D SNP information which includes SNP names (rs values), genomic positions, p-values from the association test, mapped genes, variant allele frequency in British, Chinese and African populations. There is also gene ontology information as well as clinical impact and relevance information. Linkage disequilibrium (LD) values and also Manhattan plots are also included.</p>
-      			<h3>Contact</h3>
-      			<p>Contact team Microsoft Edge via <a href="mailto:snp-portal-info@gmail.com"> snp-portal-info@gmail.com</a> with any queries or comments.</p>
       			<h3>Citations</h3>
       			<p>Nyaga DM, Vickers MH, Jefferies C, Perry JK, O'Sullivan JM. The genetic architecture of type 1 diabetes mellitus. Mol Cell Endocrinol. 2018 Dec 5;477:70-80. doi: 10.1016/j.mce.2018.06.002. Epub 2018 Jun 18. PMID: 29913182.</p>
 
       			<p>Slatkin M. Linkage disequilibrium--understanding the evolutionary past and mapping the medical future. Nat Rev Genet. 2008 Jun;9(6):477-85. doi: 10.1038/nrg2361. PMID: 18427557; PMCID: PMC5124487.</p>
+
+      			<h3>Contact</h3>
+      			<p>Contact team Microsoft Edge via <a href="mailto:snp-portal-info@gmail.com"> snp-portal-info@gmail.com</a> with any queries or comments.</p>
 
       			<h3>Acknowledgments</h3>
       			<p>We would like to acknowledge Prof Conrad Bessant and Dr Matteo Fumagalli for guidance and supervision in this project. </p>
       		</div>
    	 	</main>
 
-   	 	<!--Footer -->
-    	<footer>
-      		<p class="copyright"> © Type 1 Diabetes SNP Portal 2023 powered by the Microsoft Edge team</p>
-    	</footer>
-	</body>
-</html>
+   	 
+{% endblock %}
