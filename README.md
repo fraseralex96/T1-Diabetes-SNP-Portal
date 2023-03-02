@@ -39,6 +39,7 @@ Install dependencies
   pip install matplotlib==3.7.0
   pip install requests==2.21.0
   pip install flask_sqlalchemy==3.0.2
+  pip install SQLAlchemy==1.4.46
   pip install ld_plot==0.0.2.1
   pip install numpy==1.24.2
 
