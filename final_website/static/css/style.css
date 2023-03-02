@@ -221,7 +221,11 @@ main {
   position:relative; left:45px; top:3px;
 }
 
-
+/*get rid of highlight when you use automatic suggested input*/
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #35577D inset; 
+    -webkit-text-fill-color: white;
+}
 
 /*change colour of suggested input in search bar*/
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
