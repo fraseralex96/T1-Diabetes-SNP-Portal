@@ -7,7 +7,7 @@ Type 1 Diabetes SNP Portal is a website founded by a group of 4 Master's student
 
 ### Website Link
 ```bash
-  http://13.42.53.58/
+  http://13.42.53.58
 ```
 
 
