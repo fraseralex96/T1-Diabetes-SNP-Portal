@@ -7,8 +7,3 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///./database/DB.db' # configure
 
 #create an instance of the SQLalchemy class and associate it with our flask app
 db = SQLAlchemy(app)
-db.init_app(app) # initialise the flask app
-
-
-
-

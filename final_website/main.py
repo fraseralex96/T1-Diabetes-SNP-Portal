@@ -341,7 +341,7 @@ def download_file1():
 
 @app.route('/noResult')
 def noResult():
-	return render_template('no_result.html')	
+	return render_template('no_result.sshtml')	
 
 ####### resources page ##############################################		
 
@@ -352,5 +352,5 @@ def resources():
 #allows the app to run when called
 if __name__=='__main__':
 	init_db()
-	app.run(debug=True)
+	app.run(host='0.0.0.0', debug=True)
 
